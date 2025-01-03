@@ -1,10 +1,10 @@
-PROYECTO 2
-Análisis Avanzado y Modelado Predictivo de Precios de Viviendas en Barcelona utilizando KNIME, AutoML y Power BI
+# PROYECTO 2
+**Análisis Avanzado y Modelado Predictivo de Precios de Viviendas en Barcelona utilizando KNIME, AutoML y Power BI**
 
-Objetivo:
+### Objetivo:
 Ampliar el análisis y modelado predictivo de precios de viviendas en Barcelona utilizando herramientas avanzadas como KNIME para el ETL y el análisis, Power BI para la visualización interactiva, y herramientas de AutoML como plataforma de Machine Learning Low-Code o No-Code. El objetivo es mejorar la precisión del modelo predictivo y proporcionar visualizaciones interactivas que faciliten la toma de decisiones
 
-Plan de trabajo:
+### Plan de trabajo:
 Dado que se trata de una continuación del proyecto1, con una base de datos que mantiene estructura y amplia el numro de registros, se plantea las siguientes etapas:
 
 - Pyhton. Analisis y modelado de datos utilizando python adecuando proyecto1 a nueva base de datos ampliada. Esta etapa servira como base para comparaciones tanto de los resultados como del proceso realizado con herramientas propuestas.
@@ -20,6 +20,7 @@ Dado que se trata de una continuación del proyecto1, con una base de datos que 
 	- IBM's Watson
 	- Amazon's Sage Maker
 	- streamlit.io
+	
 
 
 
