@@ -1,0 +1,77 @@
+# Problem Statement
+
+## Objective
+Expand the analysis and predictive modeling of housing prices in Barcelona using advanced tools such as KNIME for ETL and analysis, Power BI for interactive visualization, and AutoML tools as a Low-Code or No-Code Machine Learning platform. The goal is to **improve the accuracy of the predictive model and provide interactive visualizations** that facilitate decision making.
+
+## Project Approach
+Since this is a continuation of Project 1, with a database that maintains its structure (same variables) and expands the number of records, the following stages are proposed:
+
+1. Python. Data analysis and modeling using Python, adapting Project 1 to the new expanded database. This stage will serve as a basis for comparisons of both the results and the process carried out with the proposed tools.
+
+2. KNIME_PowerBI. Data analysis and modeling using KNIME, and complemented for visualizations with PowerBI.
+
+3. AutoML. Data analysis and modeling using Machine Learning and AI tools in the capacities provided by the free versions of the same. The following tools are considered:
+	- Google AutoML
+	- BigML
+	- H2o.ai
+	- Microsoft Azure Machine Learning
+	- Obviously.ai
+	- IBM's Watson
+	- Amazon's Sage Maker
+	- streamlit.io
+
+
+# Consolidated notes on Data Overview
+- The variable 'Unnamed' represent index and should be deleted from data
+- Target variable for modeling is "price"
+- There are 16376 rows and 10 columns. 
+- Project1 data have 8188 rows and 10 columns.
+- Data types are aligned with information, except variables 'rooms' and 'bathroom' being float and expected integer
+- There are missing data (NaN) on multiple variables
+- Units size goes from 10m2 to 679m2, with a mean of 84.36m2
+- Units prices goes from 320EUR to 15000EUR/month, with mean of 1437EUR/month
+- price range is assumed referred to monthly rent, so considered as EUR per month
+- Units prices by square meter goes from 4.549EUR/m2/month to 197.272EUR/m2/month, with mean of 17.73EUR/m2/month
+- There are units listed with cero rooms and 10.754 rooms
+- There are units with 0.9 bathroom
+- The total number of observations with an integer number for variable "rooms" is 8000, this represents 48.85% of total observations
+- The total number of observations with an integer number for variable "bathroom" is 8210, this represents 50.13% of total observations
+- Considering high proportion of invalid values (not integer) on variables 'rooms' and 'bathroom' (51.15% and 49.87%), and Project2 dataset is stated as an augmented version of Project1 dataset, is interpreted Project1 dataset was augmented adding artificial data to make it larger, and in this process of **Data Augmentation** those observations with decimal values where not corrected to integers into Project2 dataset.
+- There are four types of real states being the most common "flat"
+- Most units do not have terrace
+- Most units do have lift
+- The neighborhood with largest unit count is "Eixample"
+- The variable 'rooms' will require feature engineering
+- The variable 'bathroom' will require feature engineering
+- There are no duplicated observations
+
+
+### Consolidated notes on Exploratory Data Analysis
+
+- univariate_numerical(data): Function to generate two plots for each numerical variable. Histplot for variable distribution. Boxplot for statistical summary
+- univariate_categorical(data): Function to generate countplot for each categorical variable. Labeled with count and percentage
+- plot_crosstab_bar_count(df, var_interest): Function to create a barplot of crosstab of the variable of interest vs each of the rest of categorical variables. Labeled with counts
+- plot_crosstab_heat_perc(df, var_interest): Function to create a heatmap of crosstab of the variable of interest vs each of the rest of catagorical variables. Labeled with counts, percentage by row, percentage by column
+- boxplot_by_group(df, group, var, outliers): boxplot for a numerical variable of interest vs a categorical variable. with or without outliers. includes data mean and mean by category
+- side_by_side_boxplot(df1, df2, group, var, outliers, title1, title2): to present two side by side boxplot_by_group
+- The variables "Unnamed: 0" have a uniform distribution
+- The numerical variables are right skewed
+- Noticeable the not integer 'rooms' samples
+- Noticeable the not integer 'bathroom' samples
+- The categorical variables are not balanced, with 77.2% of properties as "flats" and 79.1% of units concentrated in 50% of the sample neighbourhoods
+- 75% of flats units have up to 3 bedrooms and up to 2 bathrooms with an average size of 85.48m2.
+- 75% of the units in Eixample have up to 3 bedrooms and up to 2 bathrooms with an average size of 85.96m2.
+- 'square_meters' has a positive correlation with 'price', 'rooms' and 'bathrooms'
+- 'square_meters_price' has a negative correlation with 'square_meters', 'rooms' and 'bathrooms'
+- There are only one couple of variables with high correlation: bathroom-square_meters (0.75)
+- Top 3 neighborhood by price mean value are: Sarria-Sant Gervasi,Eixample,Les Corts
+- Top 3 neighborhood by square_meters mean value are: Sarria-Sant Gervasi,Les Corts,Eixample
+- Top 3 neighborhood by square_meters_price mean value are: Eixample,Ciutat Vella,Sant Martí
+- Top 3 real_state by price mean value are: apartment,attic,flat
+- Top 3 real_state by square_meters mean value are: attic,flat,apartment
+- Top 3 real_state by square_meters_price mean value are: apartment,attic,study
+- From the perspective of price per square meter, the most attractive type of unit according to this data could be the **flat**, with an average surface area of ​85.48 m2 (just over the average 84.37 m2) and a price per square meter of 15.71 below the average (17.73)
+- There are 3693 flats in Eixample, being the most popular unit type and neighborhood combination, with 80.79% of the units in Eixample being flats, and 29.19% of all flats are located at Eixample. 
+- Across all neighborhoods, the unit type "flat" is the most popular with at least 77.49% of units by neighborhood
+- Most types of units have a lift, in the case of flats the proportion is 72.86%
+- Units with a terrace on the other hand, seem to be rare and very few have one
