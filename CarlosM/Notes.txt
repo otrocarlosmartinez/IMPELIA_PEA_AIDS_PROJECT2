@@ -1,31 +1,23 @@
-# Problem Statement
+# Problem Definition
+Clearly defining the business problem or question to be solved. This ensures the project's objectives are aligned with organizational goals.
+# Problem Definition Consolidated Notes
+- A Data Science project to be developed considering diverse approaches in terms of tools
+- This document aims to develop the project with python.
+- Data Science project will be developed following the Data Science Life Cycle (DSLC)
 
-## Objective
-Expand the analysis and predictive modeling of housing prices in Barcelona using advanced tools such as KNIME for ETL and analysis, Power BI for interactive visualization, and AutoML tools as a Low-Code or No-Code Machine Learning platform. The goal is to **improve the accuracy of the predictive model and provide interactive visualizations** that facilitate decision making.
+# Data Collection
+Gathering relevant data from various sources, such as databases, APIs, or external datasets, ensuring it supports the problem statement.
+# Data Collection Consolidated Notes
+- The project will consider the data provided by the academy
+- Web scraping involves automatically extracting data from websites, which can be subject to legal restrictions depending on the website's policies and applicable laws.
 
-## Project Approach
-Since this is a continuation of Project 1, with a database that maintains its structure (same variables) and expands the number of records, the following stages are proposed:
-
-1. Python. Data analysis and modeling using Python, adapting Project 1 to the new expanded database. This stage will serve as a basis for comparisons of both the results and the process carried out with the proposed tools.
-
-2. KNIME_PowerBI. Data analysis and modeling using KNIME, and complemented for visualizations with PowerBI.
-
-3. AutoML. Data analysis and modeling using Machine Learning and AI tools in the capacities provided by the free versions of the same. The following tools are considered:
-	- Google AutoML
-	- BigML
-	- H2o.ai
-	- Microsoft Azure Machine Learning
-	- Obviously.ai
-	- IBM's Watson
-	- Amazon's Sage Maker
-	- streamlit.io
-
-
-# Consolidated notes on Data Overview
+# Data Preparation
+Cleaning, preprocessing, and organizing the data. This includes handling missing values, outliers, data transformations, and feature engineering
+# Data Preparation Consolidated Notes 
 - The variable 'Unnamed' represent index and should be deleted from data
 - Target variable for modeling is "price"
 - There are 16376 rows and 10 columns. 
-- Project1 data have 8188 rows and 10 columns.
+- Project1 data had 8188 rows and 10 columns.
 - Data types are aligned with information, except variables 'rooms' and 'bathroom' being float and expected integer
 - There are missing data (NaN) on multiple variables
 - Units size goes from 10m2 to 679m2, with a mean of 84.36m2
@@ -34,16 +26,26 @@ Since this is a continuation of Project 1, with a database that maintains its st
 - Units prices by square meter goes from 4.549EUR/m2/month to 197.272EUR/m2/month, with mean of 17.73EUR/m2/month
 - There are units listed with cero rooms and 10.754 rooms
 - There are units with 0.9 bathroom
-- The total number of observations with an integer number for variable "rooms" is 8000, this represents 48.85% of total observations
-- The total number of observations with an integer number for variable "bathroom" is 8210, this represents 50.13% of total observations
-- Considering high proportion of invalid values (not integer) on variables 'rooms' and 'bathroom' (51.15% and 49.87%), and Project2 dataset is stated as an augmented version of Project1 dataset, is interpreted Project1 dataset was augmented adding artificial data to make it larger, and in this process of **Data Augmentation** those observations with decimal values where not corrected to integers into Project2 dataset.
 - There are four types of real states being the most common "flat"
 - Most units do not have terrace
 - Most units do have lift
 - The neighborhood with largest unit count is "Eixample"
 - The variable 'rooms' will require feature engineering
 - The variable 'bathroom' will require feature engineering
+- The total number of observations with an integer number for variable "rooms" is 8000, this represents 48.85% of total observations
+- The total number of observations with an integer number for variable "bathroom" is 8210, this represents 50.13% of total observations
+- Considering high proportion of invalid values (not integer) on variables 'rooms' and 'bathroom' (51.15% and 49.87%), and Project2 dataset is stated as an augmented version of Project1 dataset, is interpreted Project1 dataset was augmented adding artificial data to make it larger, and in this process of **Data Augmentation** those observations with decimal values where not corrected to integers into Project2 dataset.
 - There are no duplicated observations
+**Missing Value handling**
+- 389 out of 408 missing "square_meters" values are imputed considering relation "price" / "square_meters_price"
+- 420 out of 439 missing "square_meters_price" values are imputed considering relation "price" / "square_meters"
+- There are 19 properties missing values on both "square_meters" and "square_meters_price"
+- 19 missing "square_meters_price" values are imputed with the most relevant mean based on the "real_state" and "neighborhood".
+- 19 missing "square_meters" values are imputed considering relation "price" / "square_meters_price"
+- Imputed missing "real_state" values by filling them with the most common (mode) "real_state" for each "neighborhood".
+- 408 missing "rooms" values are imputed with the most relevant mean based on the "real_state" and "neighborhood".
+- 387 missing "bathroom" values are imputed with the most relevant mean based on the "real_state" and "neighborhood".
+
 
 
 ### Consolidated notes on Exploratory Data Analysis
