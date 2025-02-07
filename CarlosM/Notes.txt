@@ -1,19 +1,24 @@
-# Problem Definition
-Clearly defining the business problem or question to be solved. This ensures the project's objectives are aligned with organizational goals.
-# Problem Definition Consolidated Notes
-- A Data Science project to be developed considering diverse approaches in terms of tools
-- This document aims to develop the project with python.
-- Data Science project will be developed following the Data Science Life Cycle (DSLC)
+1. **Problem Definition**: 
+- Project for predictive modeling of housing prices in Barcelona
+- Project goal is to **improve the accuracy of the predictive model and provide interactive visualizations**
+- Data Science project will be developed following the Data Science Life Cycle (DSLC) framework
 
-# Data Collection
-Gathering relevant data from various sources, such as databases, APIs, or external datasets, ensuring it supports the problem statement.
-# Data Collection Consolidated Notes
+2. **Data Collection**: 
+- Dataset provided by the academy
+- The option of improving data using WebScraping was explored
+- Attempts at self-learning were reflected in python programs "scraper_fotocasa.ipynb" and "scraper_v2.ipnb"
+- Programs aimed to browse the fotocasa website and collect information following the format of the dataset provided by the academy.
+- The programs were not completed, they are not functional in any version. Development of the programs was stopped on academic recommendation.
+- Web scraping can raise legal and ethical considerations, especially if it involves accessing data without authorization or violating a website's terms of service.
+- The academy recommended requesting permission from the web portal before continuing with development.
+- The related links were read (https://www.fotocasa.es/es/politica-privacidad/p ; https://www.fotocasa.es/es/aviso-legal/cp ; https://www.fotocasa.es/es/aviso-legal/ln) and no explicit information was found regarding the authorization or prohibition of web scraping activities. 
+- It is noted that the absence of explicit permission does not imply consent.
+- Permission was requested from the portal and a negative response was received
 - The project will consider the data provided by the academy
 - Web scraping involves automatically extracting data from websites, which can be subject to legal restrictions depending on the website's policies and applicable laws.
 
-# Data Preparation
-Cleaning, preprocessing, and organizing the data. This includes handling missing values, outliers, data transformations, and feature engineering
-# Data Preparation Consolidated Notes 
+3. **Data Preparation**: 
+**Data Overview**
 - The variable 'Unnamed' represent index and should be deleted from data
 - Target variable for modeling is "price"
 - There are 16376 rows and 10 columns. 
@@ -43,9 +48,29 @@ Cleaning, preprocessing, and organizing the data. This includes handling missing
 - 19 missing "square_meters_price" values are imputed with the most relevant mean based on the "real_state" and "neighborhood".
 - 19 missing "square_meters" values are imputed considering relation "price" / "square_meters_price"
 - Imputed missing "real_state" values by filling them with the most common (mode) "real_state" for each "neighborhood".
-- 408 missing "rooms" values are imputed with the most relevant mean based on the "real_state" and "neighborhood".
-- 387 missing "bathroom" values are imputed with the most relevant mean based on the "real_state" and "neighborhood".
+- 408 missing "rooms" values are imputed with the most relevant median based on the "real_state" and "neighborhood".
+- 387 missing "bathroom" values are imputed with the most relevant median based on the "real_state" and "neighborhood".
+**Feature engineering**
+- Removed the variable 
+"Unnamed: 0" which had no value for modeling
+- Transformed the values of "rooms" and "bathroom" into an integer using the following logic:
+    - Values under 1 → Set to 1
+    - Values 1 or above → Round to the nearest integer
+- Variables "rooms" and "bathroom" set as integer
+**Outliers detection and treatment**
 
+
+4. **Exploratory Data Analysis (EDA)**:
+5. **Modeling**:
+6. **Evaluation**:
+7. **Deployment**:
+8. **Monitoring and Maintenance**:
+9. **Communication and Reporting**:
+
+
+
+
+ 
 
 
 ### Consolidated notes on Exploratory Data Analysis
