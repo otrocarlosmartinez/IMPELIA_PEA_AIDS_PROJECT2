@@ -16,6 +16,11 @@
 - Permission was requested from the portal and a negative response was received
 - The project will consider the data provided by the academy
 - Web scraping involves automatically extracting data from websites, which can be subject to legal restrictions depending on the website's policies and applicable laws.
+- As the problem aims to predict housing prices in Barcelona, a brief complementary information about property types in Spain is included as reference.
+    - **Studio (Estudio)**: Typically the smallest type of dwelling, a studio is a single open space that combines the living area, bedroom, and kitchen, with a separate bathroom. These are ideal for individuals or couples seeking a compact living space.
+    - **Attic (Ático)**: An attic refers to a top-floor apartment, often featuring sloped ceilings and sometimes including a terrace. The size can vary, but attics are generally larger than studios and may offer unique architectural features.
+    - **Apartment (Apartamento)**: In Spain, the term "apartamento" usually denotes a modest-sized dwelling, typically with one or two bedrooms. These are suitable for small families or individuals desiring separate living and sleeping areas.
+    - **Flat (Piso)**: The term "piso" is commonly used to describe larger residential units, often with multiple bedrooms and ample living space. Flats are prevalent in urban areas and cater to families or individuals seeking more spacious accommodations.
 
 3. **Data Preparation**: 
 **Data Overview**
@@ -41,6 +46,7 @@
 - The total number of observations with an integer number for variable "bathroom" is 8210, this represents 50.13% of total observations
 - Considering high proportion of invalid values (not integer) on variables 'rooms' and 'bathroom' (51.15% and 49.87%), and Project2 dataset is stated as an augmented version of Project1 dataset, is interpreted Project1 dataset was augmented adding artificial data to make it larger, and in this process of **Data Augmentation** those observations with decimal values where not corrected to integers into Project2 dataset.
 - There are no duplicated observations
+
 **Missing Value handling**
 - 389 out of 408 missing "square_meters" values are imputed considering relation "price" / "square_meters_price"
 - 420 out of 439 missing "square_meters_price" values are imputed considering relation "price" / "square_meters"
@@ -50,6 +56,7 @@
 - Imputed missing "real_state" values by filling them with the most common (mode) "real_state" for each "neighborhood".
 - 408 missing "rooms" values are imputed with the most relevant median based on the "real_state" and "neighborhood".
 - 387 missing "bathroom" values are imputed with the most relevant median based on the "real_state" and "neighborhood".
+
 **Feature engineering**
 - Removed the variable 
 "Unnamed: 0" which had no value for modeling
@@ -57,10 +64,52 @@
     - Values under 1 → Set to 1
     - Values 1 or above → Round to the nearest integer
 - Variables "rooms" and "bathroom" set as integer
-**Outliers detection and treatment**
 
+**Outliers detection and treatment**
+- Applied the Z-score method, which removes outliers with more than 3 standard deviations.
+- Some variables with a relevant percentage of outliers still remain. df5_shape:(15511, 9)
+- Limiting outliers at whiskers (winsorization) is considered due to the nature of the data
+- The 8.67% outliers on 'price' requires winsorization to prevent them from dominating the model.
+- Applying winsorization can hide valuable trends in luxury or budget properties, but in this case the extreme prices are assumed to be errors or anomalies in the synthetic or augmented data, so applying winsorization will make the model more robust to those outliers.
+- When capping outliers to whisker, the value calculation (1.5*IQR) affected the variable 'rooms' requiring again to set as integer
+
+**Data Management**
+- Saved csv file after data preparation for backup and further analysis
 
 4. **Exploratory Data Analysis (EDA)**:
+**Functions**
+- univariate_numerical(data): Function to generate two plots for each numerical variable. Histplot for variable distribution. Boxplot for statistical summary
+- univariate_categorical(data): Function to generate countplot for each categorical variable. Labeled with count and percentage
+- plot_crosstab_bar_count(df, var_interest): Function to create a barplot of crosstab of the variable of interest vs each of the rest of categorical variables. Labeled with counts
+- plot_crosstab_heat_perc(df, var_interest): Function to create a heatmap of crosstab of the variable of interest vs each of the rest of catagorical variables. Labeled with counts, percentage by row, percentage by column
+- boxplot_by_group(df, group, var, outliers): boxplot for a numerical variable of interest vs a categorical variable. with or without outliers. includes data mean and mean by category
+- side_by_side_boxplot(df1, df2, group, var, outliers, title1, title2): to present two side by side boxplot_by_group
+
+**Univariate Analysis**
+- 'price', 'square_meters' and 'square_meters_price' variables are right skewed and reflect the effect of capping outliers to upper whysker.
+- Comparing original data (df) vs. prepared data (df6) is noticeable how in original data the numerical variables have float type values and many outliers, while in prepared data the numerical variables have integer values and no outliers.
+- In the prepared data there are flats units with 4 rooms and 145m2 area.
+- The variable 'real_state' have 918 imputed values (5.61%)
+- In the original data there are flats units with 10.754 rooms and 679m2 area.
+- The categorical variables are not balanced, with 84.4% of properties as "flats" and 78.8% of units concentrated in 50% of the sample neighbourhoods
+- 75% of flats units have up to 3 bedrooms and up to 2 bathrooms with an average size of 85.48m2.
+- 75% of the units in Eixample have up to 3 bedrooms and up to 2 bathrooms with an average size of 80.21m2.
+
+**Bivariate Analysis**
+- There are no couple of variables with high correlation (>75%)
+- Top 3 neighborhood by price mean value are: Sarria-Sant Gervasi,Eixample,Les Corts
+- Top 3 neighborhood by square_meters mean value are: Sarria-Sant Gervasi,Les Corts,Eixample
+- Top 3 neighborhood by square_meters_price mean value are: Ciutat Vella,Sarria-Sant Gervasi,Eixample
+- Top 3 real_state by price mean value are: apartment,attic,flat
+- Top 3 real_state by square_meters mean value are: flat,attic,apartment
+- Top 3 real_state by square_meters_price mean value are: apartment,study,attic
+- From the perspective of price per square meter, the most attractive type of unit according to this data could be the **flat**, with an average surface area of ​78.67 m2 (just over the average 77.27 m2) and a price per square meter of 15.56 below the average (16.41)
+- There are 3785 flats in Eixample, being the most popular unit type and neighborhood combination, with 83.81% of the units in Eixample being flats, and 28.92% of all flats are located at Eixample. 
+- Across all neighborhoods, the unit type "flat" is the most popular with at least 79.76% of units by neighborhood
+- Most types of units have a lift, in the case of flats the proportion is 72.12%
+- Units with a terrace on the other hand, seem to be rare and very few have one
+
+
 5. **Modeling**:
 6. **Evaluation**:
 7. **Deployment**:
