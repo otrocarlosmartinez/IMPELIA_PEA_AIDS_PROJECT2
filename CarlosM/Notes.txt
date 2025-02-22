@@ -66,12 +66,11 @@
 - Variables "rooms" and "bathroom" set as integer
 
 **Outliers detection and treatment**
-- Applied the Z-score method, which removes outliers with more than 3 standard deviations.
-- Some variables with a relevant percentage of outliers still remain. df5_shape:(15511, 9)
+- Applied the Z-score method, which removes outliers with more than 2 standard deviations.
+- Some variables with a relevant percentage of outliers still remain. df5_shape:(14269, 9)
 - Limiting outliers at whiskers (winsorization) is considered due to the nature of the data
-- The 8.67% outliers on 'price' requires winsorization to prevent them from dominating the model.
 - Applying winsorization can hide valuable trends in luxury or budget properties, but in this case the extreme prices are assumed to be errors or anomalies in the synthetic or augmented data, so applying winsorization will make the model more robust to those outliers.
-- When capping outliers to whisker, the value calculation (1.5*IQR) affected the variable 'rooms' requiring again to set as integer
+
 
 **Data Management**
 - Saved csv file after data preparation for backup and further analysis
@@ -88,10 +87,10 @@
 **Univariate Analysis**
 - 'price', 'square_meters' and 'square_meters_price' variables are right skewed and reflect the effect of capping outliers to upper whysker.
 - Comparing original data (df) vs. prepared data (df6) is noticeable how in original data the numerical variables have float type values and many outliers, while in prepared data the numerical variables have integer values and no outliers.
-- In the prepared data there are flats units with 4 rooms and 145m2 area.
-- The variable 'real_state' have 918 imputed values (5.61%)
+- In the prepared data there are flats units with 4 rooms and 135m2 area.
 - In the original data there are flats units with 10.754 rooms and 679m2 area.
-- The categorical variables are not balanced, with 84.4% of properties as "flats" and 78.8% of units concentrated in 50% of the sample neighbourhoods
+- The "large flats" units in the data are asummed as unreal/not-valid data and are affected by Data Preparation.
+- The categorical variables are not balanced, with 85.5% of properties as "flats" and 78.5% of units concentrated in 50% of the sample neighbourhoods
 - 75% of flats units have up to 3 bedrooms and up to 2 bathrooms with an average size of 85.48m2.
 - 75% of the units in Eixample have up to 3 bedrooms and up to 2 bathrooms with an average size of 80.21m2.
 
@@ -103,15 +102,53 @@
 - Top 3 real_state by price mean value are: apartment,attic,flat
 - Top 3 real_state by square_meters mean value are: flat,attic,apartment
 - Top 3 real_state by square_meters_price mean value are: apartment,study,attic
-- From the perspective of price per square meter, the most attractive type of unit according to this data could be the **flat**, with an average surface area of ​78.67 m2 (just over the average 77.27 m2) and a price per square meter of 15.56 below the average (16.41)
-- There are 3785 flats in Eixample, being the most popular unit type and neighborhood combination, with 83.81% of the units in Eixample being flats, and 28.92% of all flats are located at Eixample. 
-- Across all neighborhoods, the unit type "flat" is the most popular with at least 79.76% of units by neighborhood
-- Most types of units have a lift, in the case of flats the proportion is 72.12%
+- From the perspective of price per square meter, the most attractive type of unit according to this data could be the **flat**, with an average surface area of ​74.62 m2 (just over the average 73.41 m2) and a price per square meter of 15.44 below the average (16.14)
+- There are 3544 flats in Eixample, being the most popular unit type and neighborhood combination, with 85.32% of the units in Eixample being flats, and 29.05% of all flats are located at Eixample. 
+- Across all neighborhoods, the unit type "flat" is the most popular with at least 85.32% of units by neighborhood
+- Most types of units have a lift, in the case of flats the proportion is 71%
 - Units with a terrace on the other hand, seem to be rare and very few have one
 
-
 5. **Modeling**:
+- Defined function "evaluate_model(model, x_test, y_test)", to evaluate and return the model's metrics into a results dataframe
+- Defined function "evaluate_models_with_cv(models, X_train, y_train, X_test, y_test)" to evaluates multiple regression models using cross-validation and final test set performance.- Defined function "univariate_numerical_y()", to generate two plots (Histogram and Boxplot) for the numerical variable y
+- Modeling data (data) will be done over a copy of prepared data (df6)
+- The dataset contains numerical features with different scales, which may affect algorithms sensitive to scale.
+- Several models will be tried, including models that rely on distance-based calculations (Logistic Regression, SVM, KNN) that perform better with standardized data, and also linear models (Linear/Logistic Regression, Ridge, Lasso) that can converge faster with standardized inputs.
+- Due the different scales, and models to be evaluated, the data will be standarized:
+    - 'price' is the target variable. Standardizing the target (y) is not necessary for most regression models
+    - 'rooms' and 'bathrooms' show a discrete distribution, which has peaks at certain integer values. No scaling considered.
+    - cathegorical or binary variables such as 'lift' , 'terrace', 'real_state' and 'neighborhood' do not need scaling.
+    - 'square_meters' and 'square_meters_price' have right-skewed distributions and will be transformed using PowerTransformer (Yeo-Johnson) before applying StandardScaler.
+
 6. **Evaluation**:
+- Models to be tested are : Linear Regression, Lasso Regression, Ridge Regression, Decision Tree, Random Forest, K-Nearest Neighbors, and Support Vector Regressor
+- Performance Metrics:
+    - **MAE** (Mean Absolute Error): Measures the average magnitude of errors in a set of predictions, without considering their direction.
+    - **MSE** (Mean Squared Error): Measures the average of the squares of the errors, giving more weight to larger errors.
+    - **RMSE** (Root Mean Squared Error): The square root of MSE, providing error in the same units as the target variable.
+    - **R2 Score** (Coefficient of Determination): Indicates how well the model's predictions approximate the real data points. A value closer to 1 indicates a better fit.
+- Random Forest metrics: Lowest MAE (39.87), lowest RMSE (64.74), and highest R² (0.9700).
+- Random Forest is the best performer overall, indicating strong predictive accuracy and low error.
+- Decision Tree metrics: Moderate errors (MAE: 50.75, RMSE: 84.31) with a good R² (0.9491).
+- Decision Tree is a strong candidate, although slightly behind Random Forest.
+- Ridge, Linear, and Lasso Regression metrics are consistent with each other, but their performance is noticeably lower than the tree-based methods. They might not be ideal for further tuning if the goal is the best predictive performance.
+- For hyperparameter tuning and further validation, **Random Forest** and **Decision Tree stand** out as the best candidates due to their superior performance metrics.
+- While the linear models (Ridge, Linear, and Lasso) can serve as strong baselines, they do not match the predictive accuracy of the tree-based models.
+- K-Nearest Neighbors and SVR appear less promising for further development on this dataset.
+- Tuning hyperparameters like the number of trees (n_estimators), maximum tree depth (max_depth), and minimum samples per split (min_samples_split) could further enhance Random Forest performance.
+- For Decision Tree, tuning of parameters like max_depth, min_samples_split, and min_samples_leaf is recommended to control overfitting while maintaining accuracy
+- After hyperparameter tuning, **Tuned Random Forest**, **Random Forest**, and **Tuned Decision Tree** are the best performing models
+- The 3 best performing models after hyperparameter tuning will be evaluated with CrossValidation
+- 60-20-20 data split for training-validation-testing
+- The difference between Tuned Random Forest and Random Forest is very small, meaning the hyperparameter tuning did not drastically change the performance. However, since the tuned model has slightly better metrics, it is preferred.
+- The Tuned Random Forest significantly outperforms the Tuned Decision Tree, making the Decision Tree a weaker choice for deployment
+- **Tuned Random Forest** is the best performing model among the cross-validated models
+- square_meters is the most important variable to predict unit price and at least an aproximated value should by provided as input.
+- Having square_meters_price as the second most important variable, and considering it might be an unknown input, the model could consider mean by to inpute.
+- The most accurate model identified to predict price is: RandomForestRegressor(max_depth= 10, min_samples_split= 10, n_estimators=300)
+- With this model the performance achieved is MAE:40.1202, MSE:4112.7183, RMSE:64.1304, and R2 Score: 0.9704
+- Results obtained with scaled data (Min-Max scaling)
+
 7. **Deployment**:
 8. **Monitoring and Maintenance**:
 9. **Communication and Reporting**:
@@ -119,35 +156,3 @@
 
 
 
- 
-
-
-### Consolidated notes on Exploratory Data Analysis
-
-- univariate_numerical(data): Function to generate two plots for each numerical variable. Histplot for variable distribution. Boxplot for statistical summary
-- univariate_categorical(data): Function to generate countplot for each categorical variable. Labeled with count and percentage
-- plot_crosstab_bar_count(df, var_interest): Function to create a barplot of crosstab of the variable of interest vs each of the rest of categorical variables. Labeled with counts
-- plot_crosstab_heat_perc(df, var_interest): Function to create a heatmap of crosstab of the variable of interest vs each of the rest of catagorical variables. Labeled with counts, percentage by row, percentage by column
-- boxplot_by_group(df, group, var, outliers): boxplot for a numerical variable of interest vs a categorical variable. with or without outliers. includes data mean and mean by category
-- side_by_side_boxplot(df1, df2, group, var, outliers, title1, title2): to present two side by side boxplot_by_group
-- The variables "Unnamed: 0" have a uniform distribution
-- The numerical variables are right skewed
-- Noticeable the not integer 'rooms' samples
-- Noticeable the not integer 'bathroom' samples
-- The categorical variables are not balanced, with 77.2% of properties as "flats" and 79.1% of units concentrated in 50% of the sample neighbourhoods
-- 75% of flats units have up to 3 bedrooms and up to 2 bathrooms with an average size of 85.48m2.
-- 75% of the units in Eixample have up to 3 bedrooms and up to 2 bathrooms with an average size of 85.96m2.
-- 'square_meters' has a positive correlation with 'price', 'rooms' and 'bathrooms'
-- 'square_meters_price' has a negative correlation with 'square_meters', 'rooms' and 'bathrooms'
-- There are only one couple of variables with high correlation: bathroom-square_meters (0.75)
-- Top 3 neighborhood by price mean value are: Sarria-Sant Gervasi,Eixample,Les Corts
-- Top 3 neighborhood by square_meters mean value are: Sarria-Sant Gervasi,Les Corts,Eixample
-- Top 3 neighborhood by square_meters_price mean value are: Eixample,Ciutat Vella,Sant Martí
-- Top 3 real_state by price mean value are: apartment,attic,flat
-- Top 3 real_state by square_meters mean value are: attic,flat,apartment
-- Top 3 real_state by square_meters_price mean value are: apartment,attic,study
-- From the perspective of price per square meter, the most attractive type of unit according to this data could be the **flat**, with an average surface area of ​85.48 m2 (just over the average 84.37 m2) and a price per square meter of 15.71 below the average (17.73)
-- There are 3693 flats in Eixample, being the most popular unit type and neighborhood combination, with 80.79% of the units in Eixample being flats, and 29.19% of all flats are located at Eixample. 
-- Across all neighborhoods, the unit type "flat" is the most popular with at least 77.49% of units by neighborhood
-- Most types of units have a lift, in the case of flats the proportion is 72.86%
-- Units with a terrace on the other hand, seem to be rare and very few have one

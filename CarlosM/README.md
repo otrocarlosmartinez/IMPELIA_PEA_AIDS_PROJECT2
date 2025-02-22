@@ -21,8 +21,12 @@ Since this is a continuation of Project 1, with a database that maintains its st
 	- Amazon's Sage Maker
 	- streamlit.io
 
+### Project Deliverables
+1. Several working files will be created each with its own conclusions about the problem at hand.
+2. Consolidated report focusing on process and results comparison considering DSLC framework.
 
-### Data Science Life Cycle (DSLC)
+### Reference
+#### Data Science Life Cycle (DSLC)
 A Data Science project that follows the Data Science Life Cycle (DSLC) adheres to a structured and iterative process for solving data-related problems, ensuring that the solution is robust, scalable, and aligned with business objectives. The DSLC typically consists of the following stages:
 
 1. **Problem Definition**: Clearly defining the business problem or question to be solved. This ensures the project's objectives are aligned with organizational goals.
@@ -35,9 +39,7 @@ A Data Science project that follows the Data Science Life Cycle (DSLC) adheres t
 8. **Monitoring and Maintenance**: Continuously monitoring the model's performance in production to ensure its accuracy and relevance over time. This stage may also involve retraining the model as new data becomes available.
 9. **Communication and Reporting**: Presenting findings and results to stakeholders in a clear and actionable manner, often through dashboards, visualizations, or reports.
 
-### Project Deliverables
-1. Several working files will be created each with its own conclusions about the problem at hand.
-2. Consolidated report focusing on process and results comparison considering DSLC framework.
+
 	
 
 
