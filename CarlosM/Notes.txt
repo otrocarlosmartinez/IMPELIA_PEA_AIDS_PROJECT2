@@ -142,13 +142,16 @@
 - K-Nearest Neighbors and SVR appear less promising for further development on this dataset.
 - From the feature importance plot, square_meters is the most significant variable, followed by square_meters_price.
 - Since price is directly derived from square_meters * square_meters_price, including both may not add new information and could introduce redundancy.
+- It makes no sence to ask end user square_meters and square_meters_price to "predict" price.
+- **NEW MODELS** will be evaluated, with the feature **square_meters_price DROPED** from the data
 - Although its VIF (1.568) is low (suggesting no strong collinearity within the dataset), the mathematical dependence between square_meters and square_meters_price suggests redundancy.
 - This means the model could overestimate the importance of one feature over another and lead to unstable coefficient estimates.
 - By keeping only square_meters, the model remains more interpretable, focusing on how space affects price rather than a derived variable.
+- Noted features 'rooms' and 'bathroom' present high multicolinearity and will be also droped from modeling
 - Defined function "preprocess_data(data, target_feature, drop_features, scale_features, test_size=0.30, random_state=1)", to iterate on the data preparation for modeling
 - Data preparation droping the feature square_meters_price
 - Linear Regression and Ridge Regression performed the best in terms of R² Score.
-- Before hyperparameter tuning, feature selection will be performed to reduce multicollinearity.
+- Feature selection will be performed to reduce multicollinearity.
 - Data preparation droping the feature 'rooms' due high multicolinearity
 - After removing feature 'rooms' still Linear Regression and Ridge Regression performed the best in terms of R² Score, but also remains features with high multicolinearity
 - Data preparation droping the feature 'bahtroom' due high multicolinearity

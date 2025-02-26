@@ -1,0 +1,4 @@
+C:\Users\otroc\AppData\Local\Programs\Python\Python313\Lib\site-packages\~umpy.libs
+C:\Users\otroc\AppData\Local\Programs\Python\Python313\Lib\site-packages\~umpy
+C:\Users\otroc\AppData\Local\Programs\Python\Python313\Lib\site-packages\~cipy.libs
+C:\Users\otroc\AppData\Local\Programs\Python\Python313\Lib\site-packages\~cipy
