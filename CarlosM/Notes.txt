@@ -126,6 +126,7 @@
     - 'square_meters' and 'square_meters_price' have right-skewed distributions and will be transformed using PowerTransformer (Yeo-Johnson) before applying StandardScaler.
 
 6. **Evaluation**:
+**Regression Models**
 - Models to be tested are : Linear Regression, Lasso Regression, Ridge Regression, Decision Tree, Random Forest, K-Nearest Neighbors, and Support Vector Regressor
 - Performance Metrics:
     - **MAE** (Mean Absolute Error): Measures the average magnitude of errors in a set of predictions, without considering their direction.
@@ -140,6 +141,8 @@
 - For hyperparameter tuning and further validation, **Random Forest** and **Decision Tree stand** out as the best candidates due to their superior performance metrics.
 - While the linear models (Ridge, Linear, and Lasso) can serve as strong baselines, they do not match the predictive accuracy of the tree-based models.
 - K-Nearest Neighbors and SVR appear less promising for further development on this dataset.
+
+**Feature Engineering**
 - From the feature importance plot, square_meters is the most significant variable, followed by square_meters_price.
 - Since price is directly derived from square_meters * square_meters_price, including both may not add new information and could introduce redundancy.
 - It makes no sence to ask end user square_meters and square_meters_price to "predict" price.
@@ -163,6 +166,15 @@
 - There is no multicolinearity in the data, suggesting the real state distribution in terms of number of rooms and bathrooms is not as relevant as the real state area, type and neighborhood
 - Linear Regression and Ridge Regression are the best models among those tested, but R² scores suggest that the models are not explaining a significant portion of the variance in the target variable.
 - More advanced models will be included in the evaluation
+
+**Advanced Regression Models**
+- Models to be tested are: DecisionTree_Tuned_1, RandomForest_Tuned_1, GradientBoosting_Tuned_1, XGBoost_Tuned_1, LightGBM_Tuned_1, NeuralNetwork(MLP)
+
+- The best R2 score from the advanced models is currently 0.5448584 with the Gradient Boosting model. 
+- Improving from 0.5113 Linear Regression could be a good start, but could potentially be improved further with model tuning
+- After model tunning, another slight improvement was achieved
+- The best R2 Score from the tuned models is currently 0.549055 with the XGBoost_Tuned_Optima model.
+- The best R2 Score achieved is low, and still suggest that the models are not explaining a significant portion of the variance in the target variable.
 
 
 
