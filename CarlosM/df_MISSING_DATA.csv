@@ -1,0 +1,2312 @@
+Unnamed: 0,price,rooms,bathroom,lift,terrace,square_meters,real_state,neighborhood,square_meters_price
+16,1500,4.0,3.0,True,False,129.0,,Horta- Guinardo,11.627906976744184
+57,2700,4.0,2.0,True,False,85.0,,Sarria-Sant Gervasi,31.764705882352946
+63,2700,3.0,2.0,True,False,85.0,,Sarria-Sant Gervasi,31.764705882352946
+78,710,1.0,1.0,True,False,90.0,,Sants-Montjuïc,7.888888888888889
+83,590,0.0,1.0,False,False,46.0,,Ciutat Vella,12.826086956521738
+135,2700,3.0,2.0,True,False,85.0,,Sarria-Sant Gervasi,31.764705882352946
+136,1600,0.0,1.0,True,False,60.0,,Eixample,26.666666666666668
+213,1100,1.0,1.0,True,False,110.0,,Ciutat Vella,10.0
+248,1835,1.0,1.0,True,False,59.0,,Gràcia,31.10169491525424
+288,3800,3.0,4.0,True,False,218.0,,Eixample,17.431192660550458
+319,3200,4.0,3.0,True,True,200.0,,Sarria-Sant Gervasi,16.0
+340,3000,3.0,3.0,True,True,174.0,,Ciutat Vella,17.24137931034483
+342,2600,3.0,2.0,False,True,136.0,,Sant Martí,19.11764705882353
+362,900,1.0,1.0,False,True,47.0,,Sants-Montjuïc,19.148936170212767
+393,550,1.0,1.0,False,False,38.0,,Horta- Guinardo,14.473684210526317
+397,4600,4.0,4.0,True,True,270.0,,Sarria-Sant Gervasi,17.037037037037038
+406,620,0.0,1.0,True,False,29.0,,Les Corts,21.379310344827587
+417,1650,3.0,3.0,True,False,85.0,,Eixample,19.41176470588235
+437,520,1.0,1.0,True,False,25.0,,Ciutat Vella,20.8
+450,1900,2.0,2.0,True,False,85.0,,Sant Martí,22.352941176470587
+454,2520,3.0,2.0,True,False,193.0,,Sant Martí,13.05699481865285
+474,1700,2.0,1.0,True,True,90.0,,Les Corts,18.88888888888889
+501,1600,0.0,1.0,True,False,60.0,,Eixample,26.666666666666668
+504,2400,3.0,2.0,True,False,140.0,,Sarria-Sant Gervasi,17.142857142857142
+506,2500,3.0,3.0,True,False,140.0,,Sarria-Sant Gervasi,17.857142857142858
+507,2700,3.0,2.0,True,False,85.0,,Sarria-Sant Gervasi,31.764705882352946
+523,850,0.0,1.0,False,False,60.0,,Ciutat Vella,14.166666666666666
+527,3000,4.0,3.0,True,True,130.0,,Eixample,23.07692307692308
+529,1850,2.0,3.0,True,False,150.0,,Les Corts,12.333333333333334
+540,1600,1.0,1.0,True,False,70.0,,Eixample,22.857142857142858
+576,900,1.0,1.0,True,False,56.0,,Sant Martí,16.071428571428573
+606,1950,3.0,2.0,False,False,140.0,,Les Corts,13.928571428571429
+620,1390,2.0,1.0,True,False,78.0,,Sant Martí,17.82051282051282
+621,900,2.0,1.0,False,False,50.0,,Eixample,18.0
+676,800,1.0,1.0,False,False,51.0,,Gràcia,15.68627450980392
+721,1325,3.0,2.0,True,True,106.0,,Sant Andreu,12.5
+734,995,3.0,2.0,False,True,110.0,,Sants-Montjuïc,9.045454545454543
+740,900,1.0,1.0,True,False,46.0,,Eixample,19.565217391304348
+780,980,1.0,1.0,False,True,90.0,,Gràcia,10.88888888888889
+888,2950,4.0,2.0,True,True,180.0,,Eixample,16.38888888888889
+900,2200,2.0,1.0,True,False,110.0,,Eixample,20.0
+901,3000,4.0,2.0,True,True,112.0,,Eixample,26.785714285714285
+943,1550,2.0,1.0,True,True,109.0,,Sant Martí,14.220183486238533
+944,1250,1.0,2.0,True,True,85.0,,Sarria-Sant Gervasi,14.705882352941176
+953,800,1.0,1.0,False,False,60.0,,Gràcia,13.333333333333334
+1032,2700,3.0,2.0,True,False,85.0,,Sarria-Sant Gervasi,31.764705882352946
+1037,1700,2.0,1.0,True,False,85.0,,Sarria-Sant Gervasi,20.0
+1074,900,2.0,2.0,True,True,54.0,,Sants-Montjuïc,16.666666666666668
+1089,2700,4.0,2.0,True,False,85.0,,Sarria-Sant Gervasi,31.764705882352946
+1099,2400,3.0,3.0,True,False,140.0,,Sarria-Sant Gervasi,17.142857142857142
+1100,2300,3.0,2.0,True,False,140.0,,Sarria-Sant Gervasi,16.428571428571427
+1122,3200,3.0,2.0,True,False,85.0,,Sarria-Sant Gervasi,37.64705882352941
+1123,2700,4.0,2.0,True,False,85.0,,Sarria-Sant Gervasi,31.764705882352946
+1125,2800,1.0,1.0,True,False,75.0,,Gràcia,37.333333333333336
+1127,3200,3.0,2.0,True,False,85.0,,Sarria-Sant Gervasi,37.64705882352941
+1288,1950,1.0,2.0,False,True,176.0,,Ciutat Vella,11.079545454545457
+1332,875,1.0,2.0,False,False,80.0,,Gràcia,10.9375
+1374,2800,4.0,3.0,True,True,175.0,,Sarria-Sant Gervasi,16.0
+1416,3600,3.0,4.0,True,True,211.0,,Eixample,17.061611374407583
+1422,1300,2.0,1.0,False,False,80.0,,Sant Martí,16.25
+1527,700,0.0,1.0,True,False,40.0,,Sarria-Sant Gervasi,17.5
+1549,1000,1.0,1.0,True,False,55.0,,Sant Martí,18.181818181818183
+1553,1000,1.0,1.0,True,False,55.0,,Sant Martí,18.181818181818183
+1581,600,1.0,1.0,True,False,20.0,,Sants-Montjuïc,30.0
+1615,750,1.0,1.0,False,False,43.0,,Ciutat Vella,17.441860465116278
+1731,1150,1.0,2.0,False,False,63.0,,Sarria-Sant Gervasi,18.253968253968253
+1754,650,0.0,1.0,False,False,35.0,,Ciutat Vella,18.571428571428573
+1786,930,1.0,1.0,True,True,65.0,,Eixample,14.307692307692308
+1818,650,0.0,1.0,True,False,38.0,,Eixample,17.105263157894736
+1860,930,2.0,1.0,True,False,100.0,,Sants-Montjuïc,9.3
+1868,2400,3.0,3.0,True,False,140.0,,Sarria-Sant Gervasi,17.142857142857142
+1967,2800,3.0,3.0,True,False,170.0,,Sarria-Sant Gervasi,16.470588235294116
+2051,1150,3.0,2.0,True,False,100.0,,Les Corts,11.5
+2055,700,0.0,1.0,True,False,35.0,,Ciutat Vella,20.0
+2106,665,0.0,1.0,True,False,36.0,,Gràcia,18.47222222222222
+2140,750,1.0,1.0,True,False,63.0,,Sarria-Sant Gervasi,11.904761904761903
+2154,800,1.0,1.0,False,False,60.0,,Gràcia,13.333333333333334
+2160,2300,3.0,2.0,True,False,85.0,,Sarria-Sant Gervasi,27.058823529411764
+2161,1012,2.0,2.0,True,False,80.0,,Sant Andreu,12.65
+2163,1700,2.0,1.0,True,False,85.0,,Sarria-Sant Gervasi,20.0
+2165,2500,3.0,2.0,True,False,140.0,,Sarria-Sant Gervasi,17.857142857142858
+2194,2400,3.0,3.0,True,False,140.0,,Sarria-Sant Gervasi,17.142857142857142
+2217,1472,3.0,1.0,False,True,150.0,,Sant Andreu,9.813333333333333
+2221,780,1.0,1.0,True,False,45.0,,Horta- Guinardo,17.333333333333332
+2262,1400,1.0,1.0,True,False,91.0,,Ciutat Vella,15.384615384615383
+2285,1875,2.0,2.0,True,True,80.0,,Sant Martí,23.4375
+2295,1292,2.0,2.0,True,False,105.0,,Ciutat Vella,12.304761904761904
+2314,950,1.0,1.0,False,False,37.0,,Ciutat Vella,25.67567567567568
+2319,2900,3.0,3.0,True,True,132.0,,Eixample,21.96969696969697
+2324,1350,1.0,1.0,False,False,40.0,,Ciutat Vella,33.75
+2328,1500,1.0,1.0,False,False,90.0,,Gràcia,16.666666666666668
+2368,650,1.0,1.0,False,False,38.0,,Eixample,17.105263157894736
+2447,1150,1.0,1.0,True,False,55.0,,Sarria-Sant Gervasi,20.90909090909091
+2449,800,1.0,1.0,True,False,43.0,,Sarria-Sant Gervasi,18.6046511627907
+2450,1100,1.0,1.0,False,False,70.0,,Sarria-Sant Gervasi,15.714285714285714
+2494,2300,3.0,2.0,True,False,140.0,,Sarria-Sant Gervasi,16.428571428571427
+2497,2400,3.0,3.0,True,False,140.0,,Sarria-Sant Gervasi,17.142857142857142
+2500,2500,3.0,3.0,True,False,140.0,,Sarria-Sant Gervasi,17.857142857142858
+2510,895,0.0,1.0,False,False,45.0,,Ciutat Vella,19.88888888888889
+2519,625,0.0,1.0,False,False,45.0,,Ciutat Vella,13.88888888888889
+2671,2500,2.0,3.0,False,True,130.0,,Sant Martí,19.23076923076923
+2767,650,1.0,1.0,True,False,35.0,,Ciutat Vella,18.571428571428573
+2784,745,1.0,1.0,False,False,50.0,,Ciutat Vella,14.9
+2972,695,0.0,2.0,True,False,78.0,,Horta- Guinardo,8.91025641025641
+2994,800,1.0,2.0,True,False,80.0,,Sants-Montjuïc,10.0
+3073,2700,4.0,2.0,True,False,85.0,,Sarria-Sant Gervasi,31.764705882352946
+3077,2700,4.0,2.0,True,False,85.0,,Sarria-Sant Gervasi,31.764705882352946
+3079,2800,1.0,1.0,True,False,75.0,,Gràcia,37.333333333333336
+3152,1700,2.0,1.0,True,False,85.0,,Sarria-Sant Gervasi,20.0
+3154,2700,4.0,2.0,True,False,85.0,,Sarria-Sant Gervasi,31.764705882352946
+3175,595,0.0,1.0,True,False,30.0,,Gràcia,19.83333333333333
+3197,1150,1.0,1.0,False,False,47.0,,Sarria-Sant Gervasi,24.46808510638298
+3225,4500,4.0,3.0,True,True,256.0,,Sarria-Sant Gervasi,17.578125
+3296,850,1.0,1.0,True,False,48.0,,Ciutat Vella,17.708333333333332
+3298,1300,1.0,1.0,True,False,55.0,,Ciutat Vella,23.63636363636364
+3318,5500,3.0,2.0,True,False,100.0,,Gràcia,55.0
+3320,2500,3.0,3.0,True,False,140.0,,Sarria-Sant Gervasi,17.857142857142858
+3349,850,1.0,1.0,True,False,40.0,,Ciutat Vella,21.25
+3352,2400,3.0,3.0,True,False,120.0,,Sarria-Sant Gervasi,20.0
+3401,2400,5.0,4.0,True,False,240.0,,Sarria-Sant Gervasi,10.0
+3408,1150,2.0,2.0,False,True,115.0,,Gràcia,10.0
+3444,1500,2.0,2.0,True,True,85.0,,Eixample,17.647058823529413
+3452,720,0.0,1.0,True,False,32.0,,Sarria-Sant Gervasi,22.5
+3471,695,0.0,1.0,False,False,40.0,,Horta- Guinardo,17.375
+3504,750,1.0,1.0,False,False,50.0,,Sarria-Sant Gervasi,15.0
+3605,1100,1.0,1.0,True,False,45.0,,Ciutat Vella,24.444444444444443
+3649,745,0.0,1.0,True,False,38.0,,Sarria-Sant Gervasi,19.605263157894736
+3687,625,1.0,1.0,True,False,41.0,,Sants-Montjuïc,15.24390243902439
+3749,2650,4.0,2.0,True,False,185.0,,Eixample,14.324324324324325
+3756,700,1.0,1.0,True,True,38.0,,Eixample,18.42105263157895
+3766,1950,4.0,2.0,True,False,180.0,,Les Corts,10.833333333333334
+3809,717,0.0,1.0,False,False,42.0,,Ciutat Vella,17.071428571428573
+3846,800,0.0,1.0,False,False,48.0,,Gràcia,16.666666666666668
+3889,650,1.0,1.0,False,False,40.0,,Gràcia,16.25
+3912,500,0.0,1.0,True,False,25.0,,Horta- Guinardo,20.0
+3916,800,0.0,1.0,True,False,31.0,,Sarria-Sant Gervasi,25.806451612903224
+3922,4000,3.0,2.0,True,False,120.0,,Sarria-Sant Gervasi,33.333333333333336
+4002,1000,2.0,1.0,False,False,70.0,,Ciutat Vella,14.285714285714286
+4053,625,0.0,1.0,True,True,42.0,,Les Corts,14.88095238095238
+4100,1900,0.0,1.0,False,False,170.0,,Eixample,11.176470588235292
+4131,800,1.0,1.0,True,False,50.0,,Eixample,16.0
+4152,4600,3.0,2.0,True,True,80.0,,Eixample,57.5
+4175,650,0.0,1.0,True,False,27.0,,Horta- Guinardo,24.07407407407408
+4207,850,1.0,1.0,True,False,40.0,,Ciutat Vella,21.25
+4251,942,0.0,1.0,True,False,60.0,,Sant Martí,15.7
+4253,1300,0.0,1.0,True,False,78.0,,Eixample,16.666666666666668
+4254,630,1.0,1.0,False,False,26.0,,Sant Martí,24.23076923076923
+4342,770,1.0,1.0,False,False,60.0,,Sants-Montjuïc,12.833333333333334
+4349,1000,1.0,1.0,False,True,65.0,,Sant Martí,15.384615384615383
+4359,500,0.0,1.0,False,False,20.0,,Sarria-Sant Gervasi,25.0
+4456,1000,2.0,1.0,True,False,105.0,,Sant Martí,9.523809523809524
+4492,4000,3.0,2.0,True,False,120.0,,Sarria-Sant Gervasi,33.333333333333336
+4494,2700,4.0,2.0,True,False,85.0,,Sarria-Sant Gervasi,31.764705882352946
+4495,2800,1.0,1.0,True,False,75.0,,Gràcia,37.333333333333336
+4549,1700,2.0,1.0,True,False,85.0,,Sarria-Sant Gervasi,20.0
+4617,750,0.0,1.0,True,False,42.0,,Les Corts,17.857142857142858
+4639,750,2.0,2.0,True,False,80.0,,Nou Barris,9.375
+4668,590,1.0,1.0,False,False,30.0,,Ciutat Vella,19.666666666666668
+4691,1100,1.0,1.0,False,True,75.0,,Sarria-Sant Gervasi,14.666666666666666
+4710,5300,4.0,6.0,True,False,225.0,,Sarria-Sant Gervasi,23.55555555555556
+4738,4500,4.0,3.0,True,True,256.0,,Sarria-Sant Gervasi,17.578125
+4755,5500,3.0,2.0,True,False,100.0,,Gràcia,55.0
+4756,2700,3.0,2.0,True,False,85.0,,Sarria-Sant Gervasi,31.764705882352946
+4757,2400,3.0,3.0,True,False,140.0,,Sarria-Sant Gervasi,17.142857142857142
+4830,850,1.0,1.0,True,False,50.0,,Eixample,17.0
+4927,650,1.0,1.0,True,False,22.0,,Eixample,29.545454545454547
+4944,475,1.0,1.0,True,False,32.0,,Ciutat Vella,14.84375
+4952,1100,1.0,2.0,True,False,81.0,,Ciutat Vella,13.580246913580249
+4982,725,1.0,1.0,True,False,35.0,,Sant Martí,20.714285714285715
+5009,770,1.0,2.0,False,False,85.0,,Sants-Montjuïc,9.058823529411764
+5016,625,0.0,1.0,False,False,30.0,,Eixample,20.83333333333333
+5099,750,1.0,1.0,True,False,58.0,,Eixample,12.93103448275862
+5101,2800,1.0,1.0,True,False,15.0,,Gràcia,186.66666666666663
+5104,4000,0.0,1.0,True,False,120.0,,Sarria-Sant Gervasi,33.333333333333336
+5105,2400,3.0,3.0,True,False,140.0,,Sarria-Sant Gervasi,17.142857142857142
+5108,925,1.0,1.0,True,False,50.0,,Eixample,18.5
+5121,725,1.0,1.0,True,False,35.0,,Sant Martí,20.714285714285715
+5170,925,3.0,2.0,False,False,86.0,,Sants-Montjuïc,10.755813953488373
+5174,850,5.0,2.0,False,True,103.0,,Sant Andreu,8.25242718446602
+5178,1050,2.0,3.0,True,False,65.0,,Ciutat Vella,16.153846153846153
+5200,890,0.0,1.0,True,False,55.0,,Ciutat Vella,16.181818181818183
+5204,725,0.0,1.0,True,False,50.0,,Sants-Montjuïc,14.5
+5224,800,1.0,1.0,True,False,33.0,,Ciutat Vella,24.24242424242424
+5226,835,1.0,1.0,True,False,45.0,,Sant Martí,18.55555555555556
+5244,1250,2.0,2.0,True,True,89.0,,Sarria-Sant Gervasi,14.044943820224718
+5275,3200,3.0,2.0,True,False,85.0,,Sarria-Sant Gervasi,37.64705882352941
+5280,2700,4.0,2.0,True,False,85.0,,Sarria-Sant Gervasi,31.764705882352946
+5308,5500,3.0,2.0,True,False,100.0,,Gràcia,55.0
+5354,600,0.0,1.0,False,False,37.0,,Ciutat Vella,16.216216216216218
+5385,580,0.0,1.0,True,False,20.0,,Gràcia,29.0
+5406,4500,3.0,2.0,True,True,85.0,,Eixample,52.94117647058823
+5408,3000,2.0,1.0,True,False,85.0,,Gràcia,35.294117647058826
+5409,4500,3.0,2.0,True,True,85.0,,Eixample,52.94117647058823
+5475,600,1.0,1.0,False,False,38.0,,Ciutat Vella,15.789473684210526
+5477,726,0.0,1.0,False,False,35.0,,Gràcia,20.742857142857144
+5488,1573,1.0,2.0,False,False,122.0,,Gràcia,12.89344262295082
+5494,1250,2.0,2.0,True,False,90.0,,Sant Martí,13.88888888888889
+5504,4000,3.0,2.0,True,False,120.0,,Sarria-Sant Gervasi,33.333333333333336
+5505,2700,3.0,2.0,True,False,85.0,,Sarria-Sant Gervasi,31.764705882352946
+5507,5500,3.0,2.0,True,False,100.0,,Gràcia,55.0
+5512,5500,3.0,2.0,True,False,140.0,,Sarria-Sant Gervasi,39.285714285714285
+5515,2400,3.0,2.0,True,False,140.0,,Sarria-Sant Gervasi,17.142857142857142
+5563,950,1.0,1.0,True,False,55.0,,Eixample,17.272727272727273
+5576,1150,1.0,1.0,True,False,58.0,,Eixample,19.82758620689655
+5610,600,1.0,1.0,True,False,35.0,,Ciutat Vella,17.142857142857142
+5643,1160,3.0,2.0,False,False,105.0,,Les Corts,11.047619047619047
+5644,1180,3.0,2.0,True,False,100.0,,Les Corts,11.8
+5698,5500,3.0,2.0,True,False,100.0,,Gràcia,55.0
+5717,3200,3.0,2.0,True,False,85.0,,Sarria-Sant Gervasi,37.64705882352941
+5718,2400,3.0,3.0,True,False,140.0,,Sarria-Sant Gervasi,17.142857142857142
+5732,680,0.0,2.0,False,True,58.0,,Ciutat Vella,11.724137931034482
+5813,4600,3.0,2.0,True,True,80.0,,Eixample,57.5
+5818,2300,3.0,2.0,True,False,140.0,,Sarria-Sant Gervasi,16.428571428571427
+5828,5500,3.0,2.0,True,False,100.0,,Gràcia,55.0
+5911,950,1.0,1.0,True,False,54.0,,Sarria-Sant Gervasi,17.59259259259259
+5923,2800,0.0,1.0,True,False,75.0,,Gràcia,37.333333333333336
+6176,800,0.0,1.0,True,False,35.0,,Eixample,22.857142857142858
+6177,800,0.0,1.0,True,False,35.0,,Eixample,22.857142857142858
+6287,1095,0.0,1.0,True,False,60.0,,Eixample,18.25
+6364,690,0.0,1.0,False,False,45.0,,Ciutat Vella,15.333333333333334
+6558,750,0.0,1.0,False,False,45.0,,Ciutat Vella,16.666666666666668
+6562,6000,2.0,2.0,True,True,290.0,,Eixample,20.6896551724138
+6566,2600,3.0,3.0,False,True,170.0,,Sant Martí,15.294117647058824
+6610,1000,2.0,2.0,True,False,70.0,,Ciutat Vella,14.285714285714286
+6611,1000,2.0,2.0,True,False,70.0,,Ciutat Vella,14.285714285714286
+6618,1200,1.0,1.0,True,False,50.0,,Sarria-Sant Gervasi,24.0
+6651,950,1.0,1.0,True,False,100.0,,Sant Martí,9.5
+6680,1095,1.0,2.0,True,False,63.0,,Sarria-Sant Gervasi,17.38095238095238
+6692,900,2.0,1.0,True,False,78.0,,Horta- Guinardo,11.538461538461538
+6729,2500,3.0,3.0,True,False,140.0,,Sarria-Sant Gervasi,17.857142857142858
+6742,825,1.0,1.0,False,False,80.0,,Ciutat Vella,10.3125
+6826,795,1.0,1.0,True,False,50.0,,Ciutat Vella,15.9
+6880,1292,2.0,2.0,True,False,95.0,,Ciutat Vella,13.6
+6960,726,1.0,1.0,True,False,50.0,,Sant Martí,14.52
+6969,950,4.0,2.0,True,False,150.0,,Sant Martí,6.333333333333333
+7011,950,2.0,1.0,True,False,50.0,,Ciutat Vella,19.0
+7069,1750,2.0,2.0,True,False,75.0,,Eixample,23.33333333333333
+7213,5300,4.0,6.0,True,True,250.0,,Sarria-Sant Gervasi,21.2
+7305,1200,1.0,2.0,False,False,41.0,,Ciutat Vella,29.26829268292683
+7350,2650,2.0,2.0,False,False,90.0,,Eixample,29.444444444444443
+7351,900,1.0,1.0,False,False,36.0,,Ciutat Vella,25.0
+7363,780,0.0,1.0,True,False,25.0,,Sarria-Sant Gervasi,31.2
+7373,685,1.0,1.0,True,False,30.0,,Les Corts,22.83333333333333
+7396,990,1.0,1.0,True,False,151.0,,Sants-Montjuïc,6.556291390728477
+7463,765,0.0,1.0,True,False,42.0,,Sarria-Sant Gervasi,18.214285714285715
+7486,690,0.0,1.0,False,False,32.0,,Ciutat Vella,21.5625
+7587,950,2.0,2.0,True,False,80.0,,Sants-Montjuïc,11.875
+7666,610,0.0,1.0,True,False,24.0,,Eixample,25.416666666666668
+7668,600,0.0,1.0,True,False,22.0,,Gràcia,27.27272727272728
+7669,640,0.0,1.0,True,False,29.0,,Sant Martí,22.06896551724138
+7673,700,0.0,1.0,True,False,25.0,,Horta- Guinardo,28.0
+7764,1200,3.0,2.0,True,False,78.0,,Sant Martí,15.384615384615383
+7843,1375,3.0,3.0,False,False,280.0,,Sarria-Sant Gervasi,4.910714285714286
+7848,530,0.0,1.0,False,False,26.0,,Sants-Montjuïc,20.384615384615383
+7876,700,1.0,1.0,True,False,45.0,,Gràcia,15.555555555555555
+7921,6000,2.0,2.0,True,True,318.0,,Ciutat Vella,18.867924528301888
+7925,1100,1.0,1.0,True,False,102.0,,Sants-Montjuïc,10.784313725490197
+7939,1000,2.0,2.0,True,False,66.0,,Ciutat Vella,15.151515151515152
+7960,4000,3.0,4.0,True,False,350.0,,Les Corts,11.428571428571429
+7968,800,2.0,2.0,True,False,60.0,,Horta- Guinardo,13.333333333333334
+8008,2750,5.0,2.0,False,False,179.0,,Ciutat Vella,15.363128491620111
+8025,590,0.0,1.0,False,False,46.0,,Ciutat Vella,12.826086956521738
+8029,1400,3.0,1.0,True,True,93.0,,Sants-Montjuïc,15.053763440860216
+8042,825,1.0,1.0,False,False,53.0,,Ciutat Vella,15.566037735849056
+8059,950,2.0,1.0,True,False,115.0,,Sants-Montjuïc,8.26086956521739
+8113,725,1.0,2.0,False,False,55.0,,Ciutat Vella,13.181818181818182
+8120,1600,3.0,2.0,True,True,80.0,,Eixample,20.0
+8127,840,0.0,1.0,False,False,60.0,,Gràcia,14.0
+8192,2568,1.946,2.074,True,True,125.14,flat,Gràcia,
+8193,1050,2.137,0.991,True,False,,flat,Sarria-Sant Gervasi,16.742
+8197,1246,0.947,1.86,True,False,,flat,Les Corts,28.09
+8199,2800,2.166,1.881,True,True,124.8,attic,Eixample,
+8207,1100,1.079,1.075,True,False,87.813,flat,Ciutat Vella,
+8215,1000,3.06,,False,False,70.52,flat,Gràcia,15.31
+8220,6800,5.323,4.325,True,True,342.372,flat,Sarria-Sant Gervasi,
+8226,1348,2.034,1.062,False,False,,apartment,Sants-Montjuïc,22.149
+8237,4500,,2.863,True,False,139.638,flat,Eixample,29.329
+8244,842,2.926,1.039,True,False,66.284,flat,Ciutat Vella,
+8248,1900,,0.973,True,False,142.691,flat,Sants-Montjuïc,12.588
+8249,700,,0.979,True,False,40.709,study,Eixample,18.976
+8265,825,0.0,0.963,False,False,93.331,,Ciutat Vella,9.09
+8266,780,2.952,1.042,False,True,56.959,,Ciutat Vella,14.752
+8270,1700,4.189,3.173,True,False,,flat,Sarria-Sant Gervasi,14.552
+8273,1075,4.019,1.885,True,True,105.258,flat,Ciutat Vella,
+8276,2700,4.148,2.177,True,False,91.109,,Ciutat Vella,34.298
+8281,850,,2.032,True,False,38.122,flat,Gràcia,19.177
+8282,680,,2.151,False,True,58.147,,Les Corts,12.799
+8287,1580,2.913,1.951,True,True,,flat,Les Corts,13.102
+8295,700,0.981,1.095,True,False,59.477,flat,Sant Martí,
+8296,800,0.982,1.065,False,True,45.057,flat,Sarria-Sant Gervasi,
+8297,1100,2.041,2.129,False,False,60.51,,Sant Martí,17.421
+8298,700,,1.085,False,False,59.614,flat,Ciutat Vella,11.008
+8299,1150,2.742,,True,False,81.826,flat,Sarria-Sant Gervasi,12.982
+8304,850,2.719,,True,True,90.985,flat,Sants-Montjuïc,9.507
+8315,1990,5.298,2.12,True,False,,flat,Ciutat Vella,14.817
+8317,750,3.063,,False,True,62.702,flat,Sarria-Sant Gervasi,11.771
+8319,1800,2.879,2.11,False,False,96.358,apartment,Sants-Montjuïc,
+8320,1800,,2.024,True,False,90.017,flat,Sarria-Sant Gervasi,21.98
+8323,990,2.08,1.075,False,False,43.568,flat,Ciutat Vella,
+8327,1360,3.261,2.084,True,False,96.892,,Les Corts,13.972
+8330,1100,2.96,,True,False,76.355,flat,Ciutat Vella,12.795
+8337,790,2.181,,False,False,62.582,flat,Sarria-Sant Gervasi,14.323
+8340,1100,2.9,2.041,True,True,,flat,Sant Martí,15.928
+8344,865,0.906,1.012,False,True,,flat,Les Corts,16.878
+8347,930,2.043,,True,False,58.593,flat,Gràcia,15.004
+8368,850,,,True,False,77.337,flat,Les Corts,12.674
+8369,1150,3.25,1.95,True,False,,,Ciutat Vella,13.829
+8372,929,2.996,1.051,True,False,55.272,flat,Eixample,
+8379,1100,2.907,2.047,False,True,,flat,Eixample,13.683
+8381,2366,2.023,1.95,False,False,69.367,apartment,Sarria-Sant Gervasi,
+8383,1150,4.176,2.181,True,False,,flat,Sant Andreu,9.111
+8384,1000,2.82,1.879,True,False,91.327,,Horta- Guinardo,11.052
+8386,1100,0.981,1.02,True,False,108.512,,Eixample,9.13
+8391,925,2.175,2.136,False,False,,flat,Ciutat Vella,12.378
+8395,2700,,3.073,True,False,162.383,flat,Sant Martí,18.952
+8403,1650,3.658,2.121,False,True,,flat,Eixample,12.387
+8405,875,2.166,,True,False,55.864,flat,Sant Andreu,15.808
+8408,1100,2.196,2.041,True,True,83.128,,Les Corts,15.74
+8411,2400,3.145,2.944,True,False,138.961,,Eixample,16.234
+8414,1200,3.26,,True,False,92.742,flat,Eixample,12.425
+8422,640,,0.968,False,True,34.958,flat,Sarria-Sant Gervasi,17.58
+8424,945,2.006,0.996,True,False,55.475,,Ciutat Vella,15.956
+8425,2750,4.67,2.191,False,False,181.422,,Horta- Guinardo,16.85
+8428,625,1.072,0.984,True,False,31.683,apartment,Sarria-Sant Gervasi,
+8432,1076,,1.004,False,False,31.897,apartment,Gràcia,
+8437,800,0.954,1.046,True,True,46.631,flat,Sarria-Sant Gervasi,
+8441,1580,2.749,1.819,True,False,125.515,flat,Eixample,
+8442,1250,,1.036,False,False,80.258,flat,Gràcia,16.216
+8443,860,2.154,1.08,False,False,57.513,flat,Sarria-Sant Gervasi,
+8446,950,,0.976,True,False,81.825,flat,Ciutat Vella,13.096
+8447,2934,3.291,1.96,True,True,,flat,Eixample,24.323
+8454,7000,,4.789,True,True,420.18,flat,Ciutat Vella,
+8456,650,1.83,,False,False,66.953,flat,Eixample,11.28
+8459,900,,0.926,True,False,72.349,flat,Sarria-Sant Gervasi,
+8462,1150,1.09,1.99,False,False,68.324,,Eixample,18.436
+8467,600,0.955,1.072,False,False,,flat,Eixample,15.538
+8470,2800,4.126,2.868,True,True,172.134,,Sant Martí,16.204
+8476,1200,2.117,0.967,True,False,68.953,,Sarria-Sant Gervasi,17.25
+8477,2300,2.911,2.036,True,False,146.284,,Gràcia,16.704
+8478,850,,0.99,True,False,53.724,flat,Gràcia,15.875
+8481,1250,1.96,,False,False,61.449,,Sants-Montjuïc,18.134
+8486,1200,,,True,False,83.79,flat,Eixample,13.095
+8490,1354,0.957,,False,False,51.698,apartment,Sarria-Sant Gervasi,26.423
+8493,900,1.994,1.064,True,False,79.42,,Gràcia,10.55
+8507,1050,2.057,0.942,True,False,80.152,flat,Ciutat Vella,
+8518,770,0.941,1.073,True,True,32.072,,Les Corts,25.683
+8522,1500,3.181,1.801,True,False,85.583,flat,Sant Martí,
+8529,1174,3.254,0.96,False,False,,flat,Sarria-Sant Gervasi,18.067
+8530,600,1.96,0.97,False,False,62.536,flat,Gràcia,
+8541,4600,3.09,1.843,True,True,104.227,,Ciutat Vella,37.378
+8552,1350,0.0,0.981,True,False,92.809,,Eixample,14.921
+8558,590,0.0,0.92,False,False,44.53,,Les Corts,12.002
+8559,1350,2.08,,True,False,63.588,flat,Ciutat Vella,20.524
+8560,1100,0.988,0.917,False,False,98.14,,Les Corts,11.464
+8564,800,1.045,,False,False,43.841,flat,Les Corts,18.906
+8565,950,2.108,,False,True,,flat,Eixample,15.019
+8567,2100,4.16,1.996,True,False,172.459,flat,Ciutat Vella,
+8569,1400,,1.864,True,False,108.96,flat,Sarria-Sant Gervasi,10.716
+8578,1150,,1.939,False,False,90.092,flat,Ciutat Vella,11.512
+8579,1400,1.084,0.941,True,False,44.734,,Sants-Montjuïc,30.066
+8586,1000,2.028,0.911,False,False,75.626,flat,Sarria-Sant Gervasi,
+8592,800,1.851,1.016,False,False,59.007,,Eixample,14.554
+8598,4500,2.898,1.949,True,True,79.122,,Eixample,55.79
+8613,685,,0.986,True,False,41.97,,Sarria-Sant Gervasi,
+8621,1250,,1.04,False,True,54.68,apartment,Eixample,26.205
+8626,795,4.244,1.026,True,False,66.526,flat,Ciutat Vella,
+8634,3700,,4.899,True,False,197.198,attic,Sarria-Sant Gervasi,20.485
+8640,2900,2.985,2.036,False,False,108.767,,Sarria-Sant Gervasi,25.643
+8644,950,1.091,1.043,True,False,57.558,,Sarria-Sant Gervasi,16.543
+8646,4600,2.959,1.999,False,True,85.242,,Eixample,60.016
+8650,700,0.0,1.098,False,False,36.534,study,Sarria-Sant Gervasi,
+8651,1470,1.042,1.01,True,False,84.731,flat,Les Corts,
+8654,3500,,2.89,True,False,187.685,apartment,Eixample,17.038
+8656,1100,2.019,1.098,True,True,86.896,,Les Corts,14.21
+8658,950,3.163,1.094,True,False,76.194,flat,Les Corts,
+8663,1200,3.156,,True,False,75.032,flat,Gràcia,14.603
+8669,990,1.806,1.038,True,False,,flat,Eixample,14.994
+8670,1326,0.932,,False,False,48.242,flat,Horta- Guinardo,24.336
+8671,750,2.129,,False,False,42.796,flat,Sarria-Sant Gervasi,15.722
+8676,380,0.91,,True,False,10.313,study,Gràcia,34.229
+8678,925,3.075,0.947,True,False,65.226,,Sant Martí,12.535
+8686,2700,3.081,2.804,True,False,,flat,Sarria-Sant Gervasi,18.469
+8702,1000,3.02,1.889,True,False,85.267,,Eixample,9.964
+8706,800,0.0,1.095,False,False,48.58,,Gràcia,16.665
+8709,1400,2.707,1.814,True,True,87.466,flat,Les Corts,
+8710,2161,,1.091,False,False,30.303,apartment,Sants-Montjuïc,
+8711,2512,1.825,0.976,False,False,,apartment,Eixample,34.178
+8716,1090,1.961,2.123,False,False,59.606,flat,Sant Martí,
+8719,825,,2.043,False,False,105.136,flat,Eixample,7.581
+8722,1200,,1.091,False,False,50.832,apartment,Les Corts,21.398
+8724,1400,2.109,3.276,False,False,82.594,,Les Corts,18.374
+8730,790,1.898,,True,False,48.508,flat,Sarria-Sant Gervasi,17.537
+8738,980,1.067,1.026,False,True,91.333,,Sarria-Sant Gervasi,10.33
+8742,920,1.879,1.024,True,True,60.299,flat,Les Corts,
+8743,1210,,1.093,False,False,47.168,apartment,Ciutat Vella,26.417
+8745,750,1.887,,False,True,57.936,flat,Ciutat Vella,12.794
+8748,1300,4.392,1.98,True,False,,flat,Eixample,
+8750,800,,0.91,True,False,62.304,attic,Sarria-Sant Gervasi,12.5
+8755,840,,0.925,True,False,57.952,flat,Eixample,13.251
+8756,750,2.056,,False,False,44.047,flat,Ciutat Vella,15.358
+8760,1100,0.999,0.93,False,True,77.889,,Sarria-Sant Gervasi,13.947
+8762,1595,,1.819,True,False,87.134,flat,Sants-Montjuïc,20.527
+8774,900,1.046,1.093,True,False,47.246,,Eixample,19.643
+8775,880,2.78,0.931,True,False,75.691,flat,Eixample,
+8777,995,1.936,,True,False,51.448,flat,Gràcia,17.241
+8782,2500,2.731,2.181,True,True,137.042,attic,Eixample,
+8784,850,0.95,0.995,False,False,,flat,Sants-Montjuïc,
+8787,2200,2.001,1.066,True,False,110.171,,Les Corts,20.426
+8797,1100,2.882,2.022,True,True,125.978,flat,Sarria-Sant Gervasi,
+8808,800,1.08,0.95,True,True,50.395,,Sarria-Sant Gervasi,15.629
+8813,930,4.299,,True,True,89.138,flat,Ciutat Vella,10.116
+8814,975,2.019,,True,False,66.0,flat,Sant Martí,13.892
+8815,1250,4.081,,True,True,77.935,flat,Les Corts,14.705
+8817,1037,1.856,1.057,True,False,,flat,Sarria-Sant Gervasi,12.986
+8822,800,0.0,0.917,True,False,29.38,,Ciutat Vella,26.013
+8826,890,0.961,1.074,False,False,,apartment,Eixample,15.542
+8832,1168,1.965,0.98,True,False,,flat,Gràcia,30.517
+8841,1050,,1.951,True,False,122.303,flat,Eixample,9.867
+8844,4500,4.309,,True,False,160.935,flat,Sarria-Sant Gervasi,30.408
+8857,2252,3.849,1.971,False,False,109.723,apartment,Eixample,
+8861,1562,1.952,2.081,False,False,57.078,,Horta- Guinardo,22.574
+8862,980,1.065,,True,False,38.956,flat,Gràcia,22.789
+8863,800,2.147,0.957,True,False,81.989,,Sants-Montjuïc,11.319
+8868,5900,5.371,3.952,True,False,354.974,flat,Gràcia,
+8871,2145,2.187,1.093,False,False,82.288,apartment,Sarria-Sant Gervasi,
+8873,4150,4.952,4.323,True,False,,flat,Eixample,14.403
+8877,3478,1.887,,False,False,90.644,apartment,Sant Martí,35.386
+8884,975,,1.024,True,False,50.22,flat,Eixample,
+8886,1900,4.764,3.264,True,True,249.41,,Eixample,7.223
+8889,950,1.94,1.006,False,False,73.377,,Nou Barris,12.42
+8902,650,0.0,0.989,True,False,29.096,,Eixample,23.302
+8904,750,1.01,1.094,False,False,55.938,flat,Eixample,
+8905,6000,1.956,,True,True,323.348,,Sant Martí,18.334
+8907,1300,,1.037,True,False,76.772,flat,Sant Andreu,16.484
+8909,1250,,2.163,True,False,98.544,flat,Horta- Guinardo,12.857
+8919,842,3.09,,True,False,64.201,flat,Ciutat Vella,11.915
+8936,785,0.0,0.936,True,False,29.165,apartment,Eixample,
+8941,1100,3.076,1.026,True,False,76.278,flat,Sarria-Sant Gervasi,
+8945,1050,2.981,2.17,True,False,,flat,Les Corts,13.449
+8948,1200,2.883,1.984,True,False,,flat,Gràcia,15.963
+8952,1100,3.028,1.973,True,False,93.5,,Les Corts,11.621
+8954,1425,3.105,,False,False,78.449,flat,Sants-Montjuïc,15.702
+8955,2200,2.857,1.885,True,True,112.415,,Ciutat Vella,18.596
+8957,780,0.945,0.9,True,False,41.75,,Sant Martí,18.489
+8966,1300,1.021,0.933,True,False,53.63,,Sant Andreu,22.528
+8968,1050,,0.97,True,False,72.265,flat,Eixample,14.358
+8969,900,2.957,0.9,True,True,52.507,flat,Eixample,
+8976,3800,5.498,3.721,True,False,,flat,Ciutat Vella,12.729
+8985,1800,0.916,1.026,True,False,46.146,,Les Corts,
+8986,950,0.999,0.95,True,False,50.96,,Les Corts,19.741
+8996,1050,2.16,0.958,True,False,67.094,,Nou Barris,15.686
+9001,860,1.089,0.996,True,False,,flat,Ciutat Vella,18.635
+9012,790,2.71,1.071,True,False,,flat,Ciutat Vella,9.816
+9016,715,1.87,1.097,True,False,46.938,flat,Eixample,
+9021,1950,0.938,2.076,False,True,159.785,,Sarria-Sant Gervasi,10.851
+9023,3600,,1.993,False,False,183.838,attic,Eixample,17.493
+9027,720,0.0,0.949,True,False,31.16,,Horta- Guinardo,20.98
+9030,2300,4.67,2.032,True,True,150.955,,Sarria-Sant Gervasi,13.983
+9034,750,0.0,0.958,False,False,,study,Ciutat Vella,21.742
+9036,825,1.03,1.009,False,False,52.238,,Eixample,14.342
+9042,950,1.89,1.053,False,False,51.556,flat,Les Corts,
+9045,7500,,3.086,True,True,172.946,attic,Les Corts,49.88
+9048,850,2.011,0.915,True,False,,flat,Eixample,15.821
+9053,745,1.019,1.021,False,False,50.007,,Sants-Montjuïc,15.379
+9055,2200,1.912,1.938,True,False,86.592,apartment,Sarria-Sant Gervasi,
+9067,942,0.0,1.042,True,False,59.703,,Ciutat Vella,16.882
+9071,695,1.926,0.987,False,False,40.05,,Sarria-Sant Gervasi,17.034
+9076,710,2.007,1.027,True,False,,flat,Gràcia,19.607
+9077,1150,0.981,0.903,False,False,45.136,,Sarria-Sant Gervasi,22.029
+9080,2800,1.093,,True,True,73.774,,Sants-Montjuïc,42.603
+9088,958,0.91,,False,False,50.305,flat,Ciutat Vella,22.742
+9092,2700,4.213,2.067,True,False,77.108,,Sant Martí,32.106
+9093,1150,0.999,1.091,True,False,51.686,,Eixample,20.905
+9101,700,,2.098,False,True,54.427,flat,Gràcia,13.005
+9102,1250,3.284,2.162,True,False,,flat,Eixample,9.494
+9103,1150,1.019,1.057,False,True,50.234,,Sarria-Sant Gervasi,22.782
+9104,850,3.069,,False,False,82.097,flat,Horta- Guinardo,11.723
+9106,2300,2.937,2.084,True,False,127.014,,Nou Barris,14.815
+9115,890,2.079,1.92,True,False,,flat,Gràcia,13.563
+9118,925,2.175,0.924,True,False,,flat,Gràcia,
+9125,1095,0.0,0.94,True,False,65.285,,Sants-Montjuïc,
+9126,1600,0.0,0.905,True,False,65.355,,Les Corts,27.411
+9128,740,2.012,1.0,True,True,50.272,,Ciutat Vella,14.194
+9130,895,1.922,0.933,False,False,79.338,,Ciutat Vella,13.274
+9133,2280,2.072,1.953,True,False,69.436,flat,Eixample,
+9134,750,3.193,,True,True,57.944,flat,Sant Andreu,12.426
+9137,750,,1.007,True,False,48.319,flat,Les Corts,17.469
+9143,950,,,True,False,68.175,flat,Gràcia,14.077
+9145,2600,2.883,2.841,False,True,153.983,,Eixample,15.774
+9146,875,2.807,1.002,True,False,77.428,,Eixample,12.604
+9154,900,0.968,1.015,True,False,46.242,,Ciutat Vella,18.354
+9173,1246,0.952,0.911,False,False,37.364,apartment,Sant Martí,
+9174,825,2.97,,True,False,69.387,flat,Eixample,
+9175,813,2.738,1.022,True,False,,flat,Sarria-Sant Gervasi,11.163
+9188,825,0.967,1.013,False,True,,flat,Horta- Guinardo,24.904
+9189,1200,2.832,1.885,True,False,94.204,,Gràcia,12.184
+9192,1150,,2.143,True,False,93.451,flat,Eixample,14.056
+9194,4500,4.201,2.739,True,True,272.154,,Horta- Guinardo,17.224
+9198,3450,1.886,,False,False,57.553,apartment,Ciutat Vella,54.871
+9201,750,2.136,1.018,False,False,,flat,Les Corts,13.554
+9215,2300,2.859,2.055,True,False,140.694,,Sant Martí,16.619
+9218,4200,4.952,4.112,True,True,232.502,apartment,Eixample,
+9246,974,,0.914,False,False,78.752,flat,Sant Martí,12.746
+9247,900,3.023,1.045,True,False,,flat,Sant Martí,11.296
+9253,2250,2.735,,True,True,180.582,flat,Eixample,14.154
+9262,2500,2.723,2.703,False,True,142.344,,Eixample,18.112
+9267,895,0.0,1.044,False,False,42.995,,Horta- Guinardo,20.974
+9275,1400,3.716,0.988,True,False,81.019,,Sarria-Sant Gervasi,18.72
+9278,790,2.843,0.924,True,False,76.797,flat,Eixample,
+9282,1850,1.925,,False,False,101.315,flat,Les Corts,17.68
+9284,1161,,0.945,False,True,27.697,apartment,Ciutat Vella,37.724
+9287,850,1.962,,True,True,38.264,attic,Sant Andreu,21.7
+9288,930,,1.018,True,False,61.774,flat,Eixample,
+9289,900,,1.069,True,False,73.614,flat,Eixample,11.028
+9296,1400,4.361,1.904,False,False,103.839,,Les Corts,14.355
+9311,850,0.0,1.031,False,False,54.288,,Eixample,13.972
+9313,2200,2.137,1.983,True,False,,flat,Sants-Montjuïc,21.564
+9317,850,4.215,1.058,False,False,63.17,,Sarria-Sant Gervasi,12.862
+9319,1100,,2.096,True,False,86.352,flat,Ciutat Vella,12.721
+9321,895,,1.877,True,False,,flat,Sants-Montjuïc,
+9322,700,2.725,,False,False,67.001,flat,Gràcia,11.476
+9331,1150,4.08,,True,False,132.597,flat,Sants-Montjuïc,9.53
+9341,1600,1.967,2.097,False,False,,flat,Ciutat Vella,18.916
+9342,1200,2.777,2.113,True,False,92.182,,Eixample,11.477
+9347,2500,1.977,,True,True,107.511,flat,Nou Barris,
+9350,1000,2.994,2.195,True,False,111.323,,Gràcia,
+9351,890,1.014,0.996,True,False,33.26,flat,Eixample,
+9353,1450,3.651,2.08,True,False,148.099,,Sant Martí,9.823
+9358,1100,1.958,1.028,False,False,62.043,flat,Eixample,
+9362,900,2.136,0.914,True,False,66.128,flat,Eixample,
+9366,2500,2.938,2.0,True,False,,flat,Ciutat Vella,14.225
+9367,1100,3.006,0.995,True,True,79.982,apartment,Les Corts,
+9371,813,2.753,0.998,True,True,73.018,flat,Sarria-Sant Gervasi,
+9377,990,3.159,2.03,True,False,114.41,flat,Sant Martí,
+9379,950,,1.023,False,False,71.168,flat,Eixample,14.807
+9381,1210,0.0,,True,False,73.234,study,Sarria-Sant Gervasi,14.189
+9392,900,3.157,0.927,True,True,69.991,flat,Eixample,
+9395,1200,4.248,,True,False,81.727,flat,Sants-Montjuïc,16.174
+9396,950,2.769,0.986,True,False,58.137,,Sant Martí,14.194
+9399,2200,1.96,1.85,True,False,74.36,attic,Sants-Montjuïc,
+9401,1500,3.269,2.055,False,True,114.704,flat,Ciutat Vella,
+9416,1350,1.981,,True,False,74.888,flat,Les Corts,19.186
+9419,700,0.925,,False,False,33.559,apartment,Eixample,21.182
+9423,1350,,0.912,True,True,65.433,attic,Eixample,20.998
+9429,1000,3.71,2.123,True,False,97.253,,Les Corts,11.116
+9430,900,3.295,,True,True,61.015,flat,Sarria-Sant Gervasi,15.725
+9431,800,2.197,,True,True,56.112,flat,Sarria-Sant Gervasi,14.082
+9438,610,0.0,0.902,True,False,,,Eixample,23.482
+9441,865,3.048,0.913,True,False,76.656,,Sants-Montjuïc,
+9442,800,0.924,1.092,False,False,,flat,Horta- Guinardo,
+9447,800,1.979,1.002,False,False,,attic,Sant Andreu,17.275
+9450,1650,1.941,1.076,False,False,34.351,,Eixample,46.442
+9456,1050,1.904,2.781,True,False,64.843,,Nou Barris,14.771
+9458,2970,2.931,2.085,False,False,,apartment,Sant Andreu,21.992
+9460,2255,1.872,,False,False,50.557,apartment,Sant Martí,43.564
+9468,925,1.835,1.965,False,False,83.024,,Eixample,
+9470,1000,2.893,2.003,False,False,,flat,Sarria-Sant Gervasi,8.529
+9473,1990,3.089,2.173,True,True,,,Sant Andreu,23.529
+9475,1100,,2.091,True,False,113.193,flat,Sant Martí,9.822
+9478,4000,0.0,0.922,True,False,129.244,,Ciutat Vella,35.639
+9480,2700,4.317,2.106,False,False,77.613,,Eixample,30.529
+9485,7500,5.361,3.601,True,True,,attic,Eixample,34.498
+9487,1434,2.154,1.018,True,False,,flat,Sants-Montjuïc,23.725
+9488,3000,3.184,3.039,True,True,178.525,,Sant Martí,18.424
+9493,975,0.95,0.996,True,False,,,Ciutat Vella,21.414
+9497,695,0.0,1.836,True,False,76.097,,Eixample,8.61
+9499,850,2.748,2.054,True,False,,flat,Sant Martí,10.878
+9501,750,,1.037,True,False,45.545,flat,Sant Martí,15.629
+9516,1540,,1.067,False,False,76.913,apartment,Sant Martí,20.835
+9518,850,1.017,1.915,True,False,89.464,flat,Sants-Montjuïc,
+9519,995,2.858,2.161,False,True,,flat,Eixample,
+9526,2580,3.26,2.019,True,False,136.06,apartment,Sant Andreu,
+9527,1400,1.932,3.107,False,False,84.517,,Eixample,16.656
+9531,1300,0.972,1.013,True,False,52.142,flat,Eixample,
+9532,1500,1.853,,True,True,87.716,flat,Sant Martí,18.024
+9534,1140,2.738,,True,True,80.309,attic,Sarria-Sant Gervasi,12.386
+9536,900,,1.878,True,True,78.437,,Eixample,12.862
+9539,1100,0.968,1.807,True,False,82.898,,Les Corts,14.887
+9545,600,1.035,0.932,True,True,67.305,flat,Sarria-Sant Gervasi,
+9549,1200,0.932,,True,False,71.713,flat,Horta- Guinardo,16.762
+9554,1300,0.998,0.978,True,True,70.025,flat,Horta- Guinardo,
+9557,2700,3.687,1.875,True,False,79.773,,Eixample,32.637
+9563,600,,0.921,False,True,51.387,apartment,Gràcia,11.12
+9567,1150,3.92,0.999,True,False,,flat,Eixample,12.84
+9575,2500,0.0,,False,True,153.882,study,Eixample,14.783
+9577,1050,2.038,0.9,False,False,65.829,,Ciutat Vella,14.909
+9579,775,0.981,,True,True,,flat,Gràcia,13.298
+9584,800,1.029,2.094,True,False,82.964,,Nou Barris,10.708
+9588,4800,,4.132,True,True,205.251,flat,Eixample,25.125
+9595,4200,,1.854,True,True,86.931,flat,Sants-Montjuïc,44.418
+9601,1000,,1.001,True,False,72.418,flat,Gràcia,12.057
+9602,1600,3.645,,False,False,127.905,flat,Ciutat Vella,12.239
+9604,1950,3.629,2.14,True,False,171.078,,Sant Andreu,11.712
+9605,1800,1.854,1.044,True,False,107.805,,Eixample,
+9610,850,,1.077,False,False,64.001,flat,Les Corts,14.275
+9611,1500,,1.882,True,False,78.101,flat,Sant Martí,20.433
+9613,900,3.073,,True,False,,flat,Sants-Montjuïc,13.038
+9615,1300,,2.111,True,True,97.696,flat,Eixample,15.04
+9616,3390,,1.998,False,False,76.417,apartment,Sant Martí,47.339
+9618,590,0.0,0.913,False,False,,,Eixample,13.231
+9626,750,0.921,0.943,False,False,51.263,flat,Sant Martí,
+9630,1390,,1.074,True,False,75.673,,Sants-Montjuïc,16.106
+9636,1200,3.989,,True,False,80.333,flat,Sants-Montjuïc,13.974
+9637,2400,2.83,1.047,True,False,,flat,Horta- Guinardo,31.934
+9652,7147,4.296,1.951,True,False,106.942,apartment,Sants-Montjuïc,
+9655,3000,1.856,2.107,True,True,,flat,Sarria-Sant Gervasi,21.041
+9656,821,,1.002,True,False,54.767,flat,Sarria-Sant Gervasi,12.879
+9666,880,3.188,0.959,False,False,68.802,flat,Sarria-Sant Gervasi,
+9669,700,0.98,0.926,True,True,,flat,Sants-Montjuïc,15.035
+9674,850,1.04,1.091,True,False,51.981,,Sarria-Sant Gervasi,16.312
+9687,850,,0.93,True,False,44.959,flat,Eixample,18.845
+9689,700,1.026,1.025,True,False,48.629,,Gràcia,15.172
+9691,975,,,True,True,75.768,flat,Eixample,12.452
+9692,550,0.0,1.053,False,False,41.407,study,Ciutat Vella,
+9695,1100,0.926,1.905,True,False,73.647,,Sarria-Sant Gervasi,14.436
+9696,900,2.708,1.028,True,False,73.833,flat,Sarria-Sant Gervasi,
+9697,1300,3.891,1.817,True,False,111.26,,Horta- Guinardo,11.749
+9701,500,0.0,0.952,True,False,25.185,,Gràcia,18.085
+9708,1960,,0.998,True,True,54.643,attic,Horta- Guinardo,39.954
+9709,1677,3.039,,True,False,110.929,flat,Eixample,14.134
+9716,900,4.31,,True,False,87.889,flat,Eixample,9.214
+9720,900,1.077,1.004,True,True,58.411,flat,Horta- Guinardo,
+9721,3850,5.433,3.175,True,True,,apartment,Sarria-Sant Gervasi,12.957
+9729,890,3.81,1.035,True,False,74.734,flat,Gràcia,
+9730,1200,0.927,1.041,True,False,56.925,flat,Eixample,
+9736,8500,,5.393,True,True,469.483,flat,Sarria-Sant Gervasi,19.319
+9746,1290,3.066,2.03,True,False,84.303,flat,Eixample,
+9752,2700,2.167,1.05,True,False,60.483,flat,Ciutat Vella,
+9757,1200,2.152,0.929,True,True,80.517,flat,Eixample,
+9761,950,2.978,2.08,False,False,,flat,Eixample,11.074
+9771,1400,3.717,2.091,True,False,,,Eixample,13.44
+9774,950,1.819,,False,False,49.136,flat,Les Corts,21.663
+9777,950,1.967,0.942,True,False,65.065,flat,Sants-Montjuïc,
+9779,3500,4.855,4.309,False,True,229.167,flat,Gràcia,
+9784,975,1.039,0.982,False,False,50.537,flat,Eixample,
+9785,895,2.089,,True,False,,flat,Ciutat Vella,15.754
+9787,900,3.299,0.967,True,False,,flat,Les Corts,11.701
+9789,1400,0.0,1.021,True,False,109.276,,Eixample,13.172
+9790,925,4.31,0.908,True,False,72.752,flat,Eixample,
+9791,4600,,1.972,True,True,84.886,,Sarria-Sant Gervasi,58.05
+9792,2200,3.909,2.884,True,False,208.278,,Sarria-Sant Gervasi,10.201
+9801,1290,2.838,1.901,True,False,98.858,,Nou Barris,12.515
+9806,1440,1.834,,True,False,65.407,flat,Eixample,23.685
+9814,1500,2.146,,True,False,67.871,flat,Ciutat Vella,24.055
+9817,2499,4.147,1.821,False,False,,apartment,Les Corts,29.419
+9822,840,1.942,0.947,True,False,59.238,flat,Les Corts,
+9842,700,2.168,1.05,True,False,,flat,Ciutat Vella,13.231
+9847,850,2.835,0.986,False,False,74.089,,Gràcia,11.694
+9854,950,3.136,1.997,True,False,86.646,flat,Sant Andreu,
+9859,1250,,1.865,True,False,139.678,flat,Eixample,9.988
+9868,1800,,1.069,True,False,64.542,apartment,Eixample,25.024
+9869,2000,1.965,1.951,True,True,85.136,,Ciutat Vella,20.413
+9878,1000,2.92,,True,False,73.81,flat,Eixample,13.254
+9889,2500,3.613,,True,False,183.334,flat,Sarria-Sant Gervasi,14.703
+9891,1200,3.247,2.068,True,True,,flat,Eixample,14.63
+9892,2800,,1.037,True,True,52.738,attic,Eixample,
+9901,950,,0.916,True,False,,flat,Sants-Montjuïc,18.415
+9902,1700,1.997,2.188,True,False,64.417,flat,Sarria-Sant Gervasi,
+9905,850,1.01,,True,False,48.549,flat,Sants-Montjuïc,17.035
+9906,1150,,0.953,True,False,67.185,flat,Eixample,17.448
+9910,695,0.0,1.048,True,False,38.281,flat,Gràcia,
+9911,1200,2.777,1.933,True,False,80.673,,Eixample,14.46
+9916,1000,0.989,,True,True,54.182,flat,Ciutat Vella,20.793
+9917,1200,2.92,,False,False,75.214,flat,Sants-Montjuïc,14.282
+9923,745,0.91,0.99,False,False,41.194,,Ciutat Vella,
+9924,1300,0.937,1.099,True,False,60.204,,Sant Martí,24.139
+9925,2200,,0.915,False,False,61.953,apartment,Sants-Montjuïc,36.838
+9933,850,3.157,0.944,False,False,55.366,,Eixample,
+9935,2200,1.807,1.92,False,False,66.217,,Eixample,34.432
+9949,1150,2.037,1.012,True,False,72.844,,Eixample,15.317
+9951,900,3.207,,True,False,77.581,flat,Gràcia,10.163
+9955,800,,1.001,True,False,61.348,flat,Eixample,13.404
+9958,1100,,0.95,True,True,88.375,apartment,Sarria-Sant Gervasi,
+9960,790,1.051,0.968,False,False,68.924,,Ciutat Vella,12.758
+9963,850,0.921,0.91,False,False,51.259,,Sant Martí,17.887
+9967,990,3.226,1.039,True,False,82.559,,Les Corts,9.944
+9972,1200,,1.834,True,True,124.674,,Gràcia,9.672
+9976,868,0.956,1.011,True,False,37.3,,Ciutat Vella,23.224
+9978,590,0.0,0.981,False,False,48.104,,Sarria-Sant Gervasi,12.387
+9980,750,1.03,0.955,True,True,,flat,Sarria-Sant Gervasi,16.548
+9993,1700,3.111,1.877,True,False,,flat,Eixample,19.599
+9994,725,0.974,1.801,False,False,72.536,flat,Ciutat Vella,
+10002,920,1.865,1.032,True,False,,flat,Sants-Montjuïc,12.005
+10003,1250,1.887,0.968,False,True,,attic,Sarria-Sant Gervasi,18.691
+10008,1241,1.984,2.066,True,False,93.87,flat,Les Corts,
+10009,700,,1.04,False,False,58.875,flat,Eixample,10.274
+10010,820,2.168,1.058,True,False,59.062,,Sants-Montjuïc,14.453
+10012,1050,,1.057,False,False,65.02,flat,Sarria-Sant Gervasi,15.778
+10013,1626,1.047,1.069,False,False,76.109,,Eixample,22.619
+10014,950,0.96,,False,False,62.588,flat,Ciutat Vella,14.85
+10023,800,,0.91,False,False,59.608,flat,Sant Martí,12.126
+10032,1150,,2.129,True,False,55.742,flat,Eixample,22.474
+10035,1400,4.303,2.001,False,False,,flat,Eixample,15.731
+10046,2300,4.148,2.721,True,False,161.552,,Eixample,16.664
+10049,1200,2.167,,True,False,80.088,flat,Eixample,14.172
+10050,925,,2.115,False,False,85.293,flat,Ciutat Vella,10.906
+10054,1750,4.81,,True,False,145.623,flat,Eixample,11.381
+10055,1250,1.872,,True,False,60.099,flat,Horta- Guinardo,23.716
+10057,1000,,1.819,False,False,86.816,flat,Eixample,11.914
+10066,1140,0.97,1.075,True,False,,flat,Les Corts,22.395
+10068,630,1.012,1.037,False,False,28.375,,Eixample,25.871
+10071,850,3.054,0.932,True,True,56.096,flat,Eixample,
+10072,825,2.796,1.974,False,False,102.121,flat,Eixample,
+10082,2700,2.858,2.079,True,False,80.303,,Les Corts,
+10083,775,,1.02,True,False,41.166,flat,Sarria-Sant Gervasi,18.697
+10087,2400,1.995,1.878,True,True,,attic,Eixample,24.12
+10093,3600,3.824,,True,False,293.178,flat,Sant Andreu,12.302
+10095,950,2.082,,False,False,61.81,flat,Eixample,16.501
+10096,1990,1.954,1.055,True,False,68.164,flat,Eixample,
+10103,1000,,1.099,True,True,,flat,Eixample,13.031
+10114,700,1.022,1.05,False,False,39.037,apartment,Nou Barris,
+10116,750,0.99,1.099,False,True,41.22,,Eixample,18.314
+10118,800,3.237,,False,False,66.398,attic,Gràcia,12.777
+10120,1100,2.882,,True,False,58.011,attic,Gràcia,17.137
+10130,820,,1.026,False,True,60.736,flat,Sant Martí,12.446
+10133,3000,3.805,,True,True,142.882,,Sarria-Sant Gervasi,
+10136,1195,3.085,1.0,False,False,,flat,Ciutat Vella,16.642
+10147,775,,1.022,False,False,71.456,flat,Eixample,11.744
+10154,870,3.113,,True,True,71.831,flat,Eixample,11.801
+10155,1050,,1.008,True,False,,flat,Eixample,13.673
+10157,1175,3.285,2.05,True,True,86.729,,Ciutat Vella,13.206
+10159,1100,,1.944,True,False,81.379,flat,Eixample,12.613
+10165,1795,2.086,1.954,True,True,112.559,,Horta- Guinardo,
+10167,1218,3.686,2.14,True,False,,flat,Sarria-Sant Gervasi,
+10174,725,0.0,0.958,True,False,41.179,apartment,Les Corts,
+10175,800,1.094,0.9,True,False,45.251,flat,Eixample,
+10177,1900,,3.002,True,False,160.099,apartment,Eixample,12.891
+10179,2500,2.818,1.929,True,False,140.696,,Ciutat Vella,18.816
+10182,1750,3.029,2.106,True,True,,flat,Sarria-Sant Gervasi,13.955
+10187,1000,0.976,1.029,False,False,53.256,,Eixample,17.846
+10189,2100,2.95,2.046,True,True,,flat,Sarria-Sant Gervasi,26.869
+10191,1050,2.796,1.066,False,True,84.582,flat,Eixample,
+10196,2400,3.254,2.722,True,False,139.381,,Ciutat Vella,16.912
+10201,625,,1.061,True,False,,flat,Gràcia,17.058
+10207,1090,4.088,,True,True,83.012,flat,Ciutat Vella,13.209
+10210,995,2.92,1.012,True,False,85.333,flat,Les Corts,
+10214,1090,2.019,,True,False,91.917,flat,Ciutat Vella,11.161
+10218,1900,,1.893,True,False,109.171,flat,Sant Martí,20.035
+10224,950,1.064,0.965,True,True,53.465,flat,Sarria-Sant Gervasi,
+10227,2000,1.89,1.961,True,False,69.932,,Ciutat Vella,27.418
+10235,2000,4.08,3.244,True,False,211.156,flat,Gràcia,
+10239,1100,,1.967,True,False,76.827,,Eixample,15.896
+10244,890,1.06,,False,False,58.03,apartment,Sarria-Sant Gervasi,13.688
+10246,2300,,2.163,True,False,90.774,flat,Eixample,22.89
+10248,1300,1.029,1.025,True,True,,flat,Horta- Guinardo,20.851
+10259,950,2.872,,True,False,65.762,flat,Eixample,14.478
+10260,1200,,1.972,True,True,99.681,flat,Ciutat Vella,10.394
+10261,2700,3.045,1.896,True,False,91.286,,Eixample,32.628
+10264,1450,3.852,,True,False,111.929,flat,Eixample,12.708
+10268,1075,3.296,,True,False,73.065,flat,Gràcia,16.506
+10271,890,2.896,1.016,True,False,,flat,Ciutat Vella,12.856
+10272,1150,2.957,0.919,True,True,84.841,,Gràcia,12.632
+10274,2630,1.006,1.054,False,False,32.4,apartment,Sant Martí,
+10277,3000,1.94,1.831,True,True,,flat,Eixample,34.72
+10283,750,3.097,0.926,False,False,60.825,flat,Sant Martí,
+10284,1460,,1.08,True,False,56.884,flat,Eixample,27.638
+10285,925,2.103,1.071,True,False,53.628,,Eixample,16.705
+10291,1000,,2.179,False,False,102.835,flat,Sarria-Sant Gervasi,10.939
+10295,2100,0.996,1.962,False,True,47.757,apartment,Sarria-Sant Gervasi,
+10299,1150,3.266,,True,False,,flat,Eixample,13.622
+10300,825,1.999,0.95,False,False,50.719,flat,Sarria-Sant Gervasi,
+10301,3500,1.907,1.801,True,True,,attic,Eixample,35.629
+10302,779,2.184,,False,False,46.659,flat,Eixample,17.773
+10319,2700,4.349,1.895,True,False,89.451,,Ciutat Vella,31.95
+10328,1100,2.728,2.008,False,False,69.489,flat,Eixample,
+10333,995,0.947,0.92,True,False,41.36,,Sarria-Sant Gervasi,23.019
+10340,825,,1.044,False,True,45.367,flat,Horta- Guinardo,18.816
+10348,850,3.179,,False,False,73.504,flat,Ciutat Vella,12.104
+10349,5500,2.95,2.02,True,False,95.129,,Sant Andreu,56.208
+10350,2750,,3.627,True,False,256.342,flat,Ciutat Vella,11.077
+10354,935,3.069,1.012,True,False,73.934,flat,Ciutat Vella,
+10356,3100,,0.973,True,True,45.401,,Eixample,63.995
+10358,1090,4.391,2.192,True,False,,flat,Eixample,15.351
+10369,1150,,1.089,True,False,58.356,flat,Eixample,17.455
+10371,1000,1.95,1.05,True,False,,,Gràcia,13.25
+10378,2000,,0.948,True,False,118.102,flat,Sarria-Sant Gervasi,18.064
+10379,1195,,0.987,True,True,96.066,flat,Gràcia,12.261
+10383,1724,3.222,1.826,True,True,77.058,flat,Ciutat Vella,
+10388,850,0.99,1.056,False,False,42.638,flat,Sant Martí,
+10392,990,0.932,0.975,True,False,165.274,,Eixample,6.955
+10403,1295,1.808,1.055,True,False,58.871,,Horta- Guinardo,25.116
+10405,2630,0.91,1.052,False,True,31.276,,Ciutat Vella,94.644
+10409,1490,0.906,0.931,False,False,,apartment,Gràcia,39.902
+10414,1900,0.0,,False,False,162.149,,Sants-Montjuïc,11.909
+10415,1436,3.708,1.869,False,False,108.019,,Ciutat Vella,11.154
+10420,1200,0.976,1.079,False,False,47.943,,Gràcia,24.29
+10421,825,0.961,1.032,True,False,,flat,Eixample,20.943
+10426,700,,0.928,True,False,,flat,Horta- Guinardo,12.695
+10433,990,2.195,,True,False,67.595,flat,Eixample,15.757
+10434,875,0.975,,True,True,52.798,flat,Sarria-Sant Gervasi,15.987
+10448,900,,1.036,True,False,56.388,flat,Eixample,15.504
+10450,2100,4.152,2.129,True,True,,flat,Sant Martí,11.459
+10451,1150,3.073,0.923,True,False,79.963,flat,Sarria-Sant Gervasi,
+10453,3862,3.055,1.844,False,False,,,Eixample,34.727
+10455,895,2.03,,True,False,66.433,flat,Gràcia,14.776
+10458,850,0.956,1.066,True,True,52.24,,Eixample,15.759
+10459,1080,,1.027,False,False,70.765,flat,Ciutat Vella,14.311
+10466,850,,1.078,True,False,77.846,flat,Ciutat Vella,10.402
+10467,2800,2.744,1.94,True,False,,flat,Eixample,24.458
+10469,840,0.0,0.946,False,False,63.214,,Eixample,12.664
+10473,1375,4.813,1.926,True,True,150.381,,Sarria-Sant Gervasi,9.358
+10475,800,,1.096,True,True,47.621,flat,Sarria-Sant Gervasi,16.683
+10480,800,2.837,0.926,True,False,82.244,,Eixample,10.968
+10483,830,2.846,,True,False,71.444,flat,Ciutat Vella,9.714
+10488,950,0.956,,True,False,38.155,,Eixample,23.195
+10491,4900,4.923,4.914,True,True,244.215,,Sant Martí,17.477
+10492,1150,1.096,,True,False,,apartment,Gràcia,18.608
+10495,950,1.048,0.986,True,False,53.105,,Ciutat Vella,16.696
+10496,925,,2.148,True,False,79.159,flat,Sarria-Sant Gervasi,10.381
+10497,4600,3.299,1.937,False,True,83.589,,Sants-Montjuïc,54.427
+10504,775,3.216,1.021,True,False,,flat,Eixample,15.53
+10506,640,0.0,0.928,False,False,28.285,,Eixample,20.597
+10510,1764,3.05,2.043,True,True,74.636,flat,Ciutat Vella,
+10511,4000,0.0,,True,False,122.195,,Eixample,31.262
+10516,800,1.071,1.088,False,False,,flat,Sants-Montjuïc,30.96
+10517,900,,1.066,True,False,65.867,apartment,Les Corts,14.942
+10520,1000,,1.019,True,False,69.026,flat,Les Corts,12.945
+10524,2400,3.246,2.751,True,True,111.068,,Gràcia,19.043
+10527,1300,,0.993,True,True,,apartment,Les Corts,25.21
+10533,1175,2.122,2.171,True,False,87.784,,Sarria-Sant Gervasi,15.053
+10534,870,2.151,1.005,True,False,62.719,apartment,Ciutat Vella,
+10535,1050,4.36,2.136,True,True,,flat,Sarria-Sant Gervasi,10.562
+10538,1600,0.0,1.063,True,True,65.147,,Sant Martí,24.605
+10544,1200,4.33,1.974,False,False,96.141,,Les Corts,10.717
+10545,1000,3.936,0.929,False,False,85.323,flat,Eixample,
+10549,3300,5.387,2.792,True,True,199.206,flat,Eixample,
+10552,997,4.01,1.001,True,False,,flat,Sarria-Sant Gervasi,16.471
+10556,950,1.862,2.008,True,False,83.681,,Horta- Guinardo,13.0
+10559,850,1.035,,True,False,47.124,flat,Sants-Montjuïc,20.244
+10567,1870,2.131,,False,True,66.157,apartment,Sarria-Sant Gervasi,28.29
+10568,875,,0.959,True,False,49.722,,Sarria-Sant Gervasi,19.019
+10572,1140,,1.829,True,False,96.862,flat,Sarria-Sant Gervasi,10.323
+10577,800,,0.916,False,False,68.303,,Ciutat Vella,11.644
+10581,1500,,1.01,False,False,90.583,apartment,Sant Martí,16.642
+10583,895,,1.099,True,False,56.791,flat,Ciutat Vella,14.125
+10586,1095,2.066,0.9,False,True,88.651,flat,Sarria-Sant Gervasi,
+10587,2255,2.15,2.048,False,False,55.508,,Sarria-Sant Gervasi,39.061
+10593,1250,2.816,1.903,True,False,73.126,flat,Sants-Montjuïc,
+10595,2255,1.999,1.849,False,False,,apartment,Les Corts,37.675
+10598,2300,4.197,2.03,True,True,131.335,flat,Ciutat Vella,
+10601,720,,0.935,False,False,51.95,flat,Sarria-Sant Gervasi,15.488
+10605,1000,2.823,1.083,True,False,,flat,Sarria-Sant Gervasi,13.387
+10609,950,1.902,0.935,True,True,65.549,flat,Eixample,
+10612,1300,,1.044,True,True,29.748,flat,Eixample,46.615
+10615,2900,4.073,3.19,True,False,,flat,Gràcia,19.205
+10617,990,2.125,1.027,False,False,,flat,Ciutat Vella,10.527
+10622,1100,1.81,1.048,True,True,,flat,Eixample,13.373
+10629,6900,5.029,5.093,True,True,,flat,Eixample,29.42
+10630,3961,3.271,1.898,True,True,,flat,Eixample,29.249
+10635,2520,2.942,1.861,True,False,183.809,,Eixample,13.271
+10637,700,0.914,1.075,True,True,48.065,,Sants-Montjuïc,14.601
+10641,2000,,2.991,True,True,167.129,flat,Eixample,12.849
+10642,790,1.908,1.065,True,False,57.26,,Gràcia,13.037
+10646,1500,1.815,2.046,True,False,,flat,Ciutat Vella,22.566
+10649,900,1.989,1.079,False,False,63.302,,Sant Martí,12.372
+10650,1500,2.032,0.99,True,False,81.272,flat,Gràcia,
+10657,700,2.148,2.038,False,False,,flat,Eixample,12.694
+10664,1150,2.793,2.063,True,False,,,Les Corts,11.392
+10666,5500,3.101,2.106,True,False,99.178,,Sarria-Sant Gervasi,51.726
+10673,1500,2.716,,True,True,71.226,flat,Eixample,21.53
+10676,2550,2.128,,False,False,123.431,apartment,Eixample,
+10677,1073,1.947,0.926,True,True,76.813,flat,Eixample,
+10683,850,1.02,0.975,True,False,54.898,,Eixample,18.495
+10685,2800,3.186,,True,True,135.624,flat,Sarria-Sant Gervasi,20.368
+10687,1600,0.0,,True,False,56.276,,Gràcia,27.307
+10688,950,2.826,1.085,True,False,,flat,Gràcia,9.197
+10695,650,,1.094,True,False,22.12,apartment,Eixample,29.055
+10699,1700,,0.997,True,True,82.753,flat,Ciutat Vella,19.264
+10700,1350,4.368,1.039,False,True,94.189,flat,Eixample,
+10709,1000,,1.032,False,False,60.498,flat,Sarria-Sant Gervasi,18.671
+10710,850,,0.974,False,True,43.588,flat,Ciutat Vella,16.796
+10713,690,0.926,1.059,True,False,,attic,Sant Martí,25.72
+10718,745,0.0,1.049,True,False,39.282,,Ciutat Vella,20.037
+10725,925,1.844,,False,False,86.085,flat,Eixample,10.821
+10726,1500,2.172,,True,False,67.717,apartment,Sants-Montjuïc,23.515
+10733,1650,3.073,2.742,True,False,,apartment,Les Corts,11.827
+10736,4000,,2.167,True,False,118.252,apartment,Ciutat Vella,37.015
+10741,1250,2.031,1.099,True,False,,flat,Eixample,20.618
+10748,950,3.209,0.991,True,False,103.542,,Sant Martí,9.622
+10751,1095,2.037,,True,False,46.082,flat,Gràcia,21.622
+10752,5476,,1.846,False,False,54.728,apartment,Gràcia,92.044
+10755,6000,0.0,1.017,False,False,,apartment,Eixample,22.312
+10758,1400,1.866,,True,False,81.615,flat,Ciutat Vella,16.072
+10759,760,2.887,1.01,False,False,,flat,Sarria-Sant Gervasi,16.667
+10761,950,1.904,2.092,False,False,,flat,Ciutat Vella,11.819
+10763,970,3.191,0.919,True,False,84.427,flat,Sarria-Sant Gervasi,
+10764,775,1.848,0.904,True,False,71.634,flat,Les Corts,
+10765,2300,2.809,1.871,True,False,91.424,,Eixample,26.842
+10774,825,0.956,1.03,False,False,,flat,Les Corts,22.554
+10780,1450,,2.097,True,False,79.142,flat,Sant Martí,17.691
+10786,4700,2.963,,False,False,82.757,apartment,Eixample,60.706
+10792,850,,1.018,True,True,49.887,flat,Eixample,15.92
+10801,1450,4.023,2.044,True,False,97.866,flat,Sant Martí,
+10807,860,,0.901,True,False,58.657,flat,Sant Martí,14.165
+10815,850,3.278,1.06,False,False,63.445,flat,Sarria-Sant Gervasi,
+10819,980,2.855,,True,False,71.189,attic,Ciutat Vella,
+10821,1390,4.063,1.857,True,False,,flat,Eixample,14.486
+10823,2400,2.892,2.885,False,False,146.621,,Ciutat Vella,18.41
+10825,1150,3.187,2.141,True,False,90.399,,Sant Martí,
+10827,850,2.169,0.966,True,False,70.168,,Gràcia,13.881
+10835,1400,1.02,0.968,True,False,,flat,Horta- Guinardo,44.619
+10839,2820,3.058,1.9,False,False,91.652,flat,Eixample,
+10840,700,1.875,,True,False,46.768,attic,Eixample,15.977
+10841,1195,1.933,0.956,True,False,,flat,Eixample,19.118
+10844,2400,3.206,3.021,True,False,,,Les Corts,18.595
+10855,800,2.044,1.03,False,False,60.437,apartment,Eixample,
+10860,1429,3.844,1.981,True,False,,flat,Gràcia,10.369
+10865,720,0.0,1.031,True,False,31.102,,Eixample,21.166
+10870,2700,4.08,4.158,True,True,148.404,flat,Sarria-Sant Gervasi,
+10871,1200,3.259,,True,False,75.23,flat,Ciutat Vella,
+10876,1800,3.803,1.977,True,False,,flat,Ciutat Vella,16.384
+10877,900,,0.952,True,False,45.034,flat,Eixample,19.243
+10879,1350,3.274,1.887,True,False,83.247,flat,Horta- Guinardo,
+10885,800,3.05,,False,False,62.019,flat,Ciutat Vella,12.028
+10888,900,0.906,0.994,True,False,61.359,,Ciutat Vella,15.399
+10889,1045,2.903,1.991,True,True,61.959,,Gràcia,15.096
+10896,650,0.0,,True,False,26.796,,Sarria-Sant Gervasi,26.206
+10911,790,1.072,1.052,True,False,62.302,,Ciutat Vella,13.299
+10913,1100,,0.972,True,True,59.591,flat,Les Corts,15.917
+10914,950,3.277,,True,False,74.326,flat,Eixample,12.848
+10917,800,,1.068,False,False,52.94,flat,Eixample,
+10923,850,0.917,0.918,True,False,,apartment,Les Corts,24.19
+10925,750,2.123,,True,False,46.028,flat,Sarria-Sant Gervasi,17.266
+10927,1000,3.118,1.043,True,False,73.695,flat,Eixample,
+10936,950,1.806,1.097,True,False,,flat,Sarria-Sant Gervasi,15.242
+10939,2400,0.981,,True,True,67.96,apartment,Sarria-Sant Gervasi,36.451
+10947,1102,1.056,1.099,False,True,,apartment,Eixample,27.216
+10951,800,0.972,0.972,True,False,35.754,,Eixample,24.702
+10955,795,0.909,0.989,False,True,,flat,Gràcia,17.276
+10956,1100,3.185,,False,False,128.432,attic,Sarria-Sant Gervasi,9.62
+10960,900,1.801,0.994,False,False,54.322,,Gràcia,16.11
+10961,1400,0.924,,True,False,31.133,flat,Eixample,41.932
+10965,1875,2.07,2.001,True,False,78.569,,Ciutat Vella,21.232
+10966,2322,2.742,2.005,False,False,77.791,apartment,Ciutat Vella,
+10968,1095,,0.986,True,False,45.587,flat,Gràcia,25.118
+10976,1500,1.966,0.954,False,False,95.141,,Sants-Montjuïc,17.334
+10981,1080,0.996,,False,False,80.236,flat,Sarria-Sant Gervasi,14.227
+10983,1100,3.915,1.818,True,True,116.518,flat,Les Corts,
+10987,6000,,1.06,False,False,315.354,flat,Eixample,22.13
+10993,750,1.963,0.934,True,False,54.968,,Eixample,14.72
+10997,1410,1.83,0.923,True,False,,flat,Ciutat Vella,25.049
+10999,750,,1.055,False,False,48.342,flat,Les Corts,15.343
+11000,1050,4.26,1.074,True,False,82.243,flat,Sant Martí,
+11001,842,2.836,,True,False,70.438,flat,Eixample,13.36
+11002,1050,0.902,,True,False,64.683,,Eixample,16.34
+11017,1150,2.152,,True,True,68.366,flat,Eixample,17.997
+11019,1050,1.035,1.019,True,False,,flat,Sarria-Sant Gervasi,19.34
+11021,2200,1.866,,True,True,114.895,attic,Sant Martí,16.29
+11025,825,2.149,1.093,False,False,40.95,,Sants-Montjuïc,18.376
+11030,850,2.106,0.983,True,False,67.311,flat,Sarria-Sant Gervasi,
+11032,1200,1.876,1.967,True,False,,flat,Eixample,15.14
+11034,1200,0.993,0.926,False,False,,apartment,Sants-Montjuïc,29.788
+11037,900,,0.932,True,False,52.479,flat,Sants-Montjuïc,18.914
+11039,1400,,2.144,True,False,104.355,flat,Eixample,11.975
+11041,1795,,1.998,True,False,69.382,flat,Eixample,23.266
+11043,985,1.072,0.906,True,False,45.393,flat,Gràcia,
+11044,625,0.916,1.089,False,False,27.35,,Eixample,21.01
+11046,2200,3.166,1.893,True,True,146.007,flat,Ciutat Vella,
+11049,2650,1.987,2.109,True,True,129.049,,Eixample,22.838
+11055,1200,3.014,1.908,True,False,71.556,,Eixample,15.614
+11064,1300,2.11,,False,True,104.439,flat,Gràcia,12.634
+11074,1850,2.002,3.154,True,False,153.875,,Eixample,13.496
+11075,1208,3.701,1.862,False,False,125.017,,Les Corts,9.639
+11076,2970,2.864,2.085,False,False,128.978,apartment,Sarria-Sant Gervasi,
+11078,1025,2.792,1.813,False,False,93.522,,Eixample,11.088
+11080,1450,0.969,,False,False,35.959,apartment,Les Corts,39.687
+11082,1250,0.989,1.064,True,False,,,Nou Barris,18.04
+11083,1260,4.387,2.176,True,False,,flat,Sant Andreu,12.255
+11084,825,,2.016,True,False,69.296,flat,Sant Martí,10.172
+11085,860,2.106,1.018,True,False,64.817,flat,Ciutat Vella,
+11089,800,,0.974,False,False,41.485,flat,Eixample,18.873
+11099,1500,1.862,1.818,True,True,88.978,,Eixample,17.714
+11111,950,,0.99,True,False,52.473,flat,Eixample,17.666
+11122,833,,1.02,True,False,35.874,,Sants-Montjuïc,21.388
+11127,799,1.963,,True,True,52.02,attic,Sant Andreu,15.868
+11133,1033,1.054,0.905,True,False,,flat,Gràcia,14.29
+11134,1750,2.864,1.93,True,False,118.709,flat,Ciutat Vella,
+11138,750,0.91,0.947,True,False,42.469,,Eixample,20.229
+11141,620,1.823,0.946,False,False,,flat,Ciutat Vella,14.551
+11145,750,2.151,1.05,False,True,59.669,flat,Sant Martí,
+11152,900,2.117,1.048,True,False,,apartment,Eixample,16.075
+11155,1030,2.838,1.878,True,False,58.151,,Horta- Guinardo,19.395
+11156,1280,3.243,,True,True,88.736,flat,Eixample,15.294
+11157,850,1.931,1.037,True,False,63.003,apartment,Sarria-Sant Gervasi,
+11167,1000,3.005,2.175,True,True,95.084,flat,Sants-Montjuïc,
+11174,1500,3.07,2.077,True,False,,flat,Ciutat Vella,8.866
+11175,1350,1.984,,True,True,70.398,attic,Eixample,17.502
+11177,990,2.168,,True,False,68.337,flat,Gràcia,13.267
+11180,600,,0.917,True,True,,flat,Sants-Montjuïc,
+11181,800,0.0,0.947,True,False,32.574,,Gràcia,22.107
+11187,1200,3.255,1.815,True,False,110.922,,Eixample,12.353
+11189,1590,1.958,2.089,False,False,90.444,flat,Eixample,
+11192,1200,3.778,2.101,True,False,,flat,Sants-Montjuïc,11.001
+11196,1460,2.196,1.094,True,False,,flat,Les Corts,25.206
+11202,870,,1.098,True,False,66.131,flat,Les Corts,14.978
+11204,750,1.087,,True,True,56.061,,Eixample,13.095
+11206,1600,2.836,,False,True,92.667,flat,Sant Martí,19.477
+11212,3800,,2.928,True,False,210.355,flat,Gràcia,17.828
+11215,840,1.906,,True,True,58.768,apartment,Eixample,13.728
+11217,1700,3.277,,True,True,75.325,flat,Eixample,24.486
+11218,1050,2.169,,False,False,45.917,flat,Eixample,25.502
+11219,1654,,1.026,False,False,71.053,,Eixample,25.833
+11221,700,1.055,,False,False,37.934,apartment,Gràcia,18.805
+11227,6000,2.103,1.84,True,True,290.028,,Eixample,18.488
+11229,825,1.092,1.068,False,False,52.109,,Les Corts,15.916
+11235,1500,0.907,1.013,False,False,88.557,,Gràcia,15.196
+11239,1200,0.917,1.069,False,False,51.212,,Gràcia,24.429
+11241,750,0.98,0.934,True,True,52.472,,Gràcia,15.268
+11250,1000,1.873,2.184,True,False,68.646,,Gràcia,14.243
+11258,1133,,0.914,True,False,96.763,flat,Sarria-Sant Gervasi,12.177
+11264,1000,2.089,1.926,True,False,,,Sarria-Sant Gervasi,13.001
+11265,850,1.814,,True,False,61.257,flat,Eixample,13.133
+11266,1100,2.858,2.095,True,True,64.351,,Sarria-Sant Gervasi,17.104
+11267,850,4.934,2.007,False,True,107.602,,Ciutat Vella,8.684
+11271,2800,0.0,0.941,True,False,73.576,,Eixample,36.991
+11279,696,3.092,1.094,True,False,53.929,flat,Sarria-Sant Gervasi,
+11282,790,,1.087,True,False,72.467,flat,Sant Martí,10.344
+11283,995,3.252,2.196,False,True,,,Horta- Guinardo,8.469
+11285,1575,,0.933,False,False,59.629,apartment,Ciutat Vella,23.562
+11293,1100,3.106,1.814,False,False,122.125,attic,Sant Martí,
+11298,950,1.042,0.966,False,False,,apartment,Gràcia,26.51
+11299,990,2.073,1.008,True,False,61.856,,Sarria-Sant Gervasi,16.247
+11302,1080,2.098,0.931,False,False,,flat,Ciutat Vella,14.467
+11304,1150,,1.97,True,False,79.03,flat,Sarria-Sant Gervasi,13.753
+11306,1150,4.321,,False,False,84.533,apartment,Eixample,13.21
+11308,1500,4.133,3.072,True,False,135.468,,Sarria-Sant Gervasi,12.12
+11314,1500,,1.883,True,False,151.869,flat,Eixample,9.897
+11317,1040,,0.956,True,False,,apartment,Sant Andreu,14.986
+11318,2800,4.13,,True,True,184.013,,Ciutat Vella,16.636
+11329,930,0.993,0.954,False,True,,flat,Eixample,15.76
+11331,1100,4.273,2.132,True,False,,flat,Sants-Montjuïc,10.148
+11332,740,1.905,1.811,False,False,,flat,Ciutat Vella,15.244
+11357,725,,1.006,False,False,50.584,flat,Sarria-Sant Gervasi,15.585
+11360,3668,3.016,2.098,False,False,109.879,apartment,Ciutat Vella,
+11362,700,0.92,0.907,True,False,40.295,flat,Sarria-Sant Gervasi,
+11364,2249,,0.912,False,False,49.352,apartment,Sarria-Sant Gervasi,47.487
+11365,890,1.834,1.051,True,False,,flat,Sarria-Sant Gervasi,14.165
+11368,1060,4.277,1.829,False,False,85.449,flat,Eixample,
+11373,1100,,1.015,True,True,,flat,Ciutat Vella,18.05
+11382,1450,3.854,2.018,True,False,100.805,flat,Horta- Guinardo,
+11387,1000,2.828,1.823,True,True,96.004,flat,Sant Martí,
+11399,1290,2.723,,True,False,100.844,flat,Eixample,14.219
+11402,1050,1.914,0.998,True,False,55.075,,Ciutat Vella,
+11405,900,,1.015,True,False,82.999,flat,Eixample,12.914
+11413,800,2.736,0.989,False,False,67.663,,Sarria-Sant Gervasi,12.21
+11416,1600,,2.099,True,True,73.292,flat,Sarria-Sant Gervasi,20.607
+11422,875,1.05,,False,False,51.129,,Ciutat Vella,17.023
+11423,4000,0.0,0.909,True,False,123.054,,Ciutat Vella,35.393
+11424,1450,,1.852,True,False,123.446,flat,Les Corts,12.123
+11426,2984,1.85,0.959,False,False,,apartment,Sants-Montjuïc,55.925
+11431,4500,,1.959,True,True,84.53,,Eixample,52.98
+11434,875,1.93,0.916,False,True,63.43,,Eixample,12.245
+11436,2400,3.05,3.0,True,False,130.821,,Ciutat Vella,21.764
+11445,2100,1.069,2.024,False,True,43.318,apartment,Eixample,
+11447,1100,,0.974,True,True,,flat,Eixample,20.324
+11450,2684,2.096,0.959,False,False,,apartment,Les Corts,39.418
+11453,3000,1.973,,True,False,74.338,apartment,Sarria-Sant Gervasi,37.819
+11454,975,2.106,1.029,True,True,70.837,flat,Eixample,
+11457,4000,3.037,1.918,False,False,,flat,Eixample,38.384
+11463,700,1.819,,False,False,80.133,flat,Sarria-Sant Gervasi,9.365
+11464,4100,4.054,,False,True,102.841,attic,Eixample,35.802
+11466,950,2.754,1.008,True,True,109.714,flat,Sant Martí,
+11467,1300,,0.961,True,False,103.977,flat,Sarria-Sant Gervasi,13.548
+11472,3500,1.937,,True,True,119.156,attic,Eixample,33.989
+11474,4500,3.796,2.771,True,True,273.17,,Sarria-Sant Gervasi,16.294
+11479,980,2.815,0.926,True,False,,flat,Sant Andreu,13.132
+11480,2200,,1.097,True,False,108.921,flat,Ciutat Vella,20.639
+11482,726,0.966,1.07,True,False,48.062,,Ciutat Vella,15.315
+11483,1350,3.084,1.914,True,False,,flat,Sarria-Sant Gervasi,12.687
+11484,590,0.967,,False,False,28.039,,Ciutat Vella,19.484
+11487,800,0.907,0.938,True,True,,flat,Eixample,19.391
+11488,765,0.0,1.029,True,False,39.806,,Eixample,19.919
+11489,1000,,0.924,True,True,77.274,flat,Eixample,12.657
+11490,1495,,2.199,False,False,91.303,flat,Eixample,16.821
+11491,1150,2.122,,False,True,47.931,attic,Les Corts,20.927
+11492,670,1.054,,False,False,53.553,flat,Sarria-Sant Gervasi,10.974
+11494,1700,1.855,1.068,True,False,92.925,,Eixample,20.588
+11496,945,1.009,0.962,True,True,,attic,Sarria-Sant Gervasi,
+11497,2800,2.911,2.816,True,False,,,Eixample,17.18
+11507,580,,0.916,True,False,19.374,,Ciutat Vella,31.255
+11512,1090,1.837,1.872,True,True,86.797,flat,Sarria-Sant Gervasi,
+11518,2700,,1.881,True,True,87.164,,Sant Martí,32.551
+11520,950,,0.945,False,False,52.458,,Les Corts,18.052
+11521,800,2.144,1.003,True,False,59.745,,Sant Martí,14.456
+11526,1125,,1.015,True,False,48.115,flat,Eixample,21.147
+11527,1595,,1.915,True,False,87.313,flat,Les Corts,20.458
+11535,795,1.93,1.008,True,False,63.89,,Ciutat Vella,11.871
+11536,850,3.189,2.172,True,False,,flat,Horta- Guinardo,11.205
+11546,1150,3.076,2.177,True,True,74.917,flat,Sant Martí,
+11547,850,,0.922,True,False,53.85,flat,Sant Martí,15.399
+11548,1190,2.049,,False,False,71.068,flat,Sant Martí,17.098
+11550,700,2.133,0.954,False,False,,flat,Gràcia,12.55
+11552,4000,3.09,1.929,True,False,122.722,,Ciutat Vella,32.909
+11554,550,1.012,0.906,False,False,40.336,,Eixample,
+11559,900,1.076,,True,False,54.363,flat,Sarria-Sant Gervasi,16.141
+11560,2500,3.847,2.137,True,True,142.092,,Horta- Guinardo,19.503
+11564,1800,2.086,1.087,True,True,86.435,,Sant Martí,21.18
+11567,750,2.021,1.87,True,False,,,Gràcia,8.663
+11569,1100,1.025,0.916,True,False,62.447,,Eixample,17.455
+11572,1750,,2.818,True,False,139.279,flat,Gràcia,13.063
+11575,1900,,,True,True,170.424,flat,Ciutat Vella,11.628
+11578,525,0.956,0.903,False,False,37.449,,Ciutat Vella,16.127
+11584,1690,2.981,,True,False,114.736,flat,Horta- Guinardo,15.106
+11593,800,0.942,0.986,True,False,51.44,,Eixample,15.291
+11594,950,1.01,0.967,False,False,75.144,,Les Corts,14.445
+11597,1210,,1.094,True,False,73.641,flat,Eixample,
+11599,875,2.927,1.066,False,False,68.621,,Eixample,12.352
+11600,1650,1.932,2.081,True,True,,flat,Sarria-Sant Gervasi,18.841
+11602,790,1.952,0.983,False,False,61.681,flat,Sarria-Sant Gervasi,
+11604,3050,3.102,2.112,False,True,,apartment,Sarria-Sant Gervasi,24.17
+11609,650,0.0,1.04,True,False,25.012,,Sarria-Sant Gervasi,22.742
+11619,1200,4.27,,False,True,79.485,flat,Sants-Montjuïc,
+11625,1000,1.823,2.08,False,False,84.28,flat,Sarria-Sant Gervasi,
+11627,1700,3.68,1.855,True,False,157.818,,Eixample,
+11630,726,0.0,1.041,False,False,36.584,,Les Corts,22.772
+11633,1100,2.178,2.048,True,True,93.746,flat,Sant Andreu,
+11635,2482,1.84,,False,False,65.179,apartment,Sants-Montjuïc,41.233
+11636,7000,4.223,4.689,True,True,362.092,flat,Eixample,
+11638,2200,2.026,1.818,True,True,81.697,flat,Eixample,
+11646,1150,2.126,,True,False,63.169,,Eixample,18.751
+11647,3000,4.313,1.819,True,True,123.196,,Les Corts,27.229
+11648,800,2.157,1.092,False,False,62.241,,Ciutat Vella,13.634
+11649,1375,3.209,3.125,False,False,268.103,,Ciutat Vella,4.549
+11652,1297,2.817,2.179,True,False,108.356,,Gràcia,12.734
+11653,1229,0.921,0.954,True,False,75.069,flat,Sarria-Sant Gervasi,
+11660,750,1.015,,True,False,41.445,flat,Eixample,17.061
+11663,2072,0.981,0.945,False,False,,apartment,Sant Martí,37.88
+11669,1300,,1.972,True,True,98.093,flat,Ciutat Vella,14.477
+11670,1306,3.255,0.986,True,True,85.627,,Eixample,14.475
+11672,2400,2.819,,True,False,131.476,,Les Corts,18.263
+11678,775,,0.92,False,False,32.882,flat,Sant Martí,26.488
+11679,650,1.977,0.969,False,False,32.121,flat,Sants-Montjuïc,
+11684,725,0.0,1.099,True,False,51.812,,Eixample,14.26
+11688,1100,3.253,1.1,True,True,51.169,flat,Sant Martí,
+11692,1900,4.396,3.008,True,False,198.181,flat,Sants-Montjuïc,
+11693,1195,2.094,1.093,False,False,56.049,,Gràcia,21.818
+11700,1300,,1.984,False,False,81.241,flat,Ciutat Vella,15.735
+11704,2250,1.926,0.93,True,True,89.59,attic,Sant Andreu,
+11705,1800,,2.13,True,True,76.684,flat,Ciutat Vella,23.789
+11715,1750,1.861,,False,False,120.822,apartment,Sarria-Sant Gervasi,13.077
+11716,1000,1.873,0.946,True,False,108.561,,Ciutat Vella,9.077
+11724,850,3.161,1.033,True,False,57.251,,Sant Martí,12.709
+11726,2800,0.902,0.987,True,True,79.917,,Sant Andreu,35.938
+11727,2700,,1.943,True,False,89.684,,Eixample,33.224
+11729,2500,5.04,2.905,True,False,,flat,Sants-Montjuïc,12.219
+11733,550,1.012,0.93,False,False,36.407,,Sarria-Sant Gervasi,15.418
+11734,800,3.296,,True,False,,flat,Eixample,11.204
+11736,5300,3.955,5.251,False,True,257.002,flat,Eixample,
+11737,1500,2.075,0.977,True,False,90.479,,Sant Martí,18.192
+11748,1250,2.068,1.922,True,True,78.562,,Eixample,15.21
+11751,3900,2.794,1.974,False,True,154.716,flat,Sant Martí,
+11758,800,0.919,0.944,False,True,25.947,,Nou Barris,33.942
+11768,1190,3.228,,True,True,90.19,flat,Les Corts,14.783
+11772,1210,1.044,,False,False,52.758,apartment,Sarria-Sant Gervasi,24.412
+11774,900,3.037,,True,True,98.838,flat,Les Corts,9.18
+11780,2200,3.173,,True,False,94.317,flat,Eixample,25.721
+11786,800,0.0,0.979,True,False,29.623,,Eixample,25.384
+11797,950,2.782,,True,False,74.358,attic,Eixample,11.966
+11801,1100,3.91,,True,False,89.681,flat,Eixample,12.579
+11804,1000,0.955,0.97,True,False,52.455,,Ciutat Vella,17.359
+11805,870,2.062,0.917,True,True,64.101,flat,Eixample,
+11812,1150,,,True,False,86.621,flat,Ciutat Vella,14.065
+11817,630,1.098,0.973,False,False,26.223,,Sarria-Sant Gervasi,
+11819,800,2.192,0.945,True,False,69.087,flat,Sant Andreu,
+11823,900,3.292,,True,False,80.865,flat,Eixample,13.181
+11826,950,,0.976,False,False,61.405,flat,Gràcia,15.509
+11828,1100,1.07,1.037,True,False,,flat,Les Corts,26.417
+11829,1250,3.956,,True,False,78.267,flat,Eixample,14.179
+11831,5000,4.973,4.285,True,False,,flat,Sarria-Sant Gervasi,23.584
+11835,960,2.869,,True,False,83.471,flat,Sarria-Sant Gervasi,12.358
+11847,1150,1.031,1.038,True,False,61.836,,Gràcia,19.615
+11855,1000,0.993,,True,True,,attic,Sant Martí,16.33
+11857,1310,3.716,1.968,True,True,119.895,flat,Gràcia,
+11859,2975,4.56,,True,True,249.687,flat,Ciutat Vella,12.958
+11867,1160,3.279,1.047,False,False,83.68,,Eixample,14.732
+11878,3500,5.606,,True,False,229.216,,Sant Martí,16.502
+11881,780,1.941,,True,False,54.46,flat,Sant Martí,14.173
+11886,1703,2.984,2.195,False,False,63.158,,Eixample,
+11888,1300,2.149,0.967,True,False,,flat,Eixample,23.34
+11890,740,,0.936,True,False,54.131,flat,Sarria-Sant Gervasi,14.882
+11895,9500,3.181,3.947,True,True,,flat,Sarria-Sant Gervasi,48.667
+11896,950,1.847,1.092,True,False,66.005,flat,Les Corts,
+11903,1300,3.266,,True,False,70.835,apartment,Les Corts,19.452
+11906,890,2.952,1.088,False,False,67.239,flat,Ciutat Vella,
+11908,1600,0.959,1.037,True,False,75.531,,Horta- Guinardo,21.908
+11916,1175,3.768,1.84,True,False,,flat,Eixample,12.996
+11925,950,4.311,1.909,True,False,,flat,Horta- Guinardo,13.306
+11935,1260,1.927,1.081,False,False,106.193,,Horta- Guinardo,13.542
+11937,950,3.607,2.088,True,False,144.245,,Ciutat Vella,6.546
+11942,1335,2.192,0.927,True,False,51.241,flat,Gràcia,
+11944,3856,2.188,,False,False,102.931,apartment,Sarria-Sant Gervasi,37.015
+11945,1500,3.804,1.965,True,False,182.139,,Sarria-Sant Gervasi,7.753
+11954,2900,5.188,2.173,True,True,192.482,flat,Ciutat Vella,
+11959,850,3.039,,True,False,,flat,Horta- Guinardo,
+11961,930,4.157,,True,True,72.625,attic,Eixample,13.205
+11964,2300,,,True,True,150.869,flat,Eixample,14.877
+11969,775,2.748,1.032,True,False,54.65,,Gràcia,13.17
+11971,1000,3.231,1.014,True,False,108.055,,Sant Andreu,9.548
+11979,3330,2.726,4.044,True,False,182.552,flat,Sants-Montjuïc,
+11980,1200,3.053,2.09,True,False,73.279,,Sarria-Sant Gervasi,
+11987,890,3.629,1.09,False,False,86.424,flat,Sant Andreu,
+11989,790,2.137,0.926,False,False,58.212,flat,Eixample,
+11991,1714,2.139,0.983,False,False,58.554,,Gràcia,26.16
+11992,700,2.124,1.005,False,False,55.282,flat,Sants-Montjuïc,
+11994,1300,,1.955,False,False,99.914,flat,Gràcia,12.884
+11995,2300,3.027,1.81,True,True,158.223,,Sants-Montjuïc,15.58
+11997,1600,2.019,1.039,False,False,,flat,Eixample,13.373
+11998,1080,0.945,1.06,True,False,,flat,Ciutat Vella,12.923
+12005,650,,0.909,True,True,54.021,attic,Eixample,10.723
+12006,900,2.04,2.024,True,False,59.606,,Eixample,15.627
+12011,530,0.0,1.038,False,False,27.93,,Sarria-Sant Gervasi,20.691
+12017,1500,2.718,,True,False,82.428,flat,Horta- Guinardo,19.929
+12018,2200,0.986,0.918,False,False,51.006,,Sarria-Sant Gervasi,36.127
+12020,850,,1.031,True,True,37.283,study,Eixample,25.442
+12030,700,0.0,1.018,True,False,36.104,,Sarria-Sant Gervasi,
+12034,800,3.075,,True,False,67.241,flat,Sarria-Sant Gervasi,13.073
+12046,1380,3.875,,True,True,90.491,flat,Ciutat Vella,14.065
+12047,800,1.986,0.946,True,False,,flat,Gràcia,11.604
+12049,475,1.086,1.093,True,False,30.681,,Sant Martí,13.994
+12053,775,2.181,1.055,True,False,59.899,,Les Corts,13.222
+12055,3500,4.824,,True,True,245.914,,Ciutat Vella,14.41
+12057,675,1.056,0.986,False,True,41.332,flat,Horta- Guinardo,
+12058,1440,,1.081,True,True,67.293,flat,Gràcia,21.933
+12061,1440,3.9,2.099,True,False,,flat,Ciutat Vella,11.263
+12064,830,0.0,0.952,True,False,,study,Eixample,20.16
+12066,1350,,1.949,True,False,79.643,flat,Horta- Guinardo,18.278
+12071,1201,2.894,1.87,True,False,,flat,Eixample,15.245
+12072,680,0.987,,False,False,36.021,flat,Eixample,20.872
+12073,700,1.055,0.997,False,False,51.897,flat,Les Corts,
+12082,950,,1.991,True,False,59.428,flat,Sarria-Sant Gervasi,15.949
+12088,1302,1.015,,True,True,81.887,flat,Eixample,15.424
+12094,1150,,1.041,True,False,64.602,apartment,Ciutat Vella,18.633
+12097,935,0.928,1.071,False,True,,flat,Sants-Montjuïc,28.913
+12102,975,2.175,1.871,True,False,81.447,flat,Ciutat Vella,
+12104,2700,4.363,1.92,True,False,88.167,,Eixample,31.22
+12107,900,3.78,0.924,True,False,87.102,,Sarria-Sant Gervasi,11.149
+12112,2900,3.114,2.778,True,False,127.637,,Sant Martí,21.501
+12124,760,,0.939,False,False,46.503,flat,Eixample,15.975
+12129,900,0.925,1.021,True,False,,flat,Eixample,17.912
+12139,1200,,2.07,True,True,90.987,flat,Eixample,13.114
+12162,800,,0.959,True,True,56.365,flat,Sants-Montjuïc,12.766
+12167,2500,4.971,2.878,True,True,,flat,Eixample,14.139
+12173,1150,2.937,2.049,True,True,93.909,flat,Sarria-Sant Gervasi,
+12176,940,2.035,,True,False,66.739,flat,Ciutat Vella,15.94
+12177,2500,2.776,3.206,True,False,,attic,Eixample,13.956
+12180,650,0.958,0.976,True,False,38.852,,Horta- Guinardo,16.023
+12181,1000,3.119,2.164,True,True,,attic,Les Corts,12.19
+12192,1100,,1.032,True,True,81.907,flat,Ciutat Vella,14.816
+12196,783,2.998,,True,False,62.693,,Sants-Montjuïc,11.433
+12205,1100,1.071,1.007,False,True,60.147,,Eixample,19.085
+12207,1000,2.725,2.007,True,False,,flat,Eixample,15.97
+12210,2000,3.192,1.831,True,False,,flat,Sant Martí,14.727
+12212,813,2.738,0.942,True,True,,flat,Horta- Guinardo,12.156
+12215,750,1.022,0.955,True,False,,,Eixample,14.475
+12224,1200,4.1,2.188,False,False,82.722,,Ciutat Vella,13.793
+12225,1400,1.944,,True,False,58.312,flat,Eixample,23.78
+12229,1000,1.1,0.974,True,False,61.439,,Ciutat Vella,15.761
+12239,750,2.122,0.943,True,False,,flat,Sarria-Sant Gervasi,15.567
+12240,850,,1.057,False,False,37.568,flat,Les Corts,21.738
+12243,800,1.09,1.047,True,False,,flat,Ciutat Vella,14.08
+12247,990,2.795,1.963,False,True,87.265,flat,Gràcia,
+12256,850,1.845,1.01,False,False,61.118,,Sant Martí,14.914
+12265,1100,,1.921,True,False,71.895,flat,Eixample,15.487
+12267,1400,,1.045,True,False,57.628,flat,Ciutat Vella,23.792
+12270,900,,1.088,True,False,66.281,flat,Sarria-Sant Gervasi,13.182
+12275,900,0.904,0.986,True,True,45.919,,Gràcia,18.799
+12276,1100,,2.1,True,False,73.554,flat,Sarria-Sant Gervasi,14.572
+12281,800,3.142,1.06,True,False,,flat,Sants-Montjuïc,9.806
+12289,950,0.957,1.076,True,True,46.613,,Sant Martí,20.463
+12299,1100,,1.024,True,False,49.686,apartment,Sants-Montjuïc,21.958
+12301,850,,1.076,True,True,74.478,flat,Ciutat Vella,10.772
+12308,890,1.006,1.085,True,True,50.27,,Sant Martí,16.595
+12309,1000,,1.077,True,False,74.315,flat,Eixample,13.331
+12310,940,3.148,1.013,False,False,69.959,,Sarria-Sant Gervasi,15.674
+12311,1370,,1.811,True,False,96.568,flat,Les Corts,15.329
+12312,1000,2.809,,True,False,82.335,apartment,Les Corts,10.652
+12313,995,,1.034,True,False,74.66,flat,Ciutat Vella,11.922
+12321,1175,3.792,2.143,True,False,103.374,,Sarria-Sant Gervasi,11.358
+12326,980,,1.022,True,False,67.211,flat,Les Corts,
+12327,1125,2.926,,True,False,69.663,,Ciutat Vella,14.861
+12329,1440,3.696,1.872,True,True,128.061,,Gràcia,
+12334,1952,,,False,False,,apartment,Eixample,25.815
+12337,1350,2.027,0.93,False,False,70.553,,Sarria-Sant Gervasi,16.896
+12340,1200,,0.912,True,False,46.183,,Sant Martí,26.048
+12342,2600,2.774,1.936,True,True,118.425,,Gràcia,21.317
+12344,800,,0.943,False,False,62.71,flat,Ciutat Vella,12.859
+12347,666,,0.9,False,False,42.01,study,Ciutat Vella,17.474
+12348,1200,,1.022,True,False,66.218,flat,Sant Andreu,19.958
+12350,990,2.001,1.084,True,False,67.729,,Horta- Guinardo,13.795
+12352,2300,5.145,2.958,True,True,143.139,apartment,Gràcia,
+12355,1150,3.956,1.982,True,False,111.856,,Sant Martí,10.854
+12356,850,2.105,,False,False,61.093,,Les Corts,14.721
+12367,775,1.935,1.076,False,False,34.29,flat,Les Corts,
+12370,775,2.873,,True,True,64.462,flat,Sant Andreu,11.665
+12376,1175,4.224,,False,False,100.99,flat,Gràcia,
+12386,1550,1.883,1.048,True,False,78.625,attic,Sants-Montjuïc,
+12393,522,,,True,False,41.682,flat,Eixample,13.424
+12398,2100,3.647,3.104,True,True,,flat,Ciutat Vella,12.043
+12399,1089,3.046,0.933,True,False,,flat,Gràcia,12.803
+12400,650,0.0,,True,False,39.956,,Ciutat Vella,16.362
+12403,950,,0.936,True,True,105.557,flat,Eixample,9.046
+12407,750,2.049,0.999,True,True,74.14,flat,Ciutat Vella,
+12409,2331,4.375,2.179,False,False,,apartment,Gràcia,23.003
+12420,1150,1.904,2.029,True,False,,flat,Sarria-Sant Gervasi,20.061
+12421,1714,1.868,0.91,False,True,64.495,,Sants-Montjuïc,24.919
+12423,800,0.91,1.07,True,False,45.274,,Les Corts,19.493
+12426,1200,,2.039,False,False,80.735,flat,Eixample,
+12428,750,,0.93,False,False,41.71,flat,Gràcia,18.396
+12431,875,,1.086,True,False,63.079,flat,Eixample,12.508
+12433,785,0.0,0.931,True,False,30.334,apartment,Gràcia,
+12435,1115,3.139,1.849,True,False,73.2,flat,Sarria-Sant Gervasi,
+12442,1400,2.103,,False,False,103.345,flat,Ciutat Vella,13.032
+12444,2445,5.445,,False,False,146.84,flat,Gràcia,16.199
+12452,710,,1.079,False,False,59.553,flat,Gràcia,12.489
+12457,1090,2.874,0.952,True,False,94.843,flat,Eixample,
+12463,3200,2.782,1.886,True,False,91.5,,Sarria-Sant Gervasi,36.898
+12467,900,2.769,1.022,True,True,71.265,,Gràcia,10.573
+12471,1790,5.18,2.024,True,False,148.289,,Les Corts,12.776
+12472,655,0.973,1.001,True,False,,apartment,Gràcia,19.061
+12475,830,,0.934,True,False,59.771,flat,Eixample,12.47
+12476,3390,2.934,1.958,False,False,,apartment,Ciutat Vella,50.307
+12477,950,1.82,2.127,True,False,56.459,flat,Eixample,
+12493,1550,,2.192,True,False,83.15,flat,Horta- Guinardo,17.384
+12495,800,0.914,1.051,True,True,35.281,apartment,Eixample,
+12496,2200,1.933,1.803,True,True,80.15,,Gràcia,23.571
+12498,976,3.227,,False,False,87.058,apartment,Horta- Guinardo,12.215
+12500,425,0.904,1.087,True,False,18.064,,Eixample,26.759
+12505,775,1.824,1.021,True,False,67.31,,Ciutat Vella,11.214
+12507,1980,0.95,1.017,False,False,,,Ciutat Vella,33.2
+12508,1050,1.826,0.94,True,False,,,Eixample,17.665
+12512,1500,,2.118,False,False,91.459,,Eixample,15.109
+12513,1150,2.152,2.008,True,False,89.416,,Gràcia,13.644
+12514,1050,1.884,,True,False,83.878,flat,Eixample,11.905
+12521,900,,0.959,True,False,71.483,flat,Ciutat Vella,13.175
+12528,1250,2.871,0.916,False,False,72.418,,Eixample,18.245
+12530,1100,1.877,,True,True,70.892,flat,Ciutat Vella,14.698
+12537,1050,1.88,0.961,True,False,,apartment,Sarria-Sant Gervasi,22.287
+12539,940,,1.036,True,False,56.078,flat,Sants-Montjuïc,14.009
+12540,700,2.041,0.926,False,False,51.025,flat,Eixample,
+12543,1350,4.575,,False,False,114.401,flat,Gràcia,
+12552,1300,,1.806,True,False,71.402,flat,Sarria-Sant Gervasi,16.56
+12555,1200,3.88,2.196,True,False,100.038,flat,Sarria-Sant Gervasi,
+12565,770,0.971,0.913,True,True,,flat,Sarria-Sant Gervasi,10.665
+12573,2300,5.213,,True,False,103.446,flat,Eixample,20.047
+12576,900,1.946,1.038,True,False,49.373,,Sants-Montjuïc,17.446
+12579,1041,2.17,,True,False,85.345,flat,Ciutat Vella,14.487
+12580,875,0.977,,True,False,46.919,flat,Sants-Montjuïc,17.323
+12584,1500,2.035,1.834,True,False,,flat,Ciutat Vella,16.054
+12588,2750,3.863,2.856,True,True,161.001,flat,Eixample,
+12590,700,,1.074,False,False,64.855,flat,Sarria-Sant Gervasi,
+12594,1100,1.074,1.068,True,False,46.314,,Ciutat Vella,26.677
+12612,975,0.903,1.051,True,False,,flat,Horta- Guinardo,15.644
+12621,750,1.899,1.033,True,False,,flat,Sant Martí,15.297
+12622,1350,2.065,1.808,True,False,91.562,,Eixample,13.262
+12623,1700,3.06,2.192,True,False,123.704,flat,Sant Martí,
+12625,1800,2.192,1.871,True,True,92.717,,Eixample,18.077
+12631,980,4.373,1.06,True,True,,flat,Gràcia,9.81
+12643,1100,0.923,1.082,False,True,76.77,,Sant Martí,15.368
+12644,1100,2.161,0.964,True,True,,apartment,Eixample,19.317
+12646,1050,0.926,1.086,True,False,60.481,,Ciutat Vella,17.674
+12647,2500,2.188,,True,True,68.836,flat,Gràcia,33.014
+12653,950,2.175,1.053,True,False,112.884,,Eixample,8.109
+12655,1050,4.338,1.027,True,True,123.328,flat,Ciutat Vella,
+12657,1200,2.771,,False,False,83.564,flat,Ciutat Vella,14.173
+12658,1250,0.91,2.148,True,True,78.592,,Gràcia,15.532
+12659,850,,1.015,True,False,50.213,flat,Sarria-Sant Gervasi,17.253
+12660,740,1.814,0.984,True,False,52.499,flat,Sarria-Sant Gervasi,
+12662,1900,2.065,2.104,True,False,82.972,,Sarria-Sant Gervasi,22.812
+12667,1200,0.963,1.046,False,False,48.026,,Ciutat Vella,
+12684,997,2.14,0.961,True,False,66.845,,Gràcia,14.355
+12686,1967,,1.957,False,True,88.824,apartment,Eixample,23.933
+12687,1250,1.021,,True,False,73.623,flat,Eixample,15.102
+12692,1260,3.215,1.834,True,False,76.878,,Sant Martí,19.499
+12694,1100,1.079,1.086,True,False,50.317,,Sarria-Sant Gervasi,19.053
+12695,998,3.205,1.02,False,False,,flat,Eixample,16.505
+12700,3500,2.827,2.189,False,False,,flat,Sants-Montjuïc,20.801
+12703,915,,1.021,True,True,65.139,flat,Ciutat Vella,13.68
+12706,1850,2.001,2.111,True,False,135.758,,Eixample,12.97
+12709,2000,5.054,3.218,True,True,176.585,flat,Eixample,
+12723,1100,3.15,1.968,True,False,105.983,,Eixample,11.999
+12725,2050,3.019,,True,True,178.806,flat,Sarria-Sant Gervasi,10.897
+12731,1990,3.196,1.975,True,True,86.511,,Les Corts,20.671
+12734,1100,2.074,0.943,False,False,66.698,flat,Sant Martí,
+12738,5500,3.191,2.039,True,False,104.496,,Sant Martí,52.94
+12741,1000,,1.094,True,True,72.376,,Eixample,14.101
+12743,3500,,0.992,False,False,64.934,apartment,Eixample,61.208
+12745,2550,5.358,4.266,True,False,152.932,,Eixample,
+12752,490,,0.904,True,False,22.962,study,Les Corts,18.404
+12756,3200,4.003,3.093,True,True,147.351,,Gràcia,19.648
+12760,750,1.06,1.064,False,True,,attic,Les Corts,19.118
+12761,1350,2.165,2.134,True,False,,apartment,Sarria-Sant Gervasi,21.391
+12762,1100,4.226,,True,True,108.482,flat,Sarria-Sant Gervasi,10.019
+12763,2600,2.959,2.853,False,True,173.633,,Ciutat Vella,15.253
+12774,2300,4.345,,False,False,171.315,flat,Eixample,12.77
+12775,2700,4.163,2.002,True,False,84.391,,Eixample,33.295
+12782,1000,3.226,0.965,False,False,,flat,Eixample,
+12784,1000,2.847,0.98,True,True,89.139,flat,Gràcia,
+12787,750,1.067,1.04,False,False,43.213,,Eixample,18.963
+12793,1550,,1.997,True,False,128.704,flat,Sant Martí,12.189
+12794,2000,2.051,2.18,True,True,121.332,,Sarria-Sant Gervasi,18.28
+12795,750,0.933,2.047,True,False,58.604,flat,Sarria-Sant Gervasi,
+12796,1300,3.623,2.16,True,False,118.4,,Nou Barris,12.147
+12797,6000,,1.957,True,True,341.657,,Eixample,20.181
+12800,2700,3.602,1.816,True,False,90.497,,Eixample,31.825
+12803,1300,2.943,2.186,True,False,84.085,flat,Eixample,
+12809,1100,2.928,1.094,False,True,92.653,flat,Sarria-Sant Gervasi,
+12812,2200,0.943,0.915,False,False,52.026,,Gràcia,
+12813,1200,0.932,1.085,False,False,34.6,apartment,Gràcia,
+12827,800,,1.01,True,False,40.064,study,Gràcia,18.483
+12828,825,2.039,2.098,True,False,,flat,Sarria-Sant Gervasi,11.263
+12830,695,1.072,,False,False,40.242,apartment,Ciutat Vella,16.982
+12832,795,,1.092,False,False,48.205,flat,Les Corts,14.39
+12836,1600,2.186,2.087,True,False,75.251,flat,Ciutat Vella,
+12841,1750,,2.063,True,True,107.916,apartment,Sants-Montjuïc,14.057
+12842,950,2.855,1.906,False,False,75.248,flat,Ciutat Vella,
+12848,1125,,0.914,True,False,77.207,flat,Sant Martí,16.316
+12851,1120,2.841,0.995,False,False,79.917,,Eixample,14.224
+12872,1000,2.766,1.079,False,False,86.903,,Ciutat Vella,11.319
+12873,1850,1.865,,False,False,81.069,flat,Les Corts,24.014
+12874,1610,1.974,,True,False,63.308,apartment,Eixample,24.419
+12878,850,3.239,1.905,True,True,68.531,,Eixample,12.814
+12882,825,3.019,1.985,True,True,,flat,Eixample,9.939
+12888,1290,,3.265,True,False,108.317,flat,Sarria-Sant Gervasi,11.688
+12889,720,0.994,1.024,True,False,,apartment,Sants-Montjuïc,17.227
+12890,890,3.186,,True,True,65.838,flat,Eixample,13.8
+12893,1250,4.509,2.108,True,False,,flat,Sarria-Sant Gervasi,9.119
+12896,2400,3.163,3.214,True,False,133.224,,Eixample,16.78
+12897,4000,1.962,0.935,True,False,73.618,,Sant Martí,58.616
+12900,790,2.158,,True,False,41.333,flat,Eixample,19.043
+12901,1000,2.743,1.031,False,False,76.301,,Horta- Guinardo,13.262
+12903,1100,2.15,2.117,True,True,,flat,Sarria-Sant Gervasi,13.135
+12904,4500,3.032,2.088,True,True,111.164,,Eixample,37.617
+12905,1500,,2.191,True,False,75.31,flat,Eixample,21.667
+12906,4597,2.927,2.125,True,False,81.606,apartment,Eixample,
+12909,850,1.051,1.06,False,False,,apartment,Sarria-Sant Gervasi,23.086
+12914,2150,4.118,3.078,True,False,125.629,,Les Corts,16.512
+12915,950,0.998,,False,False,51.99,flat,Gràcia,18.95
+12922,1250,0.991,,False,False,33.811,,Ciutat Vella,37.503
+12926,765,2.761,0.943,False,False,,flat,Ciutat Vella,13.156
+12927,950,0.957,,False,False,58.563,flat,Sarria-Sant Gervasi,
+12930,2198,4.839,3.273,True,False,172.968,,Eixample,11.009
+12936,545,0.0,,True,True,16.197,study,Eixample,32.889
+12937,850,2.839,1.075,False,False,69.744,flat,Eixample,
+12938,775,3.055,0.941,True,False,60.943,,Horta- Guinardo,13.629
+12939,1550,3.101,1.832,True,False,,flat,Gràcia,14.144
+12943,1050,3.159,1.091,True,False,,flat,Ciutat Vella,14.65
+12946,1400,,1.063,True,False,74.048,flat,Sants-Montjuïc,17.975
+12952,1472,2.723,1.096,False,True,159.878,,Sarria-Sant Gervasi,9.48
+12955,1750,,2.154,True,True,106.863,attic,Sant Martí,16.238
+12957,4500,4.275,3.077,True,False,160.779,,Eixample,29.425
+12960,1300,,0.907,False,True,91.978,,Eixample,14.21
+12964,1169,3.09,2.106,False,False,79.95,,Sarria-Sant Gervasi,13.337
+12965,1000,1.005,0.934,True,False,54.234,,Sant Andreu,18.274
+12967,1150,1.87,1.046,False,False,,flat,Eixample,20.819
+12976,1280,2.757,0.966,True,False,71.544,,Horta- Guinardo,20.415
+12977,1600,,2.177,True,True,,,Ciutat Vella,18.093
+12991,725,3.289,1.059,True,False,51.192,flat,Les Corts,
+12994,1600,,1.93,True,False,79.464,attic,Eixample,18.204
+12995,780,3.004,0.994,True,True,63.964,,Gràcia,12.743
+12998,1400,2.08,,True,False,,flat,Eixample,23.952
+12999,2550,2.19,,False,False,135.483,apartment,Eixample,20.106
+13005,2500,1.87,,True,False,74.973,flat,Sant Martí,36.439
+13015,1500,2.195,1.968,False,False,,flat,Sarria-Sant Gervasi,19.533
+13021,1626,1.035,,False,False,79.123,apartment,Les Corts,21.559
+13025,750,3.235,1.062,False,False,56.274,,Sarria-Sant Gervasi,13.608
+13028,2520,3.237,1.874,True,False,,,Eixample,13.348
+13030,890,2.173,1.017,False,True,48.4,flat,Sant Martí,
+13036,650,0.0,1.009,False,False,34.185,,Sant Martí,19.459
+13043,1290,2.972,2.069,True,False,81.511,flat,Les Corts,
+13044,1540,3.724,1.977,True,False,114.349,,Ciutat Vella,13.658
+13048,625,0.0,0.999,False,False,32.233,,Les Corts,19.986
+13056,1735,1.8,0.926,False,False,73.414,,Ciutat Vella,26.964
+13058,1335,,0.954,False,False,44.965,flat,Sant Martí,
+13063,850,3.154,,True,False,71.366,,Eixample,12.151
+13067,679,2.153,1.061,False,False,53.691,,Gràcia,12.655
+13070,750,0.938,1.082,True,False,45.905,flat,Ciutat Vella,
+13076,1200,0.933,0.979,False,True,,flat,Ciutat Vella,23.987
+13080,900,2.121,0.919,True,False,,flat,Eixample,11.605
+13081,750,0.983,0.922,False,True,,flat,Eixample,17.126
+13082,1250,2.143,2.194,False,False,,flat,Les Corts,17.688
+13085,950,4.338,1.862,True,False,81.2,flat,Gràcia,
+13086,790,3.637,0.963,True,True,,flat,Eixample,
+13088,900,2.016,,True,True,41.077,flat,Sant Martí,20.561
+13090,995,4.05,1.056,True,True,,flat,Sant Martí,10.652
+13091,720,1.946,0.976,False,False,46.682,apartment,Eixample,
+13093,1275,3.096,2.143,True,True,82.32,flat,Eixample,
+13094,1700,2.113,,True,False,128.837,flat,Sarria-Sant Gervasi,13.281
+13095,900,1.954,2.017,False,False,46.452,flat,Sant Andreu,
+13098,1250,1.99,1.002,True,True,59.783,,Sant Andreu,20.902
+13102,2070,,2.162,True,False,93.477,flat,Ciutat Vella,22.129
+13106,850,3.247,0.966,True,False,65.328,,Sarria-Sant Gervasi,11.119
+13108,895,2.817,1.032,True,False,,flat,Sarria-Sant Gervasi,15.738
+13111,738,2.746,,True,False,68.789,flat,Sarria-Sant Gervasi,9.778
+13120,700,0.0,,False,False,49.811,flat,Eixample,14.36
+13122,950,1.074,1.099,True,False,59.46,,Sarria-Sant Gervasi,
+13125,995,,1.053,True,False,51.674,flat,Sarria-Sant Gervasi,16.992
+13128,490,0.0,1.078,True,False,28.462,,Ciutat Vella,16.494
+13131,950,2.05,0.936,False,False,,flat,Sarria-Sant Gervasi,17.679
+13134,3400,3.843,5.299,True,False,,flat,Gràcia,18.043
+13135,1300,1.074,1.02,False,True,,attic,Sarria-Sant Gervasi,21.17
+13138,1201,2.874,,True,False,85.117,flat,Eixample,13.39
+13140,760,,1.045,False,False,51.006,flat,Sarria-Sant Gervasi,15.465
+13143,710,0.91,1.01,True,False,89.906,,Eixample,8.001
+13145,800,1.054,1.073,False,False,,flat,Sant Martí,17.828
+13146,1650,1.87,1.879,False,True,97.738,,Gràcia,
+13149,1100,,1.026,True,False,67.16,flat,Sant Andreu,14.553
+13152,1286,1.029,0.98,False,False,64.203,,Sarria-Sant Gervasi,17.551
+13155,850,0.904,1.058,False,False,61.245,,Eixample,13.51
+13158,850,2.033,0.919,False,False,65.766,,Horta- Guinardo,13.054
+13162,900,2.723,1.037,True,False,70.789,,Eixample,12.266
+13165,1500,1.075,0.978,False,True,,flat,Eixample,14.833
+13168,800,0.902,,False,False,23.134,flat,Sarria-Sant Gervasi,30.196
+13172,525,1.027,1.011,False,False,36.729,,Ciutat Vella,16.546
+13175,1500,4.242,2.986,False,False,144.315,flat,Eixample,
+13176,6000,0.0,,False,False,300.523,flat,Sant Martí,18.658
+13184,1980,1.043,,False,False,49.616,apartment,Eixample,35.399
+13188,890,1.04,1.028,True,False,45.034,,Sarria-Sant Gervasi,
+13189,5300,,4.695,False,True,,flat,Les Corts,
+13191,850,,1.003,False,False,,flat,Ciutat Vella,14.205
+13192,945,2.804,1.008,True,True,,flat,Ciutat Vella,14.196
+13193,1540,,1.037,False,False,41.641,apartment,Eixample,37.347
+13199,825,3.22,0.974,False,False,69.338,flat,Les Corts,
+13200,666,,0.96,False,False,,study,Gràcia,17.886
+13216,4773,,2.029,False,False,,apartment,Eixample,57.254
+13220,1100,3.163,,True,False,81.132,flat,Eixample,15.253
+13222,825,2.939,1.051,True,False,,flat,Sants-Montjuïc,12.409
+13223,1150,0.938,0.924,False,False,,,Sarria-Sant Gervasi,24.559
+13226,1703,2.914,1.948,False,False,65.655,,Ciutat Vella,26.896
+13227,1750,,1.045,False,False,45.948,apartment,Ciutat Vella,34.601
+13229,850,,0.975,True,False,73.584,flat,Eixample,13.218
+13230,1150,0.953,0.936,True,False,62.843,,Sarria-Sant Gervasi,20.113
+13236,550,0.0,,False,True,30.558,apartment,Gràcia,17.1
+13237,2800,,3.298,True,False,215.676,flat,Eixample,14.356
+13244,550,0.0,,True,False,30.442,flat,Sarria-Sant Gervasi,19.738
+13246,900,4.179,0.909,True,False,,flat,Sant Martí,9.754
+13249,620,1.885,,False,False,38.059,flat,Eixample,15.601
+13255,1250,2.888,,True,False,80.569,flat,Eixample,16.574
+13262,900,0.944,0.916,False,False,,flat,Sarria-Sant Gervasi,10.648
+13265,842,2.839,0.944,True,False,74.368,flat,Sarria-Sant Gervasi,
+13269,1495,1.075,1.074,False,True,36.122,apartment,Horta- Guinardo,
+13270,800,1.956,0.927,True,False,56.825,flat,Sarria-Sant Gervasi,
+13271,890,0.99,,False,False,50.873,attic,Ciutat Vella,18.015
+13274,2400,3.811,3.155,True,False,143.547,flat,Ciutat Vella,
+13278,2800,,0.96,True,True,52.87,attic,Sarria-Sant Gervasi,54.458
+13292,2200,2.011,,True,False,64.487,flat,Sarria-Sant Gervasi,32.905
+13293,800,,0.917,True,False,28.68,,Les Corts,25.595
+13298,850,,0.998,True,False,62.982,flat,Eixample,
+13300,1350,3.921,1.987,True,False,,flat,Les Corts,10.742
+13314,3500,,1.979,True,False,187.964,attic,Eixample,16.587
+13317,1225,1.837,1.065,True,False,,,Eixample,17.009
+13320,2800,4.061,2.72,True,True,159.9,,Eixample,17.331
+13330,1100,4.218,,True,False,77.584,flat,Horta- Guinardo,13.043
+13333,750,,0.994,True,False,62.719,flat,Sarria-Sant Gervasi,
+13340,790,1.099,1.052,True,False,45.531,,Sarria-Sant Gervasi,17.205
+13346,1500,0.947,1.094,True,True,47.718,,Sant Martí,
+13352,995,1.044,1.058,True,False,,flat,Sarria-Sant Gervasi,22.871
+13353,700,0.0,1.087,False,False,36.994,study,Eixample,
+13359,900,2.725,,True,False,73.458,flat,Eixample,11.757
+13361,475,,1.025,False,False,28.127,flat,Ciutat Vella,19.671
+13362,1000,1.083,1.076,True,False,38.38,apartment,Eixample,
+13363,1600,0.0,0.956,True,False,59.147,,Eixample,27.597
+13364,700,0.0,0.909,True,False,36.525,,Nou Barris,16.382
+13366,1050,,1.061,True,False,49.232,flat,Ciutat Vella,21.412
+13368,950,3.098,1.042,True,False,75.054,flat,Sant Martí,
+13369,1246,,0.968,False,False,37.058,apartment,Eixample,33.342
+13372,1400,1.877,1.099,False,False,,flat,Ciutat Vella,21.626
+13373,1000,2.709,2.173,True,False,,flat,Sarria-Sant Gervasi,10.001
+13377,890,0.93,1.021,True,False,,,Eixample,24.664
+13380,1200,1.041,,False,True,55.225,flat,Les Corts,20.374
+13383,4000,3.237,2.187,True,False,122.9,,Eixample,
+13387,2450,3.236,2.051,True,False,,flat,Sants-Montjuïc,17.16
+13389,1400,,2.072,True,False,101.409,attic,Ciutat Vella,15.375
+13390,925,1.92,,True,False,56.298,flat,Gràcia,15.519
+13393,825,,1.059,False,False,61.053,flat,Eixample,13.083
+13394,1580,3.063,1.844,True,False,127.945,,Sant Martí,13.406
+13395,4900,4.286,3.698,True,False,182.313,,Gràcia,25.299
+13401,850,0.973,0.917,True,False,,apartment,Eixample,
+13404,1210,1.064,0.929,False,False,,apartment,Sarria-Sant Gervasi,16.99
+13405,1000,2.869,1.955,True,False,102.72,,Eixample,9.159
+13408,1200,3.207,2.124,False,False,,flat,Eixample,12.978
+13411,895,3.825,1.006,False,False,,flat,Sarria-Sant Gervasi,11.577
+13412,1200,4.156,1.896,False,True,119.797,,Eixample,8.802
+13414,1300,0.0,0.921,True,True,84.338,,Eixample,15.093
+13427,775,2.7,1.893,False,False,54.647,flat,Gràcia,
+13428,1200,3.752,,True,False,130.429,flat,Eixample,10.008
+13430,1400,1.897,,False,False,59.934,apartment,Eixample,
+13431,1000,4.187,,True,False,89.481,flat,Gràcia,12.8
+13434,950,,1.949,True,False,67.519,flat,Sants-Montjuïc,13.481
+13436,650,1.098,,True,False,44.455,flat,Sant Martí,14.793
+13438,750,0.0,1.026,True,False,40.756,,Gràcia,19.078
+13443,1250,3.23,0.956,False,True,86.076,,Ciutat Vella,14.755
+13445,1125,3.165,2.176,True,True,78.239,,Sarria-Sant Gervasi,14.411
+13451,800,,0.973,True,False,64.294,flat,Sants-Montjuïc,13.29
+13453,1450,,0.995,False,False,,apartment,Sarria-Sant Gervasi,10.48
+13454,950,1.836,1.093,True,False,,flat,Eixample,13.002
+13455,850,,1.09,False,True,56.158,flat,Les Corts,13.445
+13460,1500,1.948,1.017,True,False,,,Gràcia,19.115
+13465,3400,4.158,5.299,True,False,,flat,Ciutat Vella,20.436
+13477,800,2.014,,True,False,55.09,flat,Les Corts,15.023
+13479,1100,,2.018,True,False,73.535,flat,Sant Martí,14.445
+13481,1495,,1.961,True,False,77.792,flat,Ciutat Vella,18.609
+13483,6000,3.64,2.898,True,False,196.549,,Les Corts,26.681
+13487,1150,,1.846,True,False,90.82,flat,Sarria-Sant Gervasi,13.63
+13490,1200,1.092,2.086,False,False,39.036,,Sarria-Sant Gervasi,32.162
+13492,1300,,2.097,True,False,141.156,flat,Ciutat Vella,9.924
+13495,790,2.775,0.959,False,False,74.036,flat,Eixample,
+13496,695,,1.057,False,False,31.52,apartment,Sarria-Sant Gervasi,21.339
+13497,850,2.107,0.977,True,False,52.284,,Sarria-Sant Gervasi,17.596
+13505,850,,0.932,False,False,74.494,flat,Eixample,12.195
+13515,950,1.055,1.032,True,False,51.003,,Ciutat Vella,18.579
+13520,780,1.041,1.066,True,False,45.703,,Sants-Montjuïc,16.054
+13531,900,,0.995,True,False,51.397,flat,Eixample,15.815
+13533,750,1.81,0.911,False,False,45.71,,Ciutat Vella,16.459
+13540,1175,,1.869,False,False,74.847,flat,Ciutat Vella,15.263
+13541,1200,,1.828,True,True,,flat,Sarria-Sant Gervasi,15.492
+13543,2800,0.917,1.062,True,False,76.118,,Sarria-Sant Gervasi,34.75
+13544,2200,2.02,1.023,True,False,,flat,Sants-Montjuïc,34.873
+13545,2400,2.741,3.166,True,False,142.626,,Sants-Montjuïc,15.481
+13546,3000,,2.857,True,True,189.342,flat,Eixample,
+13549,1150,3.836,2.199,False,False,,flat,Sant Martí,13.218
+13554,1800,2.861,0.976,False,False,,flat,Gràcia,22.154
+13557,840,0.0,1.003,False,False,58.166,,Eixample,13.455
+13560,1000,2.868,0.947,True,False,78.167,flat,Eixample,
+13562,960,3.004,1.06,True,False,90.624,,Sant Martí,11.86
+13564,2100,,2.145,True,True,91.521,flat,Eixample,21.86
+13570,1395,,1.059,True,False,53.625,apartment,Sants-Montjuïc,26.543
+13575,945,2.069,1.04,True,False,56.1,flat,Eixample,
+13576,700,0.987,0.962,True,True,48.404,flat,Sants-Montjuïc,
+13579,1950,,1.993,False,True,176.236,flat,Sant Martí,11.393
+13580,1050,,2.15,True,False,71.574,flat,Eixample,13.041
+13582,850,0.958,,False,False,45.717,flat,Sants-Montjuïc,20.848
+13595,1200,1.833,,True,False,90.117,,Eixample,11.895
+13607,1540,1.069,0.908,False,False,,apartment,Ciutat Vella,37.719
+13608,1250,1.884,2.104,False,False,,flat,Eixample,11.531
+13617,750,2.726,,False,False,59.998,flat,Eixample,12.18
+13618,1150,0.99,,False,False,54.255,,Sant Martí,23.65
+13625,2700,2.871,2.078,True,True,,,Sarria-Sant Gervasi,32.498
+13626,900,,0.974,False,False,45.229,flat,Les Corts,
+13628,1350,5.322,2.152,False,False,123.109,flat,Gràcia,
+13631,1250,2.119,,True,False,43.922,flat,Eixample,25.772
+13635,1200,1.088,1.911,False,False,41.535,,Eixample,29.28
+13638,900,3.284,1.02,True,False,77.66,flat,Eixample,
+13644,1160,3.057,0.954,True,False,69.943,,Sarria-Sant Gervasi,17.46
+13645,2300,4.393,2.0,True,True,146.053,,Sarria-Sant Gervasi,13.934
+13647,2600,2.74,3.078,False,True,179.889,,Sarria-Sant Gervasi,
+13654,1170,,1.923,False,True,,flat,Eixample,13.576
+13655,895,0.0,0.949,False,False,49.264,,Sants-Montjuïc,19.357
+13658,975,2.089,0.991,True,False,59.681,flat,Gràcia,
+13662,1250,2.702,,True,True,81.065,flat,Sants-Montjuïc,15.435
+13663,1200,2.946,1.849,False,False,82.162,,Eixample,13.84
+13672,2600,5.337,5.218,True,True,,flat,Sant Martí,10.86
+13677,1050,2.045,0.911,True,False,,flat,Eixample,22.215
+13678,790,,,False,False,58.401,flat,Sants-Montjuïc,14.09
+13681,1050,4.323,2.174,True,False,74.25,,Sarria-Sant Gervasi,12.06
+13684,1400,,1.024,True,False,105.458,flat,Gràcia,13.179
+13698,850,2.869,1.068,True,False,64.843,,Ciutat Vella,12.66
+13700,950,3.065,,True,False,,flat,Eixample,14.08
+13701,905,1.951,,True,False,62.567,flat,Les Corts,14.241
+13703,750,1.058,0.999,True,True,46.419,apartment,Sant Martí,
+13705,950,3.264,1.009,False,False,83.119,flat,Eixample,
+13711,1300,4.356,,True,True,84.372,flat,Sarria-Sant Gervasi,15.087
+13717,1440,1.089,0.957,False,False,44.24,,Eixample,30.159
+13722,1285,0.919,0.902,True,True,81.445,,Sant Martí,17.89
+13732,900,4.38,0.919,True,False,,flat,Gràcia,11.194
+13740,2300,1.896,1.037,False,False,,apartment,Ciutat Vella,41.369
+13745,1050,,1.097,False,False,58.068,flat,Eixample,18.794
+13748,685,1.043,0.962,False,False,58.475,,Gràcia,12.48
+13751,2300,2.127,2.169,True,False,159.182,,Eixample,14.511
+13760,725,0.93,0.927,True,False,37.959,,Sarria-Sant Gervasi,22.057
+13765,8500,,5.093,True,True,488.961,flat,Eixample,16.365
+13769,1000,1.924,,False,False,73.925,,Sarria-Sant Gervasi,12.952
+13778,1750,2.712,1.819,True,True,124.829,flat,Sants-Montjuïc,
+13789,1095,0.0,0.921,True,False,54.684,,Sarria-Sant Gervasi,17.806
+13791,2400,3.28,1.953,True,False,152.057,,Eixample,18.402
+13796,1100,2.076,,False,False,64.132,flat,Eixample,19.533
+13797,894,1.042,2.196,False,False,104.787,,Ciutat Vella,9.208
+13798,700,0.937,0.997,True,False,,flat,Eixample,15.302
+13801,1140,1.909,,True,False,64.473,flat,Sarria-Sant Gervasi,15.551
+13806,750,1.869,1.043,False,True,,flat,Gràcia,12.7
+13817,1100,2.937,2.169,False,False,,flat,Gràcia,
+13818,1800,2.848,1.846,True,False,,flat,Eixample,14.743
+13819,2900,3.035,2.121,True,False,172.911,flat,Gràcia,
+13822,1350,,1.085,True,False,61.214,flat,Eixample,22.806
+13826,725,0.0,,True,True,28.493,apartment,Sant Martí,26.745
+13832,1190,2.0,0.958,False,False,,apartment,Eixample,29.074
+13834,800,,1.073,False,True,54.64,flat,Sant Martí,13.615
+13837,850,,1.063,False,False,45.876,flat,Eixample,18.521
+13838,980,1.019,0.953,False,True,91.428,,Les Corts,10.319
+13840,875,0.981,1.003,True,True,56.727,flat,Eixample,
+13842,778,0.0,1.028,False,True,37.926,,Eixample,18.436
+13845,1150,1.824,0.923,True,False,84.49,,Sarria-Sant Gervasi,15.356
+13847,795,2.095,,True,False,54.747,apartment,Sarria-Sant Gervasi,
+13852,1160,2.76,2.155,False,False,103.557,,Ciutat Vella,11.473
+13853,679,,0.957,False,False,48.373,flat,Eixample,12.84
+13860,900,1.808,2.119,False,False,66.027,,Gràcia,13.738
+13861,6886,4.943,5.444,True,True,222.507,flat,Gràcia,
+13863,1900,4.072,2.878,True,False,141.131,flat,Sarria-Sant Gervasi,
+13870,2800,3.651,3.252,True,True,,apartment,Eixample,12.227
+13889,1750,,,True,False,96.815,flat,Les Corts,18.322
+13902,1300,1.811,1.821,True,False,91.677,,Gràcia,16.15
+13904,1150,,2.005,True,False,85.621,flat,Sant Martí,15.422
+13909,3000,2.974,2.994,True,True,171.082,,Sarria-Sant Gervasi,18.945
+13915,1575,,1.084,False,False,51.206,apartment,Sant Andreu,32.55
+13921,650,0.925,1.073,False,False,,flat,Eixample,15.389
+13924,650,2.126,0.956,True,False,,flat,Sant Martí,12.368
+13925,4500,4.182,2.008,False,False,,flat,Sarria-Sant Gervasi,18.916
+13928,840,2.154,1.05,True,False,54.086,apartment,Eixample,
+13932,3200,3.747,2.761,True,True,214.919,,Sarria-Sant Gervasi,16.164
+13944,895,0.0,0.963,False,False,47.511,,Eixample,21.499
+13949,2250,4.248,2.803,True,True,183.409,flat,Ciutat Vella,
+13950,750,1.098,1.007,False,False,50.454,flat,Eixample,
+13955,2800,,1.054,True,False,68.122,,Ciutat Vella,37.637
+13963,2750,,2.765,False,False,,flat,Eixample,15.526
+13974,825,2.727,1.081,False,False,85.644,,Gràcia,9.784
+13975,1000,1.014,1.08,True,True,,attic,Sants-Montjuïc,13.851
+13977,1550,,0.999,True,True,119.095,,Gràcia,15.15
+13990,1150,1.021,,True,True,65.912,flat,Gràcia,19.501
+13992,950,2.822,1.005,True,False,,flat,Les Corts,13.57
+13996,1000,0.9,0.967,True,False,55.382,,Sarria-Sant Gervasi,17.501
+14001,1300,3.899,0.919,True,False,89.04,,Eixample,14.687
+14009,990,3.164,,False,False,67.875,flat,Gràcia,15.829
+14013,990,3.039,2.166,True,False,,,Ciutat Vella,11.303
+14016,960,2.723,1.036,True,False,79.58,flat,Eixample,
+14018,795,2.145,,False,False,61.334,flat,Eixample,13.539
+14023,750,2.834,1.099,False,False,,flat,Sarria-Sant Gervasi,9.782
+14025,1000,3.251,2.04,True,False,79.223,flat,Ciutat Vella,
+14027,1120,2.999,0.941,False,True,,flat,Eixample,11.982
+14028,685,1.856,1.018,True,False,53.478,flat,Les Corts,
+14031,2179,2.752,,False,False,117.389,apartment,Eixample,20.104
+14032,900,2.063,,True,False,83.51,flat,Eixample,12.489
+14035,4696,,1.808,False,False,65.004,apartment,Eixample,63.26
+14036,1208,3.641,2.087,False,False,126.638,flat,Ciutat Vella,
+14044,1375,1.084,1.008,False,False,,apartment,Ciutat Vella,32.188
+14046,2890,2.071,0.97,True,False,,apartment,Sarria-Sant Gervasi,50.205
+14054,2520,3.243,2.195,True,False,180.642,,Gràcia,12.695
+14058,1000,2.809,2.109,False,False,114.112,flat,Ciutat Vella,
+14064,650,2.02,0.976,True,True,51.337,,Sants-Montjuïc,12.639
+14066,3500,,1.855,True,True,375.458,flat,Eixample,9.709
+14067,850,,1.07,True,False,65.261,flat,Les Corts,12.989
+14070,1750,1.971,0.991,True,False,81.664,apartment,Sants-Montjuïc,
+14074,650,0.903,,False,False,28.325,flat,Ciutat Vella,19.884
+14077,1400,,1.9,True,False,103.723,flat,Nou Barris,13.132
+14078,2800,4.367,2.784,True,True,159.172,,Sant Andreu,17.24
+14080,2700,2.999,1.843,True,False,79.684,,Horta- Guinardo,29.699
+14083,2400,3.162,3.234,True,False,146.751,,Gràcia,15.519
+14087,1350,3.271,,False,False,85.224,apartment,Ciutat Vella,13.64
+14088,1100,3.795,1.864,True,False,87.434,flat,Eixample,
+14089,1300,1.921,0.995,True,False,71.922,,Les Corts,17.798
+14091,1000,1.823,1.003,True,False,,flat,Ciutat Vella,16.88
+14096,1700,2.152,1.871,True,False,112.403,,Eixample,12.967
+14098,900,0.956,1.023,False,False,39.26,,Eixample,26.297
+14107,800,,0.901,True,False,83.302,flat,Gràcia,9.5
+14113,800,1.015,1.013,False,False,50.104,flat,Eixample,
+14115,1000,3.152,,True,False,63.77,flat,Ciutat Vella,
+14123,795,1.046,1.076,False,True,40.798,,Eixample,20.611
+14127,1450,3.661,2.189,False,False,96.859,flat,Eixample,
+14128,1800,,1.086,False,True,102.542,flat,Ciutat Vella,17.854
+14129,580,1.069,0.95,False,False,,flat,Sants-Montjuïc,14.713
+14134,2400,2.846,2.929,True,True,120.762,,Ciutat Vella,21.351
+14137,1850,,1.91,False,False,117.133,,Ciutat Vella,
+14140,4696,1.064,0.975,False,False,,apartment,Eixample,91.945
+14142,1400,1.886,2.013,True,False,,,Sant Andreu,8.813
+14144,1550,,0.914,False,False,,apartment,Eixample,29.012
+14147,825,,0.95,True,False,40.955,flat,Gràcia,22.484
+14174,625,0.947,,True,False,32.932,flat,Eixample,17.632
+14180,800,1.841,1.085,False,False,60.787,,Les Corts,11.202
+14184,850,1.015,0.974,True,False,41.647,,Sants-Montjuïc,20.634
+14186,1650,1.871,1.086,True,True,64.338,apartment,Ciutat Vella,
+14188,1000,1.044,1.952,True,False,89.651,flat,Eixample,
+14190,625,1.091,1.014,True,False,43.603,,Les Corts,16.207
+14201,1200,3.294,1.885,True,False,100.63,flat,Sants-Montjuïc,
+14204,1150,,1.801,True,False,73.266,flat,Les Corts,13.658
+14206,730,2.093,,True,False,52.304,flat,Sant Martí,13.606
+14215,950,2.163,0.925,True,False,,,Eixample,9.012
+14218,750,3.076,1.064,True,False,,flat,Sarria-Sant Gervasi,10.459
+14223,852,4.234,0.995,True,False,,flat,Eixample,11.734
+14226,950,0.906,1.037,True,True,101.528,,Ciutat Vella,8.658
+14229,2500,2.904,2.827,False,False,148.076,,Sants-Montjuïc,18.018
+14231,1100,1.053,,True,False,65.67,flat,Ciutat Vella,15.928
+14234,950,,1.998,True,False,90.766,flat,Sant Martí,11.946
+14238,1850,2.129,3.012,True,False,152.941,,Gràcia,12.636
+14239,1600,3.667,1.933,True,False,,flat,Eixample,11.195
+14243,750,0.997,0.919,True,False,36.335,flat,Eixample,
+14244,1200,4.105,1.843,True,False,96.854,flat,Sarria-Sant Gervasi,
+14245,3900,2.755,2.145,True,True,145.991,apartment,Sarria-Sant Gervasi,
+14246,650,1.016,1.071,False,False,39.463,,Sant Martí,14.991
+14254,780,3.282,0.942,False,False,,flat,Sarria-Sant Gervasi,13.592
+14257,1200,1.938,,True,False,91.509,flat,Gràcia,12.13
+14258,980,3.256,,True,False,79.57,flat,Ciutat Vella,
+14262,836,2.958,1.032,True,False,45.877,flat,Eixample,
+14267,650,2.032,0.99,False,False,45.862,flat,Sarria-Sant Gervasi,
+14279,3000,3.072,1.813,False,False,144.082,,Eixample,23.528
+14284,750,3.007,1.024,True,False,70.037,,Sants-Montjuïc,12.478
+14285,950,,1.855,False,True,62.896,flat,Sarria-Sant Gervasi,13.746
+14287,4600,3.135,1.802,True,True,74.887,,Les Corts,58.454
+14288,900,0.907,,True,False,42.928,apartment,Sants-Montjuïc,18.587
+14290,725,1.876,0.981,True,False,62.142,attic,Ciutat Vella,
+14293,690,2.181,0.904,True,False,51.647,flat,Ciutat Vella,
+14294,1280,2.973,2.078,True,False,,flat,Gràcia,15.405
+14295,1300,2.958,,True,False,93.552,flat,Sarria-Sant Gervasi,13.221
+14297,650,0.0,1.012,False,False,31.882,,Sarria-Sant Gervasi,18.889
+14300,1075,2.865,0.965,True,True,69.226,flat,Ciutat Vella,
+14302,1150,1.008,1.053,True,True,91.617,flat,Sant Martí,
+14306,2700,,2.702,True,False,237.37,flat,Ciutat Vella,10.975
+14307,950,,0.902,True,False,46.706,flat,Eixample,
+14312,1200,0.998,2.097,False,True,74.833,apartment,Sarria-Sant Gervasi,
+14314,1700,3.216,,True,True,123.925,,Sants-Montjuïc,15.388
+14316,1400,,1.001,False,False,35.46,apartment,Ciutat Vella,38.14
+14320,950,3.223,1.09,True,False,,flat,Gràcia,13.026
+14321,950,0.935,1.064,False,False,66.075,,Ciutat Vella,14.273
+14322,2650,3.966,1.96,True,False,180.499,,Sant Andreu,15.637
+14325,950,,2.079,True,True,78.611,flat,Eixample,13.467
+14331,700,0.0,1.071,False,False,35.87,apartment,Sarria-Sant Gervasi,
+14338,1100,1.953,,False,False,63.288,flat,Eixample,18.583
+14339,3500,3.156,2.043,False,False,,apartment,Eixample,45.804
+14342,1250,3.227,,True,False,69.972,flat,Sarria-Sant Gervasi,17.133
+14344,750,1.002,1.087,True,False,,flat,Les Corts,15.068
+14353,900,2.816,1.091,True,False,62.126,flat,Eixample,
+14355,1150,1.971,,False,False,65.91,flat,Sarria-Sant Gervasi,15.512
+14356,1850,,0.913,False,True,64.042,flat,Eixample,32.31
+14357,700,0.982,1.075,True,False,,flat,Sarria-Sant Gervasi,18.42
+14358,1950,,1.087,False,False,88.932,flat,Eixample,19.164
+14370,700,,0.964,False,False,51.985,flat,Eixample,15.214
+14371,1350,4.68,2.117,False,False,104.274,flat,Ciutat Vella,
+14373,2300,5.381,2.85,True,False,166.361,,Sant Andreu,14.661
+14375,950,2.882,0.9,True,True,,flat,Sarria-Sant Gervasi,12.778
+14377,3600,,,True,False,211.059,,Sarria-Sant Gervasi,17.043
+14379,1150,0.931,1.047,True,True,41.541,,Eixample,26.067
+14383,975,3.136,1.065,True,False,72.676,flat,Ciutat Vella,
+14386,4000,2.952,4.4,True,True,381.318,,Eixample,12.212
+14392,2500,,2.123,True,False,140.72,attic,Ciutat Vella,17.644
+14400,850,1.046,,True,False,58.623,flat,Ciutat Vella,14.15
+14405,600,0.959,1.1,False,False,40.421,,Les Corts,14.64
+14412,950,1.015,0.972,True,False,49.987,,Eixample,18.437
+14413,1550,2.119,2.047,True,False,,flat,Sant Andreu,19.126
+14424,2500,3.226,,True,True,140.279,flat,Les Corts,16.233
+14425,1050,1.913,,True,True,71.657,flat,Sants-Montjuïc,15.364
+14448,2300,3.095,1.979,True,True,150.068,,Sants-Montjuïc,14.897
+14450,1400,1.088,1.073,False,False,45.177,flat,Horta- Guinardo,
+14451,680,,1.001,False,False,36.548,flat,Gràcia,18.112
+14452,1700,2.197,1.035,True,True,98.261,,Horta- Guinardo,17.104
+14453,1150,2.734,1.089,True,False,72.6,flat,Eixample,
+14458,950,1.829,,True,True,65.569,flat,Ciutat Vella,15.048
+14472,900,0.983,0.968,True,False,47.796,,Eixample,15.74
+14474,4166,2.978,1.876,False,False,91.597,,Sarria-Sant Gervasi,49.704
+14475,890,2.109,1.008,True,False,63.745,flat,Eixample,
+14479,550,0.0,0.995,False,True,,apartment,Sarria-Sant Gervasi,19.727
+14486,1050,,0.952,False,False,31.887,apartment,Les Corts,28.92
+14487,5500,3.782,,True,False,273.242,attic,Sarria-Sant Gervasi,19.793
+14491,650,0.93,,False,False,25.552,flat,Eixample,23.235
+14492,1850,,2.034,False,False,106.832,flat,Sant Martí,20.306
+14506,2900,4.161,2.131,True,True,160.786,,Ciutat Vella,20.783
+14508,793,2.92,1.057,True,False,76.027,flat,Eixample,
+14509,3479,2.107,,False,False,69.161,apartment,Les Corts,43.601
+14512,2000,2.98,2.061,True,False,114.607,flat,Gràcia,
+14519,1100,0.941,0.993,False,False,64.429,,Gràcia,
+14520,800,2.057,1.01,False,False,47.212,flat,Sant Andreu,
+14523,1300,3.062,1.978,False,False,122.702,flat,Ciutat Vella,
+14524,2000,,1.841,False,False,171.609,flat,Sarria-Sant Gervasi,11.779
+14528,1100,,1.021,True,False,74.626,flat,Ciutat Vella,16.613
+14530,1500,2.034,2.146,True,False,65.055,apartment,Sarria-Sant Gervasi,
+14532,1500,1.096,0.914,True,False,,flat,Gràcia,36.686
+14533,4500,3.744,3.079,True,False,144.187,,Gràcia,31.3
+14534,775,,0.95,False,False,64.864,flat,Gràcia,12.653
+14539,2900,3.019,2.986,True,True,129.491,,Sarria-Sant Gervasi,22.771
+14553,900,2.157,1.046,True,False,46.221,flat,Ciutat Vella,
+14554,1100,3.01,,False,False,55.942,flat,Eixample,20.619
+14555,825,2.023,0.96,False,False,52.675,,Eixample,13.745
+14561,2150,4.335,2.928,True,True,151.187,,Eixample,15.727
+14572,3000,1.879,1.056,True,False,82.078,,Eixample,32.477
+14575,1500,,2.024,True,False,84.888,flat,Sarria-Sant Gervasi,16.545
+14579,600,1.055,1.056,True,False,19.062,,Les Corts,30.383
+14581,650,1.9,1.044,False,False,57.106,flat,Ciutat Vella,
+14585,695,1.002,0.993,False,False,41.564,,Sarria-Sant Gervasi,18.193
+14591,1050,2.045,0.939,True,False,50.966,flat,Les Corts,
+14592,3819,0.981,1.022,False,False,66.721,,Sarria-Sant Gervasi,58.034
+14597,1350,2.711,2.894,True,False,,flat,Sarria-Sant Gervasi,15.592
+14599,845,1.814,,True,False,72.702,,Eixample,12.987
+14603,1488,1.931,1.841,True,True,83.876,attic,Gràcia,
+14615,1800,3.69,2.005,True,True,96.616,flat,Eixample,
+14618,900,3.077,1.865,False,False,109.823,flat,Sarria-Sant Gervasi,
+14623,1130,2.106,1.933,True,True,,flat,Sarria-Sant Gervasi,12.381
+14626,5000,2.135,2.169,False,False,98.659,,Sarria-Sant Gervasi,46.93
+14627,990,,0.98,True,True,,flat,Ciutat Vella,15.644
+14631,1500,2.147,0.961,True,False,,flat,Sants-Montjuïc,17.695
+14647,1100,5.135,1.896,True,False,,flat,Les Corts,10.774
+14648,6800,4.97,4.797,True,True,318.901,,Eixample,20.277
+14652,5300,3.637,5.908,True,True,252.339,,Sants-Montjuïc,19.432
+14656,1290,1.927,0.995,False,False,65.635,,Horta- Guinardo,21.353
+14660,850,2.708,,True,False,63.531,flat,Gràcia,14.045
+14663,1000,,1.057,True,True,57.523,,Gràcia,17.237
+14664,800,1.012,0.995,False,False,48.271,flat,Gràcia,
+14665,1000,,0.974,False,True,58.579,,Gràcia,17.598
+14670,800,1.087,0.958,False,False,58.663,,Sants-Montjuïc,12.188
+14676,995,,1.047,False,True,40.54,attic,Sarria-Sant Gervasi,25.516
+14683,765,1.83,,True,False,62.963,flat,Les Corts,10.895
+14685,850,,0.977,True,False,59.144,flat,Horta- Guinardo,15.99
+14688,2600,,1.987,False,False,97.24,flat,Eixample,27.217
+14693,740,1.068,0.949,True,False,,flat,Eixample,
+14697,2500,1.83,0.935,True,False,67.6,,Eixample,37.958
+14699,2750,,1.902,True,False,153.691,flat,Ciutat Vella,18.989
+14704,1400,,1.091,True,True,53.997,,Sants-Montjuïc,
+14707,750,0.987,,False,False,59.924,flat,Sarria-Sant Gervasi,
+14708,1200,2.094,,True,False,,apartment,Gràcia,18.144
+14710,1500,,1.96,True,True,120.322,flat,Sarria-Sant Gervasi,14.0
+14723,690,0.0,1.069,False,False,33.092,,Eixample,22.183
+14725,1250,1.862,1.094,False,False,,flat,Horta- Guinardo,15.957
+14728,4000,3.957,2.868,True,False,,flat,Ciutat Vella,27.334
+14733,1600,0.0,,True,False,62.0,,Eixample,29.268
+14737,900,3.081,1.804,True,True,,flat,Ciutat Vella,12.645
+14738,1500,2.759,,True,False,51.792,flat,Eixample,28.463
+14740,775,1.018,,True,False,41.522,flat,Gràcia,18.599
+14748,1000,,0.983,False,False,64.947,flat,Les Corts,13.721
+14749,625,,,True,True,42.295,,Gràcia,15.082
+14750,6738,2.71,2.116,False,False,,apartment,Ciutat Vella,58.324
+14751,975,,0.959,True,False,60.707,flat,Nou Barris,15.373
+14759,1200,4.182,2.196,True,True,103.773,,Les Corts,11.773
+14762,875,,1.018,True,False,90.581,flat,Ciutat Vella,8.911
+14766,695,,0.925,True,True,55.476,apartment,Ciutat Vella,13.823
+14767,750,0.906,,True,False,48.586,study,Eixample,15.064
+14773,1150,0.981,1.004,True,True,56.521,apartment,Eixample,
+14777,2150,,1.897,True,True,107.071,attic,Eixample,20.449
+14778,725,0.923,1.086,False,True,45.731,,Sant Andreu,16.212
+14779,700,3.016,2.083,False,False,67.862,,Eixample,11.213
+14781,850,1.854,0.951,True,False,68.833,flat,Sant Martí,
+14786,890,1.941,0.949,True,False,71.979,flat,Ciutat Vella,
+14791,3300,5.241,,True,True,208.51,flat,Sarria-Sant Gervasi,16.552
+14792,3500,2.156,1.925,True,True,,attic,Sants-Montjuïc,38.218
+14797,1350,3.073,2.134,True,False,88.765,flat,Sarria-Sant Gervasi,
+14800,1100,2.171,,True,False,68.752,flat,Eixample,16.694
+14801,1500,3.051,2.074,False,True,103.725,flat,Eixample,
+14804,1000,3.241,,True,False,100.591,flat,Sant Andreu,10.076
+14809,980,,1.011,True,False,51.887,flat,Horta- Guinardo,16.504
+14811,1100,1.819,1.009,True,False,73.609,,Sants-Montjuïc,15.411
+14813,850,,0.971,True,False,43.73,,Ciutat Vella,20.741
+14815,982,2.173,1.915,True,False,69.872,flat,Eixample,
+14821,900,,0.973,True,False,63.999,flat,Sarria-Sant Gervasi,13.919
+14823,950,1.017,0.921,True,False,57.071,flat,Les Corts,
+14829,800,3.263,,True,False,64.578,flat,Eixample,11.112
+14831,1800,,2.178,True,True,128.963,attic,Horta- Guinardo,15.279
+14833,990,,2.197,True,False,79.055,flat,Ciutat Vella,12.258
+14837,1090,,2.022,True,False,72.418,flat,Ciutat Vella,16.691
+14838,1050,,1.029,True,False,76.517,flat,Sarria-Sant Gervasi,13.87
+14840,5500,3.097,1.861,True,False,98.673,,Sant Martí,
+14841,890,2.109,,False,False,66.742,flat,Les Corts,12.803
+14846,825,,0.946,False,False,68.769,flat,Les Corts,13.435
+14848,3800,2.784,4.393,True,False,216.769,,Les Corts,16.168
+14858,900,2.005,0.99,True,False,75.892,,Ciutat Vella,12.632
+14862,757,1.935,1.017,False,False,55.032,study,Les Corts,
+14865,1200,2.157,1.982,True,False,84.368,flat,Eixample,
+14870,1100,2.83,,True,False,76.025,flat,Horta- Guinardo,12.235
+14872,1250,3.814,,True,False,83.908,flat,Ciutat Vella,13.638
+14882,1150,2.713,1.976,True,False,,flat,Eixample,10.52
+14883,2700,2.917,2.976,True,False,111.567,flat,Sants-Montjuïc,
+14884,1200,2.113,1.096,True,False,84.767,,Sant Andreu,13.588
+14885,1800,1.851,,True,True,86.199,flat,Nou Barris,20.629
+14889,895,,0.93,True,False,72.468,flat,Eixample,12.017
+14890,2995,2.87,,True,False,189.725,flat,Eixample,15.501
+14895,1250,3.103,2.021,True,False,93.669,,Sants-Montjuïc,13.961
+14896,800,2.802,1.059,False,True,65.076,flat,Ciutat Vella,
+14898,695,0.923,,True,False,68.377,study,Sarria-Sant Gervasi,11.366
+14901,2300,2.979,1.851,True,False,92.116,apartment,Sarria-Sant Gervasi,
+14912,950,0.931,,False,True,53.995,attic,Ciutat Vella,16.431
+14914,950,,0.958,True,False,45.282,flat,Ciutat Vella,17.331
+14917,1450,,2.068,False,True,98.399,flat,Sarria-Sant Gervasi,16.749
+14918,835,1.077,1.073,True,False,44.038,,Eixample,17.74
+14923,2578,,1.08,True,False,56.759,apartment,Sants-Montjuïc,
+14931,2400,3.098,2.148,True,False,89.735,,Ciutat Vella,26.286
+14936,950,2.961,1.88,False,False,68.02,flat,Sarria-Sant Gervasi,
+14942,1690,3.155,2.193,False,False,,apartment,Eixample,11.99
+14945,875,2.863,1.08,True,True,,flat,Horta- Guinardo,12.799
+14952,1100,3.281,2.1,False,True,97.092,flat,Ciutat Vella,
+14955,1195,2.048,1.928,True,False,61.637,,Les Corts,18.062
+14958,675,0.998,0.963,False,False,42.395,,Ciutat Vella,18.788
+14966,750,,0.905,True,False,58.94,flat,Sant Martí,12.813
+14971,1300,1.934,1.022,True,False,78.089,,Sant Andreu,15.831
+14977,790,3.202,,False,False,79.167,flat,Ciutat Vella,10.209
+14978,790,1.991,1.085,False,False,,flat,Eixample,14.387
+14979,2600,,4.903,True,False,281.557,attic,Eixample,10.49
+14980,1800,2.167,,False,False,113.779,flat,Les Corts,16.572
+14987,2200,3.048,3.041,True,False,142.218,flat,Sant Martí,
+14989,950,,0.925,True,False,61.196,flat,Sant Martí,14.487
+14990,1200,1.845,2.149,True,False,,flat,Eixample,12.252
+14994,6000,4.506,4.196,True,False,297.093,flat,Nou Barris,
+14995,1500,4.383,1.983,True,False,116.49,flat,Sarria-Sant Gervasi,
+14996,1100,1.861,0.935,True,False,,flat,Les Corts,22.476
+14997,1495,2.818,,False,False,68.004,apartment,Ciutat Vella,21.106
+15002,5500,6.129,,True,True,262.954,attic,Sarria-Sant Gervasi,20.975
+15007,775,2.046,,False,False,42.211,flat,Ciutat Vella,20.88
+15009,1000,,0.954,True,False,49.345,flat,Sarria-Sant Gervasi,19.152
+15016,1175,3.915,2.009,True,False,80.234,,Sant Martí,13.747
+15018,1150,2.727,,True,False,110.65,flat,Eixample,10.74
+15020,750,,1.093,False,False,32.595,flat,Eixample,20.607
+15023,850,0.987,1.062,False,True,52.632,flat,Eixample,
+15024,1000,,0.925,False,False,47.8,apartment,Eixample,20.662
+15025,2030,1.956,1.923,False,False,,apartment,Eixample,23.352
+15028,900,,2.103,True,True,70.822,flat,Sants-Montjuïc,11.139
+15032,700,0.0,0.982,False,False,33.204,,Eixample,20.058
+15033,1375,2.704,,False,False,63.604,apartment,Eixample,20.37
+15035,950,4.133,,True,False,70.395,flat,Sarria-Sant Gervasi,14.187
+15036,1600,,3.083,True,False,135.927,flat,Sarria-Sant Gervasi,13.37
+15049,900,1.079,1.062,True,False,,flat,Eixample,21.991
+15050,4000,6.492,1.903,True,True,200.948,,Sants-Montjuïc,17.137
+15051,1600,3.961,,True,False,117.01,flat,Gràcia,11.613
+15054,1600,4.076,2.129,True,False,,flat,Ciutat Vella,15.191
+15063,1100,4.178,2.074,True,True,,flat,Sarria-Sant Gervasi,10.139
+15065,1050,4.276,0.954,True,True,90.222,,Eixample,10.764
+15081,1000,2.816,0.937,True,True,78.705,flat,Sarria-Sant Gervasi,
+15085,950,2.056,,True,False,75.845,flat,Sarria-Sant Gervasi,11.745
+15096,1168,2.959,1.064,True,False,72.27,flat,Les Corts,
+15099,2000,,0.957,False,False,80.183,flat,Les Corts,24.325
+15100,2400,3.212,3.154,True,False,116.964,,Eixample,19.875
+15103,2500,2.964,3.182,False,False,133.017,,Ciutat Vella,17.216
+15104,1900,1.898,1.98,True,True,,flat,Eixample,31.293
+15109,890,2.71,0.958,True,False,66.369,flat,Sant Martí,
+15110,650,,1.069,False,False,38.958,flat,Sarria-Sant Gervasi,17.767
+15111,1650,1.063,0.965,True,False,,apartment,Horta- Guinardo,29.788
+15112,3100,,2.711,True,True,168.616,flat,Les Corts,17.468
+15115,950,2.045,1.962,True,False,90.276,,Eixample,11.886
+15116,840,1.922,,True,False,53.093,flat,Eixample,14.398
+15118,850,,0.919,True,False,52.484,flat,Eixample,16.157
+15121,2700,3.655,2.002,True,False,82.213,,Sant Martí,29.722
+15125,4500,2.932,2.071,True,False,83.811,flat,Ciutat Vella,
+15129,5300,4.938,,True,False,306.936,flat,Eixample,19.611
+15130,2500,2.709,2.136,True,False,191.338,apartment,Les Corts,
+15133,1700,,1.97,True,False,129.474,flat,Sant Andreu,13.254
+15134,1550,2.999,,True,False,105.074,flat,Sants-Montjuïc,14.464
+15135,1100,4.099,2.113,True,False,,flat,Gràcia,10.199
+15136,1190,2.885,,True,False,95.175,flat,Sants-Montjuïc,12.177
+15139,950,2.74,2.16,True,False,71.919,flat,Sarria-Sant Gervasi,
+15141,850,0.924,1.058,False,False,,flat,Les Corts,15.334
+15143,4500,4.135,2.91,True,True,268.996,,Ciutat Vella,18.426
+15144,2800,,,True,False,68.584,,Sant Martí,39.312
+15148,1000,3.262,1.054,False,False,106.015,flat,Nou Barris,
+15150,2200,1.974,2.166,False,False,108.312,flat,Eixample,
+15159,875,2.021,1.093,True,False,59.301,flat,Sarria-Sant Gervasi,
+15162,950,2.14,0.986,False,False,,flat,Eixample,11.845
+15166,4600,3.072,2.172,True,True,73.594,,Ciutat Vella,58.35
+15167,690,1.095,,False,False,38.434,study,Les Corts,19.253
+15169,3100,4.079,2.049,True,True,202.293,flat,Sants-Montjuïc,
+15171,2700,3.097,1.945,True,False,83.663,,Les Corts,34.485
+15174,900,2.032,1.004,True,True,68.46,,Sants-Montjuïc,12.641
+15179,975,3.167,1.044,True,False,81.574,flat,Les Corts,
+15181,975,4.32,1.995,True,False,,flat,Eixample,9.939
+15185,2200,3.804,1.979,True,False,,flat,Eixample,12.048
+15187,990,2.048,0.963,False,False,64.172,apartment,Sant Martí,
+15188,675,0.925,0.907,False,True,34.658,,Les Corts,19.863
+15189,1250,2.192,1.824,True,True,44.765,flat,Sants-Montjuïc,
+15191,1350,4.213,,False,False,138.015,flat,Les Corts,10.868
+15201,1791,0.961,0.948,False,False,31.938,,Ciutat Vella,50.409
+15204,1000,,0.956,False,False,63.507,flat,Sant Martí,15.389
+15225,1195,2.155,1.819,True,False,58.442,flat,Eixample,
+15229,1995,3.094,2.111,False,False,,apartment,Sarria-Sant Gervasi,21.441
+15231,790,3.293,1.051,False,False,79.389,flat,Ciutat Vella,
+15232,650,0.91,0.999,False,False,,,Les Corts,10.344
+15237,760,,1.006,False,False,69.876,,Eixample,9.947
+15242,980,3.655,2.155,True,False,83.634,,Eixample,11.433
+15244,950,1.804,1.018,True,False,46.175,,Ciutat Vella,17.212
+15246,850,3.184,0.922,True,False,,flat,Les Corts,13.18
+15248,700,,0.999,False,False,62.376,flat,Ciutat Vella,12.815
+15249,1600,2.925,1.836,True,False,65.58,flat,Les Corts,
+15251,2050,4.092,2.785,True,False,162.274,flat,Sant Andreu,
+15256,2800,2.913,,True,False,113.877,flat,Eixample,22.386
+15257,2050,3.934,,True,False,147.777,flat,Gràcia,12.7
+15259,1600,3.671,2.112,True,False,,flat,Ciutat Vella,15.785
+15274,1250,,1.957,True,False,80.424,flat,Eixample,14.946
+15275,1090,3.22,1.067,True,False,,flat,Ciutat Vella,13.078
+15276,1700,,1.843,True,False,57.364,apartment,Sant Martí,
+15278,1100,,1.079,True,False,84.609,flat,Ciutat Vella,11.843
+15280,1045,2.956,1.964,True,True,,flat,Gràcia,15.437
+15284,960,3.808,1.991,True,False,72.111,,Sarria-Sant Gervasi,12.079
+15297,640,1.872,1.098,False,False,,flat,Ciutat Vella,14.341
+15298,980,3.993,1.872,True,False,,flat,Sarria-Sant Gervasi,12.792
+15299,2200,3.271,1.961,True,True,124.917,flat,Sants-Montjuïc,
+15304,900,3.045,1.076,False,False,67.295,,Eixample,14.707
+15305,975,2.852,2.052,True,False,99.795,flat,Sarria-Sant Gervasi,
+15307,890,1.08,0.9,True,False,46.715,,Eixample,18.346
+15314,1600,2.032,0.939,False,False,,flat,Ciutat Vella,18.324
+15315,950,2.749,1.986,True,True,77.885,,Sarria-Sant Gervasi,11.427
+15324,950,,0.929,True,False,78.029,flat,Sants-Montjuïc,12.784
+15325,1300,1.85,,True,False,76.643,flat,Ciutat Vella,17.202
+15334,1000,3.0,1.053,False,True,69.429,,Eixample,16.108
+15335,900,2.197,2.105,True,False,,,Ciutat Vella,12.643
+15338,975,0.91,,False,True,53.004,,Sarria-Sant Gervasi,
+15339,900,,0.977,True,False,58.433,flat,Gràcia,16.241
+15342,1500,,1.83,True,False,173.072,flat,Ciutat Vella,8.249
+15344,1100,,0.921,False,False,75.491,flat,Sant Andreu,
+15346,1073,2.165,0.917,True,True,,flat,Sarria-Sant Gervasi,16.505
+15347,850,0.961,0.999,True,True,77.512,flat,Ciutat Vella,
+15354,950,4.185,0.997,True,False,,flat,Eixample,10.748
+15356,640,0.0,1.037,True,False,28.901,,Sant Martí,23.903
+15362,825,3.285,0.98,False,True,,flat,Ciutat Vella,10.796
+15367,1050,2.951,,True,True,86.082,flat,Eixample,10.555
+15374,1675,3.297,1.957,True,False,106.131,,Sant Martí,17.668
+15375,790,3.896,,True,False,59.253,flat,Sarria-Sant Gervasi,12.856
+15378,750,,,True,True,52.897,study,Eixample,15.473
+15383,2650,3.078,1.847,True,True,123.227,flat,Ciutat Vella,
+15387,1100,1.072,2.054,True,False,86.203,,Ciutat Vella,13.947
+15391,500,1.011,,True,False,27.15,study,Eixample,15.299
+15393,1390,1.829,2.021,True,False,101.108,,Eixample,13.987
+15397,1200,0.945,0.913,True,False,49.529,,Gràcia,23.495
+15398,900,2.028,2.069,True,True,49.684,,Sants-Montjuïc,18.208
+15401,900,1.939,1.004,True,False,77.103,,Ciutat Vella,10.661
+15409,724,0.908,,False,True,37.954,flat,Eixample,20.59
+15414,1650,,0.936,True,False,82.838,apartment,Sant Martí,21.299
+15417,975,2.901,1.015,True,False,100.27,,Ciutat Vella,11.164
+15426,2500,5.481,,True,True,193.451,apartment,Gràcia,13.298
+15427,750,2.072,1.051,True,False,58.819,,Ciutat Vella,12.318
+15428,874,2.909,1.012,False,False,,flat,Eixample,12.203
+15441,850,2.756,,True,False,57.357,flat,Eixample,
+15444,6000,0.0,,False,False,318.409,apartment,Sants-Montjuïc,19.799
+15451,650,,1.07,False,False,40.941,flat,Ciutat Vella,15.501
+15452,780,0.0,0.976,True,False,24.802,,Les Corts,29.934
+15454,850,2.076,,True,False,54.241,flat,Eixample,18.536
+15456,980,3.877,,True,False,82.291,flat,Sarria-Sant Gervasi,10.914
+15462,630,0.909,0.944,False,False,24.484,,Les Corts,23.422
+15464,2650,3.958,,True,False,186.26,flat,Sant Martí,13.782
+15478,3900,2.887,1.865,True,False,,flat,Sants-Montjuïc,41.353
+15479,1460,2.977,2.067,False,True,83.742,,Sant Martí,19.352
+15487,800,1.922,1.062,True,False,76.899,,Sants-Montjuïc,10.365
+15491,1650,2.961,3.275,True,False,90.279,,Sarria-Sant Gervasi,17.917
+15498,1100,3.72,1.004,False,False,,flat,Sant Andreu,13.811
+15514,800,1.084,2.105,True,False,87.86,,Sant Martí,10.488
+15517,1700,2.157,1.066,True,True,81.39,,Gràcia,19.301
+15521,3000,3.715,,False,True,174.312,flat,Gràcia,17.719
+15525,950,0.908,1.078,True,False,50.385,,Eixample,18.782
+15531,2700,3.088,,True,False,130.081,flat,Gràcia,23.485
+15532,1050,,1.927,True,False,79.454,flat,Ciutat Vella,11.632
+15534,750,,1.063,True,True,48.931,study,Eixample,14.65
+15536,950,,0.938,False,False,64.133,flat,Ciutat Vella,15.732
+15537,1700,3.035,,True,False,79.318,flat,Sarria-Sant Gervasi,24.172
+15540,1200,1.823,,False,False,61.265,apartment,Eixample,
+15549,450,0.0,1.01,False,False,25.93,,Gràcia,19.604
+15550,2994,2.12,2.183,False,False,63.78,,Sarria-Sant Gervasi,44.874
+15552,800,0.933,1.099,True,False,,flat,Sants-Montjuïc,15.17
+15553,980,3.037,0.989,False,False,54.048,flat,Eixample,
+15569,1150,0.904,0.968,True,False,60.421,,Ciutat Vella,
+15583,780,,0.973,True,True,39.6,flat,Sarria-Sant Gervasi,19.089
+15587,2100,3.187,,True,False,96.77,,Eixample,
+15592,800,,1.012,False,True,27.916,flat,Eixample,28.019
+15597,850,1.912,0.981,False,False,77.186,,Les Corts,10.288
+15601,1200,3.686,1.926,False,True,,flat,Ciutat Vella,15.067
+15617,770,1.96,0.968,True,True,52.774,,Ciutat Vella,13.487
+15622,750,0.968,,True,False,51.407,flat,Sarria-Sant Gervasi,14.983
+15623,2032,3.232,,False,False,65.917,apartment,Ciutat Vella,32.19
+15630,4600,3.167,2.088,True,True,83.539,,Horta- Guinardo,59.895
+15633,900,1.996,1.061,True,False,,flat,Eixample,14.057
+15635,1100,,1.978,True,False,84.346,flat,Ciutat Vella,13.201
+15637,750,1.032,,True,False,38.687,attic,Les Corts,20.171
+15638,2400,3.245,2.017,True,False,136.077,,Eixample,15.923
+15654,1450,2.072,,True,True,81.629,flat,Eixample,17.159
+15658,2700,3.767,1.997,True,False,88.15,,Sant Martí,29.619
+15664,1700,1.001,,False,False,46.09,apartment,Gràcia,36.231
+15670,925,1.915,1.047,True,False,,flat,Sarria-Sant Gervasi,15.644
+15672,1250,1.029,1.849,True,True,91.066,,Sarria-Sant Gervasi,13.341
+15674,1000,3.709,1.09,False,False,84.599,,Ciutat Vella,12.304
+15675,1100,3.87,2.108,True,False,92.204,flat,Les Corts,
+15678,780,0.927,0.993,True,False,45.113,flat,Eixample,
+15680,1800,,0.906,True,False,81.225,apartment,Eixample,23.658
+15687,700,,0.955,True,False,51.086,flat,Sant Martí,13.491
+15691,990,0.909,1.009,True,False,,,Eixample,7.143
+15693,1200,2.724,2.098,True,True,103.19,,Eixample,12.44
+15696,1400,1.836,0.941,True,True,57.236,,Sarria-Sant Gervasi,24.592
+15698,1175,2.0,2.198,False,False,,flat,Sarria-Sant Gervasi,14.578
+15699,695,,1.994,False,False,62.71,flat,Les Corts,11.677
+15701,2020,,1.977,True,False,135.434,flat,Eixample,14.679
+15705,1250,4.336,2.025,False,False,122.795,,Eixample,11.236
+15707,1512,1.057,0.919,False,False,61.315,apartment,Sant Martí,
+15709,4500,2.886,1.934,True,False,95.16,flat,Ciutat Vella,
+15718,2200,2.914,1.986,True,True,147.854,,Sant Martí,15.664
+15727,1000,3.112,0.98,True,False,70.409,flat,Sarria-Sant Gervasi,
+15728,750,0.921,0.979,True,False,51.696,,Sant Martí,14.977
+15734,1950,2.14,0.969,True,False,109.543,apartment,Les Corts,
+15738,1800,3.998,2.027,True,True,108.684,,Gràcia,18.592
+15743,1300,,1.965,True,True,124.862,flat,Eixample,11.251
+15750,780,2.148,0.961,False,False,,flat,Sarria-Sant Gervasi,16.816
+15756,1600,0.0,0.991,True,False,57.215,,Gràcia,
+15761,1140,2.179,0.942,True,False,,attic,Gràcia,
+15762,730,3.239,1.074,True,False,76.138,flat,Sant Andreu,
+15767,2400,2.979,3.234,True,False,,,Eixample,16.81
+15768,1350,2.174,0.913,True,False,79.062,apartment,Gràcia,
+15774,1650,,,True,True,66.488,attic,Gràcia,25.895
+15780,1190,3.232,,True,False,63.165,flat,Eixample,17.207
+15783,850,2.964,0.911,False,True,83.971,,Sants-Montjuïc,8.991
+15786,1050,3.05,1.023,True,False,,flat,Les Corts,14.541
+15790,1050,3.085,,True,False,,flat,Eixample,13.821
+15793,950,2.981,1.849,True,True,,flat,Gràcia,9.963
+15796,3800,4.355,3.3,True,False,,apartment,Sarria-Sant Gervasi,15.446
+15797,1000,2.815,,False,True,72.898,flat,Ciutat Vella,13.489
+15802,650,0.922,0.982,True,False,37.507,,Sarria-Sant Gervasi,14.825
+15803,2450,3.13,3.087,True,False,173.071,flat,Ciutat Vella,
+15804,725,1.927,,False,False,64.61,flat,Eixample,9.613
+15808,900,3.006,0.947,True,False,,flat,Ciutat Vella,12.873
+15815,1300,,0.989,True,True,37.735,flat,Ciutat Vella,36.215
+15825,750,2.134,0.998,True,False,59.632,,Ciutat Vella,10.901
+15833,1500,2.926,,True,True,80.999,flat,Eixample,18.766
+15834,2200,4.298,3.053,True,False,209.567,flat,Ciutat Vella,
+15836,2300,6.788,1.843,True,False,,apartment,Sarria-Sant Gervasi,10.373
+15839,570,0.95,0.935,False,False,32.433,flat,Gràcia,
+15845,1950,0.99,1.919,False,True,178.301,,Eixample,10.918
+15846,700,,1.023,True,False,63.767,flat,Sarria-Sant Gervasi,11.695
+15856,890,1.093,,True,False,52.073,flat,Eixample,16.439
+15871,875,1.061,1.036,True,True,,apartment,Sarria-Sant Gervasi,14.715
+15874,1500,1.858,2.155,True,False,70.749,,Sant Martí,23.396
+15876,1700,2.009,0.99,True,False,92.293,,Sants-Montjuïc,19.832
+15877,649,1.017,1.071,False,True,,apartment,Sant Andreu,14.029
+15879,1700,,1.856,True,True,87.974,flat,Sants-Montjuïc,19.472
+15881,2790,3.76,3.264,True,True,193.88,,Eixample,14.174
+15889,2800,0.994,0.948,True,False,78.049,,Sarria-Sant Gervasi,33.953
+15896,1200,4.22,,True,False,,flat,Eixample,12.348
+15898,900,2.004,1.081,False,False,60.249,flat,Eixample,
+15899,1400,,0.936,True,False,53.108,flat,Les Corts,30.012
+15901,1300,0.992,,True,False,49.002,apartment,Sarria-Sant Gervasi,28.104
+15904,1200,3.202,2.139,False,True,88.136,flat,Ciutat Vella,
+15910,1050,2.104,3.009,True,False,68.524,,Sants-Montjuïc,17.24
+15911,800,1.949,0.912,True,False,,flat,Sarria-Sant Gervasi,13.817
+15913,1100,2.75,,False,False,57.122,flat,Sant Martí,18.306
+15914,1200,2.827,1.992,False,False,91.697,,Sarria-Sant Gervasi,12.684
+15915,1700,2.748,2.067,True,False,129.647,,Gràcia,13.616
+15918,1250,4.672,2.114,True,False,111.035,flat,Sant Andreu,
+15937,865,1.872,,False,False,61.093,apartment,Ciutat Vella,14.876
+15939,900,0.919,1.026,True,False,55.771,flat,Sants-Montjuïc,
+15943,1550,3.909,1.875,True,True,155.783,,Eixample,10.537
+15947,875,0.915,1.079,False,False,50.302,flat,Sant Andreu,
+15950,950,1.918,1.015,True,True,,flat,Eixample,14.521
+15953,700,1.077,1.009,True,False,41.105,,Ciutat Vella,17.941
+15963,1000,3.152,1.026,True,False,91.325,flat,Eixample,
+15967,899,1.967,0.945,True,False,46.479,flat,Sant Andreu,
+15968,1800,1.917,1.049,True,False,,apartment,Les Corts,18.301
+15971,1400,0.951,0.938,True,False,82.554,,Eixample,16.091
+15973,874,,0.97,False,True,71.482,flat,Sarria-Sant Gervasi,11.933
+15975,950,,1.023,False,False,,flat,Ciutat Vella,16.748
+15987,600,0.993,0.991,True,False,26.589,,Ciutat Vella,24.366
+15995,1050,1.032,1.036,True,False,63.965,,Eixample,16.342
+16008,1575,1.092,1.056,False,False,,apartment,Sarria-Sant Gervasi,33.109
+16017,3800,2.101,2.095,True,True,91.559,,Sants-Montjuïc,41.595
+16018,990,4.152,,True,True,83.159,flat,Eixample,11.973
+16019,620,0.0,0.939,True,True,26.38,,Eixample,22.569
+16022,1250,,2.056,True,False,113.675,flat,Sarria-Sant Gervasi,9.779
+16023,1750,2.043,2.009,True,False,67.935,,Ciutat Vella,22.211
+16035,2100,2.084,2.087,True,False,122.006,flat,Eixample,
+16037,980,2.742,0.906,True,True,,flat,Sarria-Sant Gervasi,17.615
+16038,2300,4.296,3.246,True,False,138.2,flat,Eixample,
+16041,750,2.167,0.984,False,False,43.227,flat,Sant Andreu,
+16046,1300,2.18,,True,False,57.239,flat,Ciutat Vella,24.7
+16067,1100,,2.089,False,False,71.864,flat,Eixample,14.941
+16068,995,2.191,2.177,True,False,,flat,Eixample,14.888
+16072,1600,2.916,,True,True,116.112,flat,Eixample,13.64
+16076,780,1.014,1.036,True,True,47.177,flat,Ciutat Vella,
+16092,6500,,3.975,True,True,298.092,attic,Eixample,22.419
+16099,1080,3.152,2.136,True,False,,flat,Sarria-Sant Gervasi,14.68
+16109,1200,2.999,1.902,False,False,,flat,Sarria-Sant Gervasi,13.629
+16115,625,1.095,1.085,True,False,,flat,Sarria-Sant Gervasi,18.114
+16118,1500,3.255,1.986,True,False,,flat,Sarria-Sant Gervasi,
+16120,950,2.873,0.933,True,False,,flat,Sarria-Sant Gervasi,14.513
+16123,850,1.003,1.034,True,False,,flat,Eixample,15.341
+16138,870,1.065,1.077,False,False,38.46,flat,Sants-Montjuïc,
+16147,1100,2.865,,True,True,98.761,flat,Sarria-Sant Gervasi,10.228
+16151,1350,5.074,,False,False,119.274,flat,Ciutat Vella,10.364
+16152,1650,,1.81,True,True,,flat,Gràcia,10.776
+16155,700,0.0,1.092,True,False,25.891,,Eixample,30.375
+16164,625,1.031,0.963,True,False,27.024,attic,Les Corts,
+16167,850,3.024,1.942,True,True,90.903,,Gràcia,9.958
+16168,1100,,0.95,True,True,68.467,flat,Eixample,13.448
+16172,1900,,1.836,True,False,96.781,flat,Ciutat Vella,19.879
+16181,800,1.05,1.082,True,False,,flat,Gràcia,
+16183,1200,,,False,False,51.527,flat,Ciutat Vella,23.836
+16192,1600,2.153,,False,False,62.316,flat,Sant Martí,26.477
+16193,1714,,1.062,False,False,64.569,apartment,Eixample,28.097
+16202,1550,3.663,1.878,True,False,122.39,flat,Eixample,
+16204,775,,0.947,True,False,55.862,flat,Eixample,12.275
+16215,900,1.832,1.024,True,False,70.885,flat,Eixample,
+16216,670,1.075,1.078,False,False,56.479,,Eixample,11.363
+16220,1000,1.007,,True,False,52.724,apartment,Les Corts,20.676
+16221,620,0.0,0.914,False,False,,flat,Eixample,12.756
+16223,700,1.062,1.068,True,False,36.464,flat,Ciutat Vella,
+16229,1050,1.985,3.074,False,False,62.904,,Ciutat Vella,16.213
+16232,1250,2.199,1.893,True,False,,flat,Sarria-Sant Gervasi,13.648
+16233,675,2.997,,False,False,66.895,flat,Ciutat Vella,10.22
+16250,1350,2.872,2.827,True,False,,flat,Sarria-Sant Gervasi,16.477
+16254,1450,5.176,,True,False,117.078,flat,Eixample,10.831
+16261,1050,2.035,2.787,True,False,66.789,,Sarria-Sant Gervasi,17.071
+16264,1250,3.642,1.836,True,False,83.39,flat,Sant Andreu,
+16266,1950,2.103,2.014,True,False,98.655,,Sant Martí,20.365
+16268,1100,2.849,1.828,True,True,,flat,Sants-Montjuïc,9.24
+16269,850,,0.998,True,False,,flat,Gràcia,14.5
+16270,1800,4.334,,True,True,98.074,flat,Eixample,19.284
+16274,1095,1.041,1.963,True,False,64.663,,Eixample,18.839
+16283,750,1.902,,True,False,53.429,flat,Sants-Montjuïc,14.335
+16285,950,1.089,,True,False,65.976,apartment,Gràcia,15.954
+16287,950,3.125,2.195,True,True,94.718,,Horta- Guinardo,8.661
+16289,1350,,,True,False,83.756,flat,Eixample,16.092
+16292,1450,2.721,2.006,True,False,130.32,,Sants-Montjuïc,11.486
+16297,1295,2.073,1.002,True,False,52.966,flat,Sants-Montjuïc,
+16304,1450,3.033,1.841,False,False,,flat,Eixample,27.678
+16312,2068,2.081,2.199,False,False,,apartment,Eixample,25.468
+16314,930,1.083,1.095,False,True,52.528,,Sarria-Sant Gervasi,15.561
+16315,2700,3.601,1.995,True,False,78.858,,Sarria-Sant Gervasi,32.24
+16318,900,2.058,,True,False,61.295,flat,Ciutat Vella,14.867
+16325,6000,1.076,1.873,True,False,,apartment,Eixample,48.198
+16328,890,1.061,1.0,False,False,44.446,,Eixample,16.924
+16329,1250,,2.188,True,False,67.15,flat,Ciutat Vella,16.216
+16331,700,1.0,0.98,True,False,49.355,,Sant Andreu,14.643
+16336,795,1.095,0.924,True,False,50.499,,Ciutat Vella,14.688
+16341,1850,3.194,,True,True,108.081,flat,Eixample,16.969
+16343,1900,3.815,1.915,False,False,,flat,Les Corts,11.841
+16353,1275,2.969,1.096,True,True,,flat,Sarria-Sant Gervasi,12.027
+16354,740,1.895,1.037,True,True,48.656,,Ciutat Vella,16.19
+16363,1400,4.326,,True,True,121.615,attic,Eixample,10.035
+16368,900,2.159,1.051,True,True,,attic,Horta- Guinardo,17.141
+16374,1100,2.899,2.155,False,False,57.805,flat,Sant Martí,

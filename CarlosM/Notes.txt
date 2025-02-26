@@ -71,9 +71,14 @@
 - Limiting outliers at whiskers (winsorization) is considered due to the nature of the data
 - Applying winsorization can hide valuable trends in luxury or budget properties, but in this case the extreme prices are assumed to be errors or anomalies in the synthetic or augmented data, so applying winsorization will make the model more robust to those outliers.
 
-
 **Data Management**
-- Saved csv file after data preparation for backup and further analysis
+- **'df_ORIGINAL_DATA.csv'**: Reference dataset as a copy of original data. 
+- **'df_MISSING_DATA.csv'**: Data subset filtered by missing value data. 
+- **'df_IMPUTED_DATA.csv'**: Updated dataset after the imputation of the missing values. 
+- **'df_WRONG FEATURES_DATA.csv'**: Data subset filtered by data subject to feature engineering.
+- **'df_FEATURE ENG_DATA.csv'**: Updated dataset after feature engineering.
+- **'df_WITHOUT OUTLIERS_DATA.csv'**: Updated dataset after handling outliers
+
 
 4. **Exploratory Data Analysis (EDA)**:
 **Functions**
@@ -127,27 +132,36 @@
     - **MSE** (Mean Squared Error): Measures the average of the squares of the errors, giving more weight to larger errors.
     - **RMSE** (Root Mean Squared Error): The square root of MSE, providing error in the same units as the target variable.
     - **R2 Score** (Coefficient of Determination): Indicates how well the model's predictions approximate the real data points. A value closer to 1 indicates a better fit.
-- Random Forest metrics: Lowest MAE (39.87), lowest RMSE (64.74), and highest R² (0.9700).
+- Random Forest metrics: Lowest MAE, lowest RMSE, and highest R².
 - Random Forest is the best performer overall, indicating strong predictive accuracy and low error.
-- Decision Tree metrics: Moderate errors (MAE: 50.75, RMSE: 84.31) with a good R² (0.9491).
+- Decision Tree metrics: Moderate errors with a good R².
 - Decision Tree is a strong candidate, although slightly behind Random Forest.
 - Ridge, Linear, and Lasso Regression metrics are consistent with each other, but their performance is noticeably lower than the tree-based methods. They might not be ideal for further tuning if the goal is the best predictive performance.
 - For hyperparameter tuning and further validation, **Random Forest** and **Decision Tree stand** out as the best candidates due to their superior performance metrics.
 - While the linear models (Ridge, Linear, and Lasso) can serve as strong baselines, they do not match the predictive accuracy of the tree-based models.
 - K-Nearest Neighbors and SVR appear less promising for further development on this dataset.
-- Tuning hyperparameters like the number of trees (n_estimators), maximum tree depth (max_depth), and minimum samples per split (min_samples_split) could further enhance Random Forest performance.
-- For Decision Tree, tuning of parameters like max_depth, min_samples_split, and min_samples_leaf is recommended to control overfitting while maintaining accuracy
-- After hyperparameter tuning, **Tuned Random Forest**, **Random Forest**, and **Tuned Decision Tree** are the best performing models
-- The 3 best performing models after hyperparameter tuning will be evaluated with CrossValidation
-- 60-20-20 data split for training-validation-testing
-- The difference between Tuned Random Forest and Random Forest is very small, meaning the hyperparameter tuning did not drastically change the performance. However, since the tuned model has slightly better metrics, it is preferred.
-- The Tuned Random Forest significantly outperforms the Tuned Decision Tree, making the Decision Tree a weaker choice for deployment
-- **Tuned Random Forest** is the best performing model among the cross-validated models
-- square_meters is the most important variable to predict unit price and at least an aproximated value should by provided as input.
-- Having square_meters_price as the second most important variable, and considering it might be an unknown input, the model could consider mean by to inpute.
-- The most accurate model identified to predict price is: RandomForestRegressor(max_depth= 10, min_samples_split= 10, n_estimators=300)
-- With this model the performance achieved is MAE:40.1202, MSE:4112.7183, RMSE:64.1304, and R2 Score: 0.9704
-- Results obtained with scaled data (Min-Max scaling)
+- From the feature importance plot, square_meters is the most significant variable, followed by square_meters_price.
+- Since price is directly derived from square_meters * square_meters_price, including both may not add new information and could introduce redundancy.
+- Although its VIF (1.568) is low (suggesting no strong collinearity within the dataset), the mathematical dependence between square_meters and square_meters_price suggests redundancy.
+- This means the model could overestimate the importance of one feature over another and lead to unstable coefficient estimates.
+- By keeping only square_meters, the model remains more interpretable, focusing on how space affects price rather than a derived variable.
+- Defined function "preprocess_data(data, target_feature, drop_features, scale_features, test_size=0.30, random_state=1)", to iterate on the data preparation for modeling
+- Data preparation droping the feature square_meters_price
+- Linear Regression and Ridge Regression performed the best in terms of R² Score.
+- Before hyperparameter tuning, feature selection will be performed to reduce multicollinearity.
+- Data preparation droping the feature 'rooms' due high multicolinearity
+- After removing feature 'rooms' still Linear Regression and Ridge Regression performed the best in terms of R² Score, but also remains features with high multicolinearity
+- Data preparation droping the feature 'bahtroom' due high multicolinearity
+- Remains the feature real_state_flat with VIF>5
+- Since "flat" is the most frequent category across neighborhoods, it might be highly correlated with certain neighborhood variables.
+- Instead of removing real_state_flat, it will be considered as the Baseline Category for real_state
+- Modified  preprocess_data function to control one-hot encoding category to drop
+- Selected real_state_flat and neighborhood_Eixample as the base line categories for one-hot encoding
+- There is no multicolinearity in the data, suggesting the real state distribution in terms of number of rooms and bathrooms is not as relevant as the real state area, type and neighborhood
+- Linear Regression and Ridge Regression are the best models among those tested, but R² scores suggest that the models are not explaining a significant portion of the variance in the target variable.
+- More advanced models will be included in the evaluation
+
+
 
 7. **Deployment**:
 8. **Monitoring and Maintenance**:
