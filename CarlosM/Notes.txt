@@ -74,11 +74,10 @@
 **Data Management**
 - **'df_ORIGINAL_DATA.csv'**: Reference dataset as a copy of original data. 
 - **'df_MISSING_DATA.csv'**: Data subset filtered by missing value data. 
-- **'df_IMPUTED_DATA.csv'**: Updated dataset after the imputation of the missing values. 
-- **'df_WRONG FEATURES_DATA.csv'**: Data subset filtered by data subject to feature engineering.
-- **'df_FEATURE ENG_DATA.csv'**: Updated dataset after feature engineering.
-- **'df_WITHOUT OUTLIERS_DATA.csv'**: Updated dataset after handling outliers
-
+- **'df2_IMPUTED_DATA.csv'**: Updated dataset after the imputation of the missing values. 
+- **'df3_WRONG FEATURES_DATA.csv'**: Data subset filtered by data subject to feature engineering.
+- **'df3_FEATURE ENGINEERED_DATA.csv'**: Updated dataset after feature engineering.
+- **'df6_WITHOUT OUTLIERS_DATA.csv'**: Updated dataset after handling outliers
 
 4. **Exploratory Data Analysis (EDA)**:
 **Functions**
@@ -188,27 +187,46 @@
 - Only will be removed those over 3 standard deviations
 - The remaining data will be considered as valid for modeling information, due it captures high areas or luxury units
 - Feature selection done considering "real_state_flat" and "neighborhood_Eixample" as the base line categories for one-hot encoding
-- R2 Score still considered low at 0.58
-- final aproach will be done considering Feature Engineering Enhancements, Log Transformation for Skewed Data, Polynomial & Interaction Features, Modeling with XGBoost, LightGBM, and Stacking
+- **Polynomial features** are derived by raising existing numerical features to a power (e.g., squared, cubic) and creating interaction terms between different features. This extends the linear model to capture non-linear relationships in the data
+- Adding polynomial and interaction terms can help the model learn more complex relationships between features, improving performance
+- If Housing prices are influenced by complex interactions between features like square meters, number of rooms, and location, the a linear model might fail to capture these nuances.
+- **Stacking** is an ensemble learning technique that combines multiple base models to make better predictions. It works in two main stages: a) Train base models independently: Several regressors (e.g., Random Forest, XGBoost, LightGBM) make individual predictions. b) Meta-model learns from base model outputs: A final estimator (often a linear model or another tree-based model) takes the predictions from the base models as inputs and learns to optimize the final prediction
+- While individual models may overfit, the stacking regressor generalizes better by learning which model performs best in different scenarios
+- **Achieved R2 Score 0.58**, still low
+- Final aproach will be done considering Feature Engineering Enhancements like Log Transformation for Skewed Data and Polynomial & Interaction Features, Staking Modeling will be applied but testing other base models.
 
 **Final Modeling**
 - Applyed **Log Transformation** to Reduce Skewness. This transformation helps normalize right-skewed distributions, making the data more symmetrical and better suited for linear models.
 - The dataset's 'price' distribution (as seen in the histogram) is highly skewed, and many machine learning models (like linear regression and tree-based models) perform better with normally distributed data.
 - Applying the log transformation reduces the effect of extreme values (e.g., luxury properties with abnormally high prices) and improves the model's ability to capture general trends.
-- **Polynomial features** are derived by raising existing numerical features to a power (e.g., squared, cubic) and creating interaction terms between different features. This extends the linear model to capture non-linear relationships in the data
-- Adding polynomial and interaction terms can help the model learn more complex relationships between features, improving performance
-- Price Prediction is Non-Linear: Housing prices are influenced by complex interactions between features like square meters, number of rooms, and location. A linear model might fail to capture these nuances.
-- Instead of using deep learning architectures, polynomial features offer a structured way to enhance model complexity while maintaining interpretability
-- **Stacking** is an ensemble learning technique that combines multiple base models to make better predictions. It works in two main stages: a) Train base models independently: Several regressors (e.g., Random Forest, XGBoost, LightGBM) make individual predictions. b) Meta-model learns from base model outputs: A final estimator (often a linear model or another tree-based model) takes the predictions from the base models as inputs and learns to optimize the final prediction
-- Decision trees (Random Forest), gradient boosting (XGBoost, LightGBM) each have unique strengths in handling structured data. Stacking allows leveraging multiple perspectives.
-- While individual models may overfit, the stacking regressor generalizes better by learning which model performs best in different scenarios
+- Decision trees (Random Forest), gradient boosting (XGBoost, LightGBM) each have unique strengths in handling structured data. **Stacking** allows leveraging multiple perspectives.
 - Whit this implementation it was achieved an improved **R² Score: 0.9830**
 
-
 7. **Deployment**:
+- Best model achieved and related feature transformation files where saved
+- Created a folder named "models" for models files saving
+- Files saved with a filename that includes today's date for versioning purposes
+- Model deployment code will be held on a separated Jupiter Nodebook using Stramlit
+- Streamlit is a Python framework for building interactive web applications for machine learning models.
+- The new file will be named "PEA_AIDS_PROJECT2_UI.py" and will load the model and build a user interface using Streamlit
+
 8. **Monitoring and Maintenance**:
+- Sumarized code for model testing on new data when available
+- New data should be without missing values before modeling, and have to mantain features structure and naming
+- A separated file named "model_retrain.py" created to run the same modeling when new data become available
+
 9. **Communication and Reporting**:
 
-
+- Data quality is fundamental to get optimal results.
+- Considering the data quality issues (missing values and outliers) and limitations (only 10 neighbourhoods), is suggested to evaluate automated ways for data collection (i.e. web scraping) for better quality and wider data.
+- The variable "square_meters_price" was not conidered for modeling, due the asumption of no modeling required to predict "price" if that variable is known together with the variable "square_meters".
+- To enable the model to learn the complex relationships between features on this dataset, modeling considered:
+    - Feature Engineering Enhancements
+    - Log Transformation for Skewed Data
+    - Polynomial & Interaction Features
+    - Modeling with XGBoost, LightGBM, and Stacking
+- To interact with uses, it was created a dedicated script (PEA_AIDS_PROJECT2_UI.py) that runs a **local web app** where users can input values and get predictions.
+- It is important to monitor the model's performance. If required to retrain the model, this can be done by a dedicated code (model_retrain.py).
+- For sharing and visualization is made available an html version of this code
 
 
