@@ -6,7 +6,7 @@ import joblib
 from scipy.stats import zscore
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import PolynomialFeatures, StandardScaler
-from sklearn.ensemble import RandomForestRegressor, StackingRegressor
+from sklearn.ensemble import RandomForestRegressor, StackingRegressor, GradientBoostingRegressor
 import xgboost as xgb
 import lightgbm as lgb
 
@@ -38,19 +38,15 @@ def train_and_save_model():
         return
     
     # Load Data
-    data = pd.read_csv(data_path, encoding="utf-8")  # New data WITHOUT MISSING VALUES
+    inputs = pd.read_csv(data_path, encoding="utf-8")  # New data WITHOUT MISSING VALUES
     
     # Outlier handling (drop values >3 standard deviations)
-    data = data[(np.abs(data.select_dtypes(include=np.number).apply(zscore)) < 3).all(axis=1)]
+    data = inputs[(np.abs(inputs.select_dtypes(include=np.number).apply(zscore)) < 3).all(axis=1)]
 
     # Status
     print("Data Loaded, Feature Engineering ongoing....")
 
-    # Feature Selection
-    target = "price"
-    features = ['rooms', 'bathroom', 'lift', 'terrace', 'square_meters', 'real_state', 'neighborhood']
-
-    # Create dummy variables for categorical features
+    # Create dummy variables for categorical features with specified baseline categories
     data = pd.get_dummies(data, columns=['real_state', 'neighborhood'], drop_first=False)
     for feature, baseline in {'real_state': "flat", 'neighborhood': "Eixample"}.items():
         if f"{feature}_{baseline}" in data.columns:
@@ -60,10 +56,19 @@ def train_and_save_model():
     bool_cols = data.select_dtypes(['bool']).columns
     data[bool_cols] = data[bool_cols].astype(int)
 
-    model_features=data.columns
+    # Feature Selection
+    target = "price"
+    outofmodel = ["square_meters_price"]
+    exclude_cols = [target] + outofmodel
+    features = [col for col in data.columns if col not in exclude_cols]
 
-    X = data[model_features]
+    X = data[features]
     y = data[target]
+    
+    print(f'Original data features: {list(inputs.columns)}\n')
+    print(f'Modeling data features: {list(data.columns)}\n')
+    print(f'Output variable: {target}\n')
+    print(f'Input variables: {list(X.columns)}')
 
     # Apply Log Transformation to Reduce Skewness
     y = np.log1p(y)
@@ -84,21 +89,23 @@ def train_and_save_model():
     X_test = scaler.transform(X_test)
 
     # Define Base Models
-    rf = RandomForestRegressor(n_estimators=300, max_depth=20, min_samples_split=5, random_state=42)
-    xgbr = xgb.XGBRegressor(n_estimators=300, max_depth=10, learning_rate=0.05, random_state=42)
-    lgbr = lgb.LGBMRegressor(n_estimators=300, max_depth=10, learning_rate=0.05, random_state=42, silent=True)
-
-    # Stacking Model
-    stacked_model = StackingRegressor(
-        estimators=[("rf", rf), ("xgb", xgbr), ("lgb", lgbr)],
-        final_estimator=xgb.XGBRegressor(n_estimators=100, learning_rate=0.1, max_depth=5, random_state=42)
-    )
+    base_final = [
+    ('GradientBoosting_Tuned_2', GradientBoostingRegressor(min_samples_leaf=4, min_samples_split=10,random_state=42, subsample=0.8)),
+    ('GradientBoosting_Optima', GradientBoostingRegressor(learning_rate=0.013201142547601463, max_depth=4,min_samples_leaf=7, min_samples_split=13,n_estimators=532, subsample=0.6777821390980873)),
+    ('XGBoost_Tuned_Optima', xgb.XGBRegressor(base_score=None, booster=None, callbacks=None,colsample_bylevel=None, colsample_bynode=None,colsample_bytree=0.7494749285293014, device=None,early_stopping_rounds=None, enable_categorical=False,eval_metric=None, feature_types=None, gamma=0.9450617049891935,grow_policy=None, importance_type=None,interaction_constraints=None, learning_rate=0.025181939608234893,max_bin=None, max_cat_threshold=None, max_cat_to_onehot=None,max_delta_step=None, max_depth=4, max_leaves=None,min_child_weight=2, monotone_constraints=None,multi_strategy=None, n_estimators=403, n_jobs=None,num_parallel_tree=None, random_state=None))
+    ]
+    
+    # Define Meta Model
+    meta_final = xgb.XGBRegressor(base_score=None, booster=None, callbacks=None,colsample_bylevel=None, colsample_bynode=None,colsample_bytree=0.7494749285293014, device=None,early_stopping_rounds=None, enable_categorical=False,eval_metric=None, feature_types=None, gamma=0.9450617049891935,grow_policy=None, importance_type=None,interaction_constraints=None, learning_rate=0.025181939608234893,max_bin=None, max_cat_threshold=None, max_cat_to_onehot=None,max_delta_step=None, max_depth=4, max_leaves=None,min_child_weight=2, monotone_constraints=None,multi_strategy=None, n_estimators=403, n_jobs=None,num_parallel_tree=None, random_state=None)
+    
+    # Stacking Models
+    stacked_model_final = StackingRegressor(estimators=base_final, final_estimator=meta_final)
 
     # Train Model
-    stacked_model.fit(X_train, y_train)
-
+    stacked_model_final.fit(X_train, y_train)
+  
     # Evaluate Model
-    r2_score = stacked_model.score(X_test, y_test)
+    r2_score = stacked_model_final.score(X_test, y_test)
     print(f"Improved R² Score: {r2_score:.4f}")
 
     # Create models directory if it doesn't exist
@@ -108,7 +115,7 @@ def train_and_save_model():
     current_date = datetime.datetime.now().strftime("%Y-%m-%d")
 
     # Export the best model
-    joblib.dump(stacked_model, f"models/stacked_model_at_{current_date}.pkl")
+    joblib.dump(stacked_model_final, f"models/stacked_model_at_{current_date}.pkl")
     joblib.dump(scaler, f"models/scaler_at_{current_date}.pkl")
     joblib.dump(poly, f"models/poly_at_{current_date}.pkl")
     

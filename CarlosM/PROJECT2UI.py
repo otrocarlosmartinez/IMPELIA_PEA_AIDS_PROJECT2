@@ -1,159 +1,104 @@
 import streamlit as st
 import joblib
-import os
 import numpy as np
 import pandas as pd
 
 # Set page title
-st.title("Property Price Predictor")
+st.title("Predictor precios de alquileres en Barcelona")
 
-# Initialize session state for storing values between reruns
-if 'predicted_price' not in st.session_state:
-    st.session_state.predicted_price = None
-if 'has_predicted' not in st.session_state:
-    st.session_state.has_predicted = False
-
-# Load models and transformers
-models_dir = "models"
-model_files = [f for f in os.listdir(models_dir) if f.endswith(".pkl")]
-
-# Load model and transformers
 @st.cache_resource
 def load_models():
-    model = joblib.load(os.path.join(models_dir, "stacked_model_at_2025-02-28.pkl"))
-    scaler = joblib.load(os.path.join(models_dir, "scaler_at_2025-02-28.pkl"))  
-    poly = joblib.load(os.path.join(models_dir, "poly_at_2025-02-28.pkl"))
+    model = joblib.load("models/stacked_model_at_2025-03-02.pkl")
+    scaler = joblib.load("models/scaler_at_2025-03-02.pkl")  
+    poly = joblib.load("models/poly_at_2025-03-02.pkl")
     return model, scaler, poly
 
 model, scaler, poly = load_models()
 
-# Process the data to match the reference format with ordered columns
 def prepare_input_data(input_df):
-    # Make a copy to avoid modifying the original
     input_data = input_df.copy()
-    
-    # One-hot encode real_state with "flat" as baseline
+
+    # Compute square_meters_price based on the same logic used during training
+    #estimated_price_per_sqm = 16.41  # Adjust based on training logic
+    #input_data["square_meters_price"] = input_data["square_meters"] * estimated_price_per_sqm
+
+    # One-hot encode categorical features
     real_state_dummies = pd.get_dummies(input_data["real_state"], prefix="real_state")
-    # Remove the baseline category "flat"
-    if "real_state_flat" in real_state_dummies.columns:
-        real_state_dummies = real_state_dummies.drop(columns=["real_state_flat"])
-    
-    # One-hot encode neighborhood with "Eixample" as baseline
     neighborhood_dummies = pd.get_dummies(input_data["neighborhood"], prefix="neighborhood")
-    # Remove the baseline category "Eixample"
-    if "neighborhood_Eixample" in neighborhood_dummies.columns:
-        neighborhood_dummies = neighborhood_dummies.drop(columns=["neighborhood_Eixample"])
     
-    # Drop the original categorical columns
-    input_data = input_data.drop(columns=["real_state", "neighborhood"])
-    
-    # Concat all dataframes
+    # Drop original categorical columns and merge encoded data
+    input_data = input_data.drop(columns=["real_state", "neighborhood"], errors='ignore')
     input_data = pd.concat([input_data, real_state_dummies, neighborhood_dummies], axis=1)
     
-    # Define the expected column order
-    expected_columns = ['price', 'rooms', 'bathroom', 'lift', 'terrace', 'square_meters',
-       'square_meters_price', 'real_state_apartment', 'real_state_attic',
-       'real_state_study', 'neighborhood_Ciutat Vella', 'neighborhood_Gràcia',
-       'neighborhood_Horta- Guinardo', 'neighborhood_Les Corts',
-       'neighborhood_Nou Barris', 'neighborhood_Sant Andreu',
-       'neighborhood_Sant Martí', 'neighborhood_Sants-Montjuïc',
-       'neighborhood_Sarria-Sant Gervasi']
+    # Define expected feature columns (excluding 'price')
+    expected_columns = [
+        'rooms', 'bathroom', 'lift', 'terrace', 'square_meters',
+        'real_state_apartment', 'real_state_attic', 'real_state_study',
+        'neighborhood_Ciutat Vella', 'neighborhood_Gràcia',
+        'neighborhood_Horta- Guinardo', 'neighborhood_Les Corts',
+        'neighborhood_Nou Barris', 'neighborhood_Sant Andreu',
+        'neighborhood_Sant Martí', 'neighborhood_Sants-Montjuïc',
+        'neighborhood_Sarria-Sant Gervasi'
+    ]
     
     # Ensure all expected columns exist
     for col in expected_columns:
         if col not in input_data.columns:
             input_data[col] = 0
     
-    # Reorder columns to match the expected order
+    # Reorder columns to match model expectations
     input_data = input_data[expected_columns]
     
     return input_data
 
-# Function to make prediction
 def predict_price(user_input):
-    # Convert to DataFrame
     input_df = pd.DataFrame([user_input])
-    
-    # Generate the final input_data dataframe with columns in the expected order
     input_data = prepare_input_data(input_df)
     
-    # Apply transformations
+    # Ensure correct feature alignment before transformation
     input_poly = poly.transform(input_data)
     input_scaled = scaler.transform(input_poly)
     
-    # Make prediction
     prediction = model.predict(input_scaled)
     return np.expm1(prediction)[0]  # Reverse log transformation
 
-# Create a form for user input
+# User input form
 with st.form(key="property_form"):
-    st.subheader("Property Details")
-    
-    # User input fields
+    st.subheader("Detalles de la propiedad")
     col1, col2 = st.columns(2)
     
     with col1:
-        rooms = st.number_input("Rooms", min_value=1, max_value=8, step=1, value=2)
-        bathroom = st.number_input("Bathroom", min_value=1, max_value=4, step=1, value=1)
-        square_meters = st.number_input("Square Meters", min_value=10, max_value=500, step=1, value=70)
+        rooms = st.number_input("Habitaciones", min_value=1, max_value=8, step=1, value=2)
+        bathroom = st.number_input("Baños", min_value=1, max_value=4, step=1, value=1)
+        square_meters = st.number_input("Area (m2)", min_value=10, max_value=500, step=1, value=70)
     
     with col2:
-        lift = st.checkbox("Lift", value=False)
-        terrace = st.checkbox("Terrace", value=False)
-        real_state = st.selectbox("Real State", ["flat", "attic", "apartment", "study"])
+        lift = st.checkbox("Ascensor", value=False)
+        terrace = st.checkbox("Terraza", value=False)
+        real_state = st.selectbox("Tipo de propiedad", ["flat", "attic", "apartment", "study"])
         neighborhood = st.selectbox(
-            "Neighborhood",
+            "Barrio",
             [
-                "Eixample",  # Move to first position for better default
-                "Horta- Guinardo", "Sant Andreu", "Gràcia", "Ciutat Vella",
-                "Sarria-Sant Gervasi", "Les Corts", "Sant Martí", 
-                "Sants-Montjuïc", "Nou Barris"
+                "Eixample", "Horta- Guinardo", "Sant Andreu", "Gràcia", "Ciutat Vella",
+                "Sarria-Sant Gervasi", "Les Corts", "Sant Martí", "Sants-Montjuïc", "Nou Barris"
             ]
         )
     
-    # Submit button
-    submit_button = st.form_submit_button(label="Calculate Price")
+    submit_button = st.form_submit_button(label="Calcular Precio")
 
-# Calculate prediction when form is submitted
 if submit_button:
-    # Create user input dictionary
     user_input = {
         "rooms": rooms,
         "bathroom": bathroom,
-        "lift": lift,
-        "terrace": terrace,
+        "lift": int(lift),
+        "terrace": int(terrace),
         "square_meters": square_meters,
         "real_state": real_state,
         "neighborhood": neighborhood
     }
-    
-    # Update session state with new prediction
-    st.session_state.predicted_price = predict_price(user_input)
-    st.session_state.has_predicted = True
-    
-    # Store input values in session state too
-    for key, value in user_input.items():
-        st.session_state[key] = value
+    predicted_price = predict_price(user_input)
+    st.success(f"### Predicción de precio: ${predicted_price:,.2f}")
+    st.info(f"El precio estimado para alquilar un {real_state} {rooms}h/{bathroom}b de {square_meters}m2 en {neighborhood} es ${predicted_price:,.2f}")
 
-# Display results if we have a prediction
-if st.session_state.has_predicted:
-    # Display prediction
-    st.success(f"### Predicted Price: ${st.session_state.predicted_price:,.2f}")
+
     
-    # Show input summary
-    st.subheader("Property Summary")
-    summary_cols = st.columns(3)
-    with summary_cols[0]:
-        st.metric("Rooms", st.session_state.get('rooms', rooms))
-        st.metric("Bathrooms", st.session_state.get('bathroom', bathroom))
-    with summary_cols[1]:
-        st.metric("Square Meters", st.session_state.get('square_meters', square_meters))
-        st.metric("Property Type", st.session_state.get('real_state', real_state).capitalize())
-    with summary_cols[2]:
-        st.metric("Neighborhood", st.session_state.get('neighborhood', neighborhood))
-        features = []
-        if st.session_state.get('lift', lift):
-            features.append("Lift")
-        if st.session_state.get('terrace', terrace):
-            features.append("Terrace")
-        st.metric("Features", ", ".join(features) if features else "None")

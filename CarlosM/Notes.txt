@@ -168,12 +168,12 @@
 
 **Advanced Regression Models**
 - Models to be tested are: DecisionTree_Tuned_1, RandomForest_Tuned_1, GradientBoosting_Tuned_1, XGBoost_Tuned_1, LightGBM_Tuned_1, NeuralNetwork(MLP)
-- The best R2 score from the advanced models is currently 0.5448584 with the Gradient Boosting model. 
+- The best R2 score from the advanced models is currently 0.5450 with the Gradient Boosting model. 
 - Improving from 0.5113 Linear Regression could be a good start, but could potentially be improved further with model tuning
 
 ** Model Tuning**
 - After model tunning, another slight improvement was achieved
-- The best R2 Score from the tuned models is currently 0.549055 with the XGBoost_Tuned_Optima model.
+- The best R2 Score from the tuned models is currently 0.5510 with the XGBoost_Tuned_Optima model.
 - The best R2 Score achieved is low, and still suggest that the models are not explaining a significant portion of the variance in the target variable.
 
 **Revisit**
@@ -200,7 +200,18 @@
 - The dataset's 'price' distribution (as seen in the histogram) is highly skewed, and many machine learning models (like linear regression and tree-based models) perform better with normally distributed data.
 - Applying the log transformation reduces the effect of extreme values (e.g., luxury properties with abnormally high prices) and improves the model's ability to capture general trends.
 - Decision trees (Random Forest), gradient boosting (XGBoost, LightGBM) each have unique strengths in handling structured data. **Stacking** allows leveraging multiple perspectives.
-- Whit this implementation it was achieved an improved **R² Score: 0.9830**
+- Whit this implementation it was achieved an improved **R² Score 0.65**
+- New test removing high VIF variables and variating models
+- without high VIF variable "square_meters" the R2 decreased
+- without high VIF variable "rooms" the R2 decreased
+- without high VIF variable "bathroom" the R2 decreased
+- without high VIF variables "rooms" and "bathroom" the R2 decreased
+- Decided not to continue searching for model enhacements due doubts on original dataset quality.
+- **Best model achieved R2 Score of 0.65**
+- Best model exclude from modeling variable "square_meters_price"
+- Best model process considers polinomial features, lolg transformation and stacking
+
+
 
 7. **Deployment**:
 - Best model achieved and related feature transformation files where saved
@@ -208,12 +219,41 @@
 - Files saved with a filename that includes today's date for versioning purposes
 - Model deployment code will be held on a separated Jupiter Nodebook using Stramlit
 - Streamlit is a Python framework for building interactive web applications for machine learning models.
-- The new file will be named "PEA_AIDS_PROJECT2_UI.py" and will load the model and build a user interface using Streamlit
+- The new file for the user interface will be named "PROJECT2_UI.py" and will load the model and build a user interface using Streamlit
 
 8. **Monitoring and Maintenance**:
 - Sumarized code for model testing on new data when available
 - New data should be without missing values before modeling, and have to mantain features structure and naming
 - A separated file named "model_retrain.py" created to run the same modeling when new data become available
+- model_retrain.py prints:
+
+PS C:\Users\otroc\OneDrive\Documents\Carlos\IMPELIA_PEA_AIDS_PROJECT2\CarlosM> python model_retrain.py
+Available CSV files:
+
+1. DATA_Barcelona_Fotocasa_HousingPrices_Augmented.csv
+2. df2_IMPUTED_DATA.csv
+3. df3_FATURE ENGINEERED_DATA.csv
+4. df3_WRONG FEATURES_DATA.csv
+5. df6_WITHOUT OUTLIERS_DATA.csv
+6. df7_MODELING_DATA.csv
+7. df7_WITHOUT OUTLIERS 3SD_DATA.csv
+8. df_MISSING_DATA.csv
+9. df_ORIGINAL_DATA.csv
+Enter the number corresponding to the CSV file: 3
+
+Data Loaded, Feature Engineering ongoing....
+
+Original data features: ['price', 'rooms', 'bathroom', 'lift', 'terrace', 'square_meters', 'real_state', 'neighborhood', 'square_meters_price']
+
+Modeling data features: ['price', 'rooms', 'bathroom', 'lift', 'terrace', 'square_meters', 'square_meters_price', 'real_state_apartment', 'real_state_attic', 'real_state_study', 'neighborhood_Ciutat Vella', 'neighborhood_Gràcia', 'neighborhood_Horta- Guinardo', 'neighborhood_Les Corts', 'neighborhood_Nou Barris', 'neighborhood_Sant Andreu', 'neighborhood_Sant Martí', 'neighborhood_Sants-Montjuïc', 'neighborhood_Sarria-Sant Gervasi']
+
+Output variable: price
+
+Input variables: ['rooms', 'bathroom', 'lift', 'terrace', 'square_meters', 'real_state_apartment', 'real_state_attic', 'real_state_study', 'neighborhood_Ciutat Vella', 'neighborhood_Gràcia', 'neighborhood_Horta- Guinardo', 'neighborhood_Les Corts', 'neighborhood_Nou Barris', 'neighborhood_Sant Andreu', 'neighborhood_Sant Martí', 'neighborhood_Sants-Montjuïc', 'neighborhood_Sarria-Sant Gervasi']       
+Feature Engineering done, Stacking modeling ongoing....
+
+Improved R² Score: 0.6584
+Models saved successfully!
 
 9. **Communication and Reporting**:
 
