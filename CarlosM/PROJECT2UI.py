@@ -62,19 +62,22 @@ def predict_price(user_input):
     prediction = model.predict(input_scaled)
     return np.expm1(prediction)[0]  # Reverse log transformation
 
+def generate_facility_text(lift, terrace):
+    if lift and terrace:
+        return "con ascensor y terraza"
+    elif lift:
+        return "con ascensor"
+    elif terrace:
+        return "con terraza"
+    else:
+        return "sin ascensor ni terraza"
+
 # User input form
 with st.form(key="property_form"):
     st.subheader("Detalles de la propiedad")
-    col1, col2 = st.columns(2)
+    col1, col2 = st.columns([1, 1])
     
     with col1:
-        rooms = st.number_input("Habitaciones", min_value=1, max_value=8, step=1, value=2)
-        bathroom = st.number_input("Baños", min_value=1, max_value=4, step=1, value=1)
-        square_meters = st.number_input("Area (m2)", min_value=10, max_value=500, step=1, value=70)
-    
-    with col2:
-        lift = st.checkbox("Ascensor", value=False)
-        terrace = st.checkbox("Terraza", value=False)
         real_state = st.selectbox("Tipo de propiedad", ["flat", "attic", "apartment", "study"])
         neighborhood = st.selectbox(
             "Barrio",
@@ -83,6 +86,48 @@ with st.form(key="property_form"):
                 "Sarria-Sant Gervasi", "Les Corts", "Sant Martí", "Sants-Montjuïc", "Nou Barris"
             ]
         )
+        square_meters = st.number_input("Area (m2)", min_value=10, max_value=500, step=1, value=70)
+        st.markdown("""
+        <style>
+        .small-font {
+            font-size: 0.8em;
+        }
+        </style>
+        """, unsafe_allow_html=True)
+        
+        st.markdown("""
+        <div class="small-font">
+        <strong>Tipos de Propiedad</strong>
+        <ul>
+        <li><strong>Study (Estudio)</strong>: Vivienda pequeña de un solo ambiente que combina sala, dormitorio y cocina, con baño separado. Ideal para individuos o parejas que buscan un espacio compacto.</li>
+        <li><strong>Attic (Ático)</strong>: Apartamento en la última planta, con techos inclinados y, a veces, terraza. Su tamaño varía, pero suelen ser más grandes que los estudios y tienen características arquitectónicas únicas.</li>
+        </ul>
+        </div>
+        """, unsafe_allow_html=True)
+              
+    with col2:
+        rooms = st.number_input("Habitaciones", min_value=1, max_value=8, step=1, value=2)
+        bathroom = st.number_input("Baños", min_value=1, max_value=4, step=1, value=1)
+        lift = st.checkbox("Ascensor", value=False)
+        terrace = st.checkbox("Terraza", value=False)
+        # Apply CSS styling to reduce font size to 50%
+        st.markdown("""
+        <style>
+        .small-font {
+            font-size: 0.8em;
+        }
+        </style>
+        """, unsafe_allow_html=True)
+        
+        st.markdown("""
+        <div class="small-font">
+        <br>
+        <ul>
+        <li><strong>Apartment (Apartamento)</strong>: Vivienda de tamaño moderado, generalmente con uno o dos dormitorios. Adecuado para familias pequeñas o personas que desean áreas separadas para vivir y dormir.</li>
+        <li><strong>Flat (Piso)</strong>: Unidad residencial más grande, con múltiples habitaciones y amplios espacios. Muy comunes en áreas urbanas y adecuados para familias o quienes buscan mayor espacio.</li>
+        </ul>
+        </div>
+        """, unsafe_allow_html=True)
     
     submit_button = st.form_submit_button(label="Calcular Precio")
 
@@ -97,8 +142,10 @@ if submit_button:
         "neighborhood": neighborhood
     }
     predicted_price = predict_price(user_input)
-    st.success(f"### Predicción de precio: ${predicted_price:,.2f}")
-    st.info(f"El precio estimado para alquilar un {real_state} {rooms}h/{bathroom}b de {square_meters}m2 en {neighborhood} es ${predicted_price:,.2f}")
+    facility_text = generate_facility_text(lift, terrace)
+    
+    st.success(f"## Precio estimado: ${predicted_price:,.2f}")
+    st.info(f"## Para alquilar un {real_state} {rooms}h/{bathroom}b de {square_meters}m2 en {neighborhood} ({facility_text}).")
 
 
     
