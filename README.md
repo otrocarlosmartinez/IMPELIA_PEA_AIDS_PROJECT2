@@ -25,6 +25,8 @@
 - **POWERBI**
     - README_POWERBI.md -> Project notes
     - PROJECT2_POWERBI.pbix -> Main project file
+    - data_files/ -> Containing the data files from PYTHON
+    - .png files -> Containing reference images
 
 
 

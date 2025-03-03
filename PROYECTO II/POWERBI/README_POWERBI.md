@@ -36,13 +36,13 @@
 <table>
 <tr>
 <td style="width: 50%;"></td>
-<td><img src="image-4.png" alt="alt text" width="100" height="100" title="rooms"></td>
-<td><img src="image-5.png" alt="alt text" width="100" height="100" title="bathroom"></td>
+<td><img src="image-4.png" alt="alt text" width="300" height="200" title="rooms"></td>
+<td><img src="image-5.png" alt="alt text" width="300" height="200" title="bathroom"></td>
 </tr>
 </table>
 -  Units size goes from 10m2 to 679m2, with a mean of 84.36m2
 <div style="text-align: center;">
-    <img src="image-6.png" alt="alt text" width="100" height="100" title="square_meters">
+    <img src="image-6.png" alt="alt text" width="200" height="200" title="square_meters">
 </div>
 
 - Units prices goes from 320EUR to 15000EUR/month, with mean of 1437EUR/month
@@ -105,7 +105,7 @@
 - Before analysis in PowerBI recommended to drop auxiliary columns, rename as required, and reorder as in the original dataset
 ![alt text](image-30.png)
 
-# Theoreticals Notes
+# 4.Theoreticals Notes
 - Following notes are theoreticals and not reflected on .pbix file
 
 ## 4. Exploratory Data Analysis
@@ -168,5 +168,159 @@
 - Version control and development lifecycle management less mature than software development tools
 - Performance can degrade with highly complex reports or large user bases
 
-# Conclusions
+## Conclusions
 In summary, Power BI excels as a business intelligence platform with strong data preparation and visualization capabilities, making it suitable for many data science projects, particularly those focused on business analytics. However, data scientists working on advanced statistical modeling, unstructured data analysis, or specialized machine learning applications may need to supplement Power BI with more specialized tools like Python, R, or dedicated ML platforms.
+
+# 5. Perplexity ai Research 
+
+## Exploratory Data Analysis in Power BI: Replicating and Enhancing Python-Based Insights
+
+The transition from Python-based Exploratory Data Analysis (EDA) to Power BI presents both opportunities and challenges in data science workflows. This report evaluates the feasibility of replicating the described Python EDA process in Power BI, assesses whether similar conclusions can be drawn, and identifies potential improvements.  
+
+## Replicating Python EDA Functionality in Power BI  
+
+### **Univariate Analysis**  
+Power BI natively supports univariate analysis through its visualization pane:  
+
+1. **Numerical Variables**:  
+   - **Histograms**: Created using the "Column chart" visualization with bins configured via the "Axis" field settings. Outlier detection can be automated using DAX measures calculating Interquartile Ranges (IQRs)[2][6].  
+   - **Boxplots**: Power BI’s built-in boxplot visualization automatically displays median, quartiles, and outliers. For example, the right skew in `square_meters_price` observed in the Python analysis can be visually confirmed[1][6].  
+
+2. **Categorical Variables**:  
+   - **Countplots**: Achieved using "Bar charts" with categorical dimensions. The 85.5% dominance of "flat" property types and neighborhood concentration trends are easily identifiable[1][7].  
+
+**Key Difference**: While Python’s `univariate_numerical()` and `univariate_categorical()` functions automate plot generation, Power BI requires manual configuration for each variable. However, reusable templates can mitigate this[2][6].  
+
+---
+
+### **Bivariate and Multivariate Analysis**  
+
+1. **Cross-Tabulations**:  
+   - Power BI’s "Matrix" visualization replicates `plot_crosstab_bar_count()`, displaying counts (e.g., 3,544 flats in Eixample). Conditional formatting adds heatmap functionality akin to `plot_crosstab_heat_perc()`[2][7].  
+
+2. **Correlation Analysis**:  
+   - The lack of high correlations (>75%) reported in the Python EDA can be validated using:  
+     - **Scatterplot Matrices**: Configured via the “Analytics” pane.  
+     - **DAX Measures**: Pearson/Spearman correlations calculated using `CORREL()`[6][7].  
+
+3. **Grouped Comparisons**:  
+   - **Side-by-Side Boxplots**: Power BI’s boxplot visual supports grouping by categorical variables (e.g., `real_state`). The lower `square_meters_price` for flats versus apartments aligns with Python findings[1][4].  
+
+---
+
+### **Data Preparation and Outlier Handling**  
+Power BI’s Power Query Editor mirrors Python’s preprocessing steps:  
+
+1. **Outlier Capping**:  
+   - Applied via `if [Value] > UpperFence then UpperFence else [Value]` in Power Query. This replicates the capping logic used to transform `rooms` from float to integer[1][4].  
+
+2. **Skewness Mitigation**:  
+   - While Power BI lacks native Yeo-Johnson transformation, Python scripts can be embedded via “Run Python script” in Power Query, enabling advanced preprocessing[3][5].  
+
+---
+
+## Advantages of Power BI for EDA  
+
+### **Interactive Data Exploration**  
+Power BI’s “Explore” feature (Figure 1) allows ad-hoc pivoting and filtering, surpassing static Python plots. For instance:  
+- Users can dynamically compare `price` distributions across neighborhoods using slicers[2][6].  
+- Drill-downs into specific categories (e.g., “flats with terraces”) provide immediate insights without rewriting code[2][7].  
+
+```python  
+# Embedded Python script for advanced transformations  
+import pandas as pd  
+dataset = pd.DataFrame(dataset)  
+dataset['log_price'] = np.log(dataset['price'])  
+```
+
+*Figure 1: Power BI Explore interface for rapid ad-hoc analysis[2].*  
+
+### **Integration with Machine Learning**  
+While Power BI isn’t a full ML platform, it complements Python models:  
+- **Model Output Visualization**: Predictions from Python-trained models (e.g., Random Forest) can be ingested into Power BI for interactive dashboards[1][4].  
+- **AutoML Integration**: Azure Machine Learning models can be deployed directly, enabling metrics like R² scores to be tracked in real-time[4][7].  
+
+---
+
+## Limitations and Workarounds  
+
+### **Advanced Statistical Testing**  
+Power BI lacks native support for hypothesis tests (e.g., ANOVA). Workarounds include:  
+- **Python/R Scripts**: Embedded code chunks for p-value calculations[3][5].  
+- **Custom Visuals**: Third-party visuals like “Histogram with Statistical Tests” from AppSource[6].  
+
+### **Automation and Scalability**  
+- **Manual Effort**: Recreating Python’s automated EDA functions requires DAX measure suites or PowerShell scripting for batch processing[5][7].  
+- **Performance**: Large datasets (>10M rows) may slow down Power BI, necessitating DirectQuery mode or aggregations[2][6].  
+
+---
+
+## Enhancing Results with Power BI  
+
+### **Real-Time Data Interaction**  
+Stakeholders can manipulate filters to test hypotheses:  
+- **Example**: Adjusting outlier thresholds (e.g., 3σ vs. IQR) and immediately observing impacts on `square_meters` distributions[2][4].  
+
+### **Collaboration and Sharing**  
+Power BI Service enables:  
+- **Centralized Dashboards**: Teams access the same EDA insights via web/mobile apps, avoiding version control issues common in Jupyter notebooks[1][7].  
+- **Data Alerts**: Notifications trigger when metrics (e.g., neighborhood price variances) exceed thresholds[6].  
+
+### **Augmented Analytics**  
+Power BI’s AI Insights add-on provides:  
+- **Smart Narratives**: Auto-generated summaries like “Top 3 neighborhoods by price are Sarrià-Sant Gervasi, Eixample, and Les Corts”[2][7].  
+- **Q&A Natural Language**: Users query data verbally (e.g., “Show price vs. square meters for flats”)[2].  
+
+---
+
+## Conclusion  
+
+Power BI can replicate the core EDA findings from the Python workflow, albeit with trade-offs in automation versus interactivity. Key conclusions:  
+
+1. **Feasibility**:  
+   - Univariate/bivariate analyses and data preprocessing are achievable via Power Query and DAX.  
+   - Advanced statistics require Python/R integration or third-party tools.  
+
+2. **Improvements**:  
+   - **Stakeholder Engagement**: Interactive dashboards facilitate deeper exploration than static reports.  
+   - **Real-Time Monitoring**: Live data connections enable continuous EDA, unlike batch Python scripts.  
+
+3. **Recommendations**:  
+   - Use Power BI for visualization and preliminary analysis, paired with Python for complex transformations.  
+   - Leverage Power BI’s “Explore” and AI features to democratize data access across teams.  
+
+This hybrid approach balances efficiency and flexibility, enhancing reproducibility while capitalizing on Power BI’s strengths in user engagement[1][2][6][7].
+
+Citations:
+[1] https://www.reddit.com/r/PowerBI/comments/xvffu0/can_power_bi_be_used_for_data_science/
+[2] https://www.element61.be/en/resource/data-exploration-made-easy-power-bi-explore
+[3] https://www.youtube.com/watch?v=WZ9RDyN-brM
+[4] https://www.projectpro.io/article/power-bi-microsoft-projects-examples-and-ideas-for-practice/533
+[5] https://blog.crossjoin.co.uk/2023/03/23/data-wrangler-a-power-query-like-experience-for-python-people/
+[6] https://www.youtube.com/watch?v=kOmFTOLGiug
+[7] https://www.planeks.net/python-vs-power-bi-for-dashboards/
+[8] https://www.datakwery.com/datacamp/eda-in-power-bi/
+[9] https://learn.microsoft.com/en-us/power-bi/consumer/explore-data-service
+[10] https://www.epiusers.help/t/power-bi-vs-eda/103732
+[11] https://www.reddit.com/r/PowerBI/comments/1hr38zn/end_to_end_data_analysis_project/
+[12] https://www.youtube.com/watch?v=jxugFpmS22c
+[13] https://dev.to/s_ndichu/understanding-your-data-the-essentials-of-exploratory-data-analysis-eda-1hh7
+[14] https://www.youtube.com/watch?v=qWllfRA5IkU
+[15] https://www.youtube.com/watch?v=wCnNu7HiFvk
+[16] https://www.youtube.com/watch?v=5LC4XLxVJzI
+[17] https://www.youtube.com/watch?v=iGUqad1eNtQ
+[18] https://www.datacamp.com/courses/exploratory-data-analysis-in-power-bi
+[19] https://www.red-gate.com/simple-talk/databases/sql-server/bi-sql-server/datamarts-and-exploratory-analysis-using-power-bi/
+[20] https://www.reddit.com/r/datascience/comments/11qtyh2/power_bi_or_visualization_in_python/
+[21] https://www.datacamp.com/blog/8-power-bi-projects-to-develop-your-skills
+[22] https://pfactorial.ai/blogs/exploratory-data-analysis-in-power-bi
+[23] https://www.linkedin.com/pulse/exploratory-data-analysis-powerbi-ntale-marvin-frost
+[24] https://www.kaggle.com/getting-started/307460
+[25] https://www.dataquest.io/blog/power-bi-projects/
+[26] https://www.linkedin.com/pulse/future-predictive-analytics-guide-power-bi-python-alham-o-hotaki-k4n9e
+[27] https://www.researchgate.net/publication/364170368_COMPARING_TOOLS_PROVIDED_BY_PYTHON_AND_R_FOR_EXPLORATORY_DATA_ANALYSIS
+[28] https://www.reddit.com/r/PowerBI/comments/1d0mgfo/is_power_bi_only_best_for_eda_and_descriptive/
+[29] https://www.linkedin.com/posts/bbkjfr_i-always-wanted-to-use-python-in-power-bi-activity-7196419354563874819-bNFg
+[30] https://www.youtube.com/watch?v=g4sTlu_B_T4
+[31] https://docs.kanaries.net/es/articles/power-bi-alternatives
+[32] https://es.fiverr.com/asadgul6767/be-your-data-analyst?pckg_id=1&pos=3&imp_id=367d46b9-0832-4450-9be4-11f2bff94750
