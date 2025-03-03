@@ -6,11 +6,44 @@
             {
                 "id": "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory",
                 "nodename": "CSV Reader",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 953,
+                "nrcreated": 1,
+                "nrsettingsChanged": 3,
+                "successor": "org.knime.base.expressions.node.row.filter.ExpressionRowFilterNodeFactory",
+                "successornodename": "Expression Row Filter"
+            },
+            {
+                "id": "org.knime.base.node.stats.viz.extended.ExtendedStatisticsNodeFactory",
+                "nodename": "Statistics",
+                "nrexecs": 4,
+                "nrfails": 0,
+                "exectime": 4327,
+                "nrcreated": 1,
+                "nrsettingsChanged": 9,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.views.node.statistics.StatisticsNodeFactory",
+                "nodename": "Statistics View",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 1864,
+                "nrcreated": 1,
+                "nrsettingsChanged": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.expressions.node.row.filter.ExpressionRowFilterNodeFactory",
+                "nodename": "Expression Row Filter",
                 "nrexecs": 0,
                 "nrfails": 0,
                 "exectime": 0,
                 "nrcreated": 1,
-                "nrsettingsChanged": 0,
+                "nrsettingsChanged": 4,
                 "successor": "n/a",
                 "successornodename": "n/a"
             }
@@ -20,10 +53,10 @@
         "wrappedNodes": {
         },
         "createdVia": {
-            "WEB_UI": 1
+            "WEB_UI": 4
         }
     },
-    "uptime": 73220,
+    "uptime": 4936267,
     "workflowsOpened": 1,
     "remoteWorkflowsOpened": 0,
     "workflowsCreated": 1,
@@ -36,7 +69,7 @@
     "lastUsedPerspective": "none",
     "launches": 1,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 73220,
+    "timeSinceLastStart": 4936267,
     "crashes": 0,
     "properlyShutDown": false
 }
