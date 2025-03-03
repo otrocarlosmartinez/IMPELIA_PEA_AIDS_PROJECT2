@@ -1,0 +1,11 @@
+2025-03-03 22:03:42,166 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2025-03-03 22:03:42,166 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2025-03-03 22:03:42,166 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Requested registry access is not allowed.
+2025-03-03 22:03:42,166 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2025-03-03 22:03:42,166 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2025-03-03 22:03:42,166 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2025-03-03 22:03:42,166 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2025-03-03 22:03:42,166 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2025-03-03 22:03:42,166 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2025-03-03 22:03:42,166 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2025-03-03 22:05:30,237 : WARN  : comm-pool-thread-1 :  : Node : CSV Reader : 3:1 : Please specify a file
