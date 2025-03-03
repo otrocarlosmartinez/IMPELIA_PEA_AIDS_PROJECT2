@@ -23,7 +23,8 @@ Since this is a continuation of Project 1, with a database that maintains its st
 
 ### Project Deliverables
 1. Several working files will be created each with its own conclusions about the problem at hand.
-2. Consolidated report focusing on process and results comparison considering DSLC framework.
+2. Files organized on folders by tool (PYTHON, POWERBI, KNIME, AUTOML)
+3. README file per each tool's folder
 
 ### Reference
 #### Data Science Life Cycle (DSLC)
